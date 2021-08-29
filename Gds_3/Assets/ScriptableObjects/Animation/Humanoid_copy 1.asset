@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1b48d28d43e9041b2792de93fe1f37, type: 3}
+  m_Name: Humanoid_copy 1
+  m_EditorClassIdentifier: 
+  slashParams:
+    slashMode: 0
+    cd: 0.05
+    rotationApplicationPeriod:
+      min: 0
+      max: 0.9
+    rotationLerpScale: 0.15
+    trackScale: 1
+    comboTransitionPeriod:
+      min: Infinity
+      max: Infinity
+    comboTransitionBlendData:
+      transitionDuration: 0.25
+      normalizedOffset: 0
+    dashComboTransitionPeriod:
+      min: 0.1
+      max: 1
+    dashComboTransitionBlendData:
+      transitionDuration: 0.25
+      normalizedOffset: 0.1
+    forceAplicationPeriod:
+      min: 0.1
+      max: 0.445
+    force: 0
+    defaultMovementDirection: 0
+    selectiveForce:
+    - 180
+    - 180
+    - 180
+    - 180
+  dashParams:
+    dashMode: 0
+    cd: 0
+    rotationApplicationPeriod:
+      min: 0
+      max: 0.9
+    rotationLerpScale: 0.15
+    trackScale: 1
+    forceAplicationPeriod:
+      min: 0
+      max: 0.4
+    force: 400
+    defaultMovementDirection: 0
+    selectiveForce:
+    - 175
+    - 160
+    - 185
+    - 185
+  rotateToMouse: 1

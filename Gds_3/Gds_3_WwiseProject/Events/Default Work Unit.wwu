@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SOUNDPLAY" ID="{0CC77C32-874C-4677-A489-41EC4B6AE841}">
+					<ChildrenList>
+						<Action Name="" ID="{9D58A328-5A64-4B51-9543-E8EF66CF656F}" ShortID="237994360">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigBoi_Attack-EQ31B_06_L" ID="{41BA8315-17F7-411A-B7F7-738A2948429B}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3D426AE5-1049-4523-9672-3A332129057E}" ShortID="643167785">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="26"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New_Game_Parameter" ID="{407F0754-20A7-41FE-BA03-56EC569F6301}" WorkUnitID="{B916D53C-26F4-49D9-AD4E-92D785452A75}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>F:\Game Design\GDS 1\GDS_3\Gds_3\Gds_3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\Game Design\GDS 1\GDS_3\Gds_3\Gds_3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Game Design\GDS 1\GDS_3\Gds_3\Gds_3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\Game Design\GDS 1\GDS_3\Gds_3\Gds_3_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3449968166">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX" Hash="511679295">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4043471592" Name="SOUNDPLAY" ObjectPath="\Events\Default Work Unit\SOUNDPLAY" DurationType="OneShot" DurationMin="0.853917" DurationMax="0.853917">
+					<IncludedMemoryFiles>
+						<File Id="244386908" Language="SFX">
+							<ShortName>PLCHLDR\BigBoi_Attack-EQ31B_06.L.wav</ShortName>
+							<Path>SFX\PLCHLDR\BigBoi_Attack-EQ31B_06.L_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

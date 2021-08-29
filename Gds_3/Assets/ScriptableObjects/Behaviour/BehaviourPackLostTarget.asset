@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c70fe6ab991fd4ca356ce6bb80a13b, type: 3}
+  m_Name: BehaviourPackLostTarget
+  m_EditorClassIdentifier: 
+  filterType: 1
+  awarenessLevel: 2
+  enterBark: {fileID: 11400000, guid: 9592adfa39c0b46449b6532d7aba3bfd, type: 2}
+  updateBark: {fileID: 11400000, guid: 4054e75a768471c4f97f1c190b37f613, type: 2}
+  exitBark: {fileID: 11400000, guid: d087029f165685d4f89c6f060eda3b6b, type: 2}
+  walkRandomlySettings:
+    enabled: 1
+    executionTime:
+      min: 1.25
+      max: 2.5
+    walkDistance:
+      min: 5
+      max: 10
+    randomAngle:
+      min: 50
+      max: 170
+  followDirectionSettings:
+    enabled: 0
+    executionTime:
+      min: 2.25
+      max: 4.5
+    randomAngle:
+      min: 50
+      max: 170
+  lookAtSettings:
+    enabled: 1
+    executionTime:
+      min: 0.25
+      max: 0.45
+  lookAroundSettings:
+    enabled: 1
+    executionTime:
+      min: 1.9
+      max: 2.15
+    cd: 1
+    tChangeAngle:
+      min: 0.8
+      max: 0.9
+    desiredAngleDifference:
+      min: 70
+      max: 140
+    rotationLerp: 0.175

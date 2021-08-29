@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b205474d370b8b0489bb1bd165ccd941, type: 3}
+  m_Name: Ranged
+  m_EditorClassIdentifier: 
+  shootParams:
+    shootTime: 0.4
+    cd: 0
+    forceAplicationPeriod:
+      min: 0
+      max: 0.2
+    force: 0
+    rotationApplicationPeriod:
+      min: 0
+      max: 0.9
+    rotationLerpScale: 0.2
+    trackScale: 0.1
+  dashParams:
+    cd: 0
+    forceAplicationPeriod:
+      min: 0
+      max: 0.4
+    force: 400

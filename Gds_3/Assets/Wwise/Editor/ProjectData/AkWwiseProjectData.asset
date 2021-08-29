@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184f1d6789769e14b9f1f05437ff0829, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: ccb8329a24f5f94eaa624b38b4a2398b
+    GuidInternal: 
+    m_lastTime: -8585713466690763776
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 942389ba3787284eb52217aa9d904489
+    GuidInternal: 
+    m_lastTime: -8585713466691551676
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 0432cf3fd2afee4984881def60f80305
+    GuidInternal: 
+    m_lastTime: -8585713466690773745
+    List:
+    - name: New_SoundBank
+      guid: 84a2e196cffb7b4fa5e9855602da791a
+      id: 4072029455
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: New_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\New_SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: e533d51cd232c3438fabad7ed6874666
+    GuidInternal: 
+    m_lastTime: -8585713466691611514
+    List:
+    - name: SOUNDPLAY
+      guid: 327cc70c4c877746a48941ec4b6ae841
+      id: 4043471592
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SOUNDPLAY
+        ObjectType: 3
+      Path: Default Work Unit\SOUNDPLAY
+      maxAttenuation: 0
+      maxDuration: 0.853917
+      minDuration: 0.853917
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 3cd516b9f426d949ad4e92d785452a75
+    GuidInternal: 
+    m_lastTime: -8585713466691611514
+    List:
+    - name: New_Game_Parameter
+      guid: 54077f40a720fe41ba0356ec569f6301
+      id: 3671138082
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: New_Game_Parameter
+        ObjectType: 13
+      Path: Default Work Unit\New_Game_Parameter
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 57e2d75c8bfe24478404e247b1452506
+    GuidInternal: 
+    m_lastTime: -8585713466690763776
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 5f8139e28f818946bb300416d9c04594
+    GuidInternal: 
+    m_lastTime: -8585713466690763776
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 3f3e5c445f8e85488f11b810c09222fa
+    GuidInternal: 
+    m_lastTime: -8585713466690763776
+    List: []
+  ExpandedItems:
+  - /Gds_3_WwiseProject
+  - /Gds_3_WwiseProject/Events
+  - /Gds_3_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

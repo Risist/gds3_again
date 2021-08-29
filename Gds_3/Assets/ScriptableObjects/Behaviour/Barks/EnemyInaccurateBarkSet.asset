@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dcd371ee3b32f54ba2607a0b22e91fb, type: 3}
+  m_Name: EnemyInaccurateBarkSet
+  m_EditorClassIdentifier: 
+  records:
+  - text: Well, off I go then.
+    utility: 1
+    barkDisplayTime: 3
+  - text: He'll turn up eventually.
+    utility: 1
+    barkDisplayTime: 3
+  - text: They don't pay me that much.
+    utility: 1
+    barkDisplayTime: 3
+  - text: He's gone.
+    utility: 1
+    barkDisplayTime: 3
+  - text: 
+    utility: 4
+    barkDisplayTime: 3
