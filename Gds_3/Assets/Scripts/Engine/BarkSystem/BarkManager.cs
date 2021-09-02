@@ -11,7 +11,7 @@ namespace BarkSystem
     {
         public ObjectPool[] barkPools;
 
-        public void CallBark(Transform target, BarkSet barkSet, int poolId = 0)
+        public bool CallBark(Transform target, BarkSet barkSet, int poolId = 0)
         {
             float bestUtility = float.MinValue;
             BarkRecord bestRecord = null;
@@ -30,13 +30,13 @@ namespace BarkSystem
             {
                 // do not show background of the bark if there is no text
                 // "" string will function as a possibility in barkSet to select no text display
-                return;
+                return false;
             }
 
             var barkInstance = target.GetComponent<BarkInstance>();
             if(barkInstance && barkInstance.currentBarkController)
             {
-                return;
+                return false;
             }
 
 
@@ -56,6 +56,7 @@ namespace BarkSystem
             });
             
             bark.CallBark(bestRecord);
+            return true;
             
         }
     }

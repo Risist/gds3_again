@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NaughtyAttributes;
 
 public class InputControllerMouseKeyboard : InputController
 {
-    public string positionAxisCodeX = "Horizontal";
-    public string positionAxisCodeY = "Vertical";
+    [InputAxis] public string positionAxisCodeX = "Horizontal";
+    [InputAxis] public string positionAxisCodeY = "Vertical";
     [Space]
-    public string directionAxisCodeX = "Mouse X";
-    public string directionAxisCodeY = "Mouse Y";
+    [InputAxis] public string directionAxisCodeX = "Mouse X";
+    [InputAxis] public string directionAxisCodeY = "Mouse Y";
     [Space]
-    public string[] keyAxisCode = new string[4];
+    [InputAxis] public string[] keyAxisCode = new string[4];
 
     Camera cam;
 

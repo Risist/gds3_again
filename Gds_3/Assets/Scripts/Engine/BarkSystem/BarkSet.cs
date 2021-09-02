@@ -6,19 +6,20 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using NaughtyAttributes;
 
 namespace BarkSystem
 {
     [CreateAssetMenu(fileName = "New Bark Set", menuName = "Ris/Ai/BarkSet", order = 0)]
     public class BarkSet : ScriptableObject
     {
-        public List<BarkRecord> records;
+        [AllowNesting, ResizableTextArea] public List<BarkRecord> records;
     }
 
     [Serializable]
     public class BarkRecord
     {
-        public string text = "";
+        [ResizableTextArea] public string text = "";
         public float utility = 1.0f;
         public float barkDisplayTime = 1.0f;
     }

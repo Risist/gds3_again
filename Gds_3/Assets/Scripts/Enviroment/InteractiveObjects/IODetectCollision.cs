@@ -7,18 +7,24 @@ public class IODetectCollision : MonoBehaviour
 {
     public UnityEvent unityEvent;
 
+    [Space]
     public bool onEnter = true;
     public bool onStay = true;
     public bool onTriggerEnter = true;
     public bool onTriggerStay = true;
+
+    [Space]
+    public bool playerOnly;
 
 
     private void OnCollisionEnter(Collision collision)
     {
         if (onEnter)
         {
-            InputHolder inputHolder = collision.gameObject.GetComponent<InputHolder>();
-            if (inputHolder)
+            bool canInvoke = playerOnly && collision.gameObject.CompareTag("Player") 
+                || collision.gameObject.GetComponent<InputHolder>();
+            
+            if (canInvoke)
             {
                 unityEvent.Invoke();
             }
@@ -28,8 +34,9 @@ public class IODetectCollision : MonoBehaviour
     {
         if (onStay)
         {
-            InputHolder inputHolder = collision.gameObject.GetComponent<InputHolder>();
-            if (inputHolder)
+            bool canInvoke = playerOnly && collision.gameObject.CompareTag("Player")
+                   || collision.gameObject.GetComponent<InputHolder>();
+            if (canInvoke)
             {
                 unityEvent.Invoke();
             }
@@ -39,8 +46,9 @@ public class IODetectCollision : MonoBehaviour
     {
         if (onTriggerEnter)
         {
-            InputHolder inputHolder = other.gameObject.GetComponent<InputHolder>();
-            if (inputHolder)
+            bool canInvoke = playerOnly && other.CompareTag("Player")
+                   || other.GetComponent<InputHolder>();
+            if (canInvoke)
             {
                 unityEvent.Invoke();
             }
@@ -50,8 +58,9 @@ public class IODetectCollision : MonoBehaviour
     {
         if (onTriggerStay)
         {
-            InputHolder inputHolder = other.gameObject.GetComponent<InputHolder>();
-            if (inputHolder)
+            bool canInvoke = playerOnly && other.CompareTag("Player")
+                   || other.GetComponent<InputHolder>();
+            if (canInvoke)
             {
                 unityEvent.Invoke();
             }

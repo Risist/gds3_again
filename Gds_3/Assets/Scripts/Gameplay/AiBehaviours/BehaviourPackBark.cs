@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using BarkSystem;
+using NaughtyAttributes;
 
 namespace Ai
 {
@@ -9,9 +10,9 @@ namespace Ai
         public EStimuliFilterType filterType = EStimuliFilterType.EEnemy;
         public EAwarenessLevel awarenessLevel = EAwarenessLevel.EInaccurate;
 
-        public BarkSet enterBark;
-        public BarkSet updateBark;
-        public BarkSet exitBark;
+        [Expandable, SerializeField] BarkSet enterBark;
+        [Expandable, SerializeField] BarkSet updateBark;
+        [Expandable, SerializeField] BarkSet exitBark;
         
         protected override void DefineBehaviours_Impl()
         {
@@ -20,21 +21,21 @@ namespace Ai
             var barkInstance = controller.GetComponent<BarkInstance>();
 
             // Attention mode aliases
-            AttentionMode modeEnemyLost = monoAttentionSelector.GetAttentionMode(filterType, awarenessLevel);
+            AttentionMode mode = monoAttentionSelector.GetAttentionMode(filterType, awarenessLevel);
 
             if (enterBark)
             {
-                modeEnemyLost.AddOnEnter(() => BarkManager.Instance.CallBark(transform, enterBark));
+                mode.AddOnEnter(() => BarkManager.Instance.CallBark(transform, enterBark));
             }
 
             if (exitBark)
             {
-                modeEnemyLost.AddOnExit(() => BarkManager.Instance.CallBark(transform, exitBark));
+                mode.AddOnExit(() => BarkManager.Instance.CallBark(transform, exitBark));
             }
 
             if (barkInstance && updateBark)
             {
-                modeEnemyLost.AddOnUpdate(() =>
+                mode.AddOnUpdate(() =>
                 {
                     BarkManager.Instance.CallBark(transform, updateBark);
                 });

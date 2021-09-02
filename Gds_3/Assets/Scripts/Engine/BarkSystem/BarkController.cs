@@ -128,7 +128,10 @@ namespace BarkSystem
                 if (IsFadedOut())
                 {
                     gameObject.SetActive(false);
-                    barkInstance.currentBarkController = null;
+                    if (barkInstance)
+                    {
+                        barkInstance.currentBarkController = null;
+                    }
                 }
             }
         }
