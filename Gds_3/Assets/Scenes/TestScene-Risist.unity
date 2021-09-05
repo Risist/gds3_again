@@ -3840,6 +3840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131107800}
   - component: {fileID: 1131107799}
+  - component: {fileID: 1131107801}
   m_Layer: 0
   m_Name: Herd
   m_TagString: Untagged
@@ -3886,6 +3887,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131107801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131107798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509f70988d2bd4b488bba8b93ed5e348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateDistance: 25
+  deactivateDistance: 30
+  streamingObjects:
+  - {fileID: 1835121545}
+  - {fileID: 1272736447}
+  - {fileID: 1301338421}
+  - {fileID: 140953852}
+  - {fileID: 1165253083}
+  - {fileID: 721620826449206306}
 --- !u!1001 &1137934718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7296,6 +7318,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d119a27a1ce902445b1273268977f139, type: 3}
+--- !u!4 &721620826449206306 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9118556753012308985, guid: d119a27a1ce902445b1273268977f139, type: 3}
+  m_PrefabInstance: {fileID: 721620826449206305}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &943751561279052860
 PrefabInstance:
   m_ObjectHideFlags: 0

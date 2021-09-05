@@ -14,6 +14,7 @@ public class BulletDirectionPointer : MonoBehaviour
 
     MeshRenderer _renderer;
     Transform _player;
+    InputHolder _playerInput;
     Collider _collider;
     HeadBulletController _headBulletController;
 
@@ -29,6 +30,7 @@ public class BulletDirectionPointer : MonoBehaviour
         bool hadPreviouslyPlayer = _player;
 
         _player = playerTransform.transform;
+        _playerInput = playerTransform.GetComponent<InputHolder>();
 
         if (!hadPreviouslyPlayer)
         {
@@ -82,7 +84,7 @@ public class BulletDirectionPointer : MonoBehaviour
         bool activate = _collider.isTrigger && _player && _headBulletController.instigator != _player.gameObject;
         
 
-        if(_player)
+        if(_player && _playerInput)
         {
             //Vector2 toPlayer = (_player.position - transform.position).To2D();
             Vector2 toPlayer = -_player.forward.To2D();

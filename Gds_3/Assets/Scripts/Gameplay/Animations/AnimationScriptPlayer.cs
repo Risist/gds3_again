@@ -84,6 +84,8 @@ public class AnimationScriptPlayer : AnimationScript
 
             .AddUpdate((s) => AutoTransition(idle, new AnimationBlendData(0)))
             .AddOnEnd(cdSlash.Restart)
+            .AddTransition(slash, new RangedFloat(0.75f, 1.0f), new AnimationBlendData(0.25f) )
+            .AddTransition(slashRunning, new RangedFloat(0.75f, 1.0f), new AnimationBlendData(0.25f))
         ;
 
         var motorSlashRunning = stateMachine.AddComponent(new AState_Motor(
@@ -103,8 +105,9 @@ public class AnimationScriptPlayer : AnimationScript
             .AddFixedUpdate(motorSlashRunning.FixedUpdate)
             .AddUpdate((s) => AutoTransition(idle, new AnimationBlendData(0)))
             .AddOnEnd(cdSlash.Restart)
-        //.AddTransition(push, new RangedFloat(0.7f, 1.0f), new AnimationBlendData(0.25f), false)
-        //.AddTransition(slash, slashParams.comboTransitionPeriod, slashParams.comboTransitionBlendData, true)
+
+            .AddTransition(slash, new RangedFloat(0.75f, 1.0f), new AnimationBlendData(0.35f))
+            .AddTransition(slashRunning, new RangedFloat(0.75f, 1.0f), new AnimationBlendData(0.35f))
         ;
 
         var motorDash = stateMachine.AddComponent(new AState_Motor(

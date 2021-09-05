@@ -58,7 +58,7 @@ public class HeadBulletController : BulletControllerBase, IDamagable
         }
         if(_collider)
         {
-            _collider.isTrigger = false;
+            _collider.isTrigger = true;
         }
     }
 
@@ -121,7 +121,7 @@ public class HeadBulletController : BulletControllerBase, IDamagable
                 damagable.ReceiveDamage(damage);
             }
 
-            if (destroyTime.IsReady(0.25f))
+            if (destroyTime.IsReady(0.125f))
             {
                 gameObject.SetActive(false);
             }

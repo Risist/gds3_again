@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,14 @@ public class DeathAnimationRunner : MonoBehaviour
                 animator.CrossFade(deathAnimationName, transitionDuration, 0, normalizedTimeOffset);
             }
         };
+    }
+
+    private void OnDisable()
+    {
+        if(alreadyPlayed)
+        {
+            Destroy(gameObject);
+        }
     }
 
 }

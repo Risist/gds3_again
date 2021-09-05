@@ -1773,6 +1773,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 6819976597709447455}
     m_Modifications:
     - target: {fileID: 5974546197437391456, guid: ea62741d851c13f40897a1fc5adb7aea, type: 3}
+      propertyPath: m_Radius
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974546197437391456, guid: ea62741d851c13f40897a1fc5adb7aea, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -1838,7 +1842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5974546197437391485, guid: ea62741d851c13f40897a1fc5adb7aea, type: 3}
       propertyPath: coneAngle
-      value: 400
+      value: 360
       objectReference: {fileID: 0}
     - target: {fileID: 5974546197437391485, guid: ea62741d851c13f40897a1fc5adb7aea, type: 3}
       propertyPath: m_Enabled
