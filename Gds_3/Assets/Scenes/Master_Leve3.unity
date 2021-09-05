@@ -4016,6 +4016,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 769240929}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 769240928}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -4090,31 +4122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &166510831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8465,6 +8473,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1714608100}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1714608099}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -8539,31 +8579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &324974366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9469,6 +9485,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1042912947}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1042912946}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -9543,31 +9591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &360280117 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 610428121, guid: 465193e5e557fb74993b1342e2bc0bed, type: 3}
@@ -15198,6 +15222,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2054161865}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2130657902}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2054161864}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2130657901}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -15272,31 +15356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &533180368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15682,6 +15742,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 54806096}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: IOSwitchableAnimation, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 54806095}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -15756,31 +15860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &558189060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16488,6 +16568,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1619543894}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1619543893}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -16562,31 +16674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &603994660 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1613717637043731370, guid: 331685bb8fc875e469d33ecade0ed59b, type: 3}
@@ -19865,6 +19953,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2054161865}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2054161864}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -19939,31 +20059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &719963667 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7045046699649381973, guid: 83b03253c5085934c97c72699acf9cc0, type: 3}
@@ -33370,6 +33466,94 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1714608100}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1018247248}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1109116757}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1714608099}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1018247247}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1109116756}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -33444,31 +33628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &1210181102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39017,6 +39177,94 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1619543894}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 719963668}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1109116757}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1619543893}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 719963667}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1109116756}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -39091,31 +39339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1377014981 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1790714366372786050, guid: 9657de29c877ec248b086060ad9ea5e1, type: 3}
@@ -44475,6 +44699,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1623285650}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1623285649}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -44549,31 +44805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1526028117 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7134375287387687654, guid: 9a7198ec984799e40832a59ac62dbadb, type: 3}
@@ -47023,6 +47255,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1022096512}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 686276762}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1022096511}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 686276761}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -47097,31 +47389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &1621378710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48021,6 +48289,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 893955844}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 893955843}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -48095,31 +48395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1638500366 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3276194408000324233, guid: 2b1feeeb88c9bde4baf48f0e3a44f6ba, type: 3}
@@ -49897,6 +50173,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 414547686}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 686276762}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 414547685}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 686276761}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -49971,31 +50307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1705693961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4128823419475022823, guid: 1e49bf27622b7f24f8f4f795272e35e7, type: 3}
@@ -53672,6 +53984,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 122924324}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 122924323}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -53746,31 +54090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &1836009413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59647,6 +59967,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2130657902}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 122924324}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2130657901}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 122924323}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -59721,31 +60101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &2054161864 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7045046699649381973, guid: 83b03253c5085934c97c72699acf9cc0, type: 3}
@@ -61841,6 +62197,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1999900616}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1999900615}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -61915,31 +62303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &2133918383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1613717637043731370, guid: 331685bb8fc875e469d33ecade0ed59b, type: 3}
@@ -63595,31 +63959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 73020614}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 259000509}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 145027676}
-        m_TargetAssemblyTypeName: FogOfWarSkript, _Scripts
-        m_MethodName: FadeInDoorOpen
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 145027674}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!65 &4518698795870802098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63762,6 +64102,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937100065}
     m_Modifications:
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 73020614}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 145027676}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: FadeInDoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: FogOfWarSkript, _Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 259000509}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 145027674}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039903796903617831, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
+      propertyPath: unityEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5337522142815624169, guid: 7c24af1fa6c244c40a1b9bc687fa9858, type: 3}
       propertyPath: m_RootOrder
       value: 0
