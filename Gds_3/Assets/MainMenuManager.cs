@@ -17,10 +17,10 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private string brakeButtonAnimation = "BrakeBtnAnimation";
     public UnityEvent action;
 
-    [Header("Other Button Animation")]
-    public Animator otnerBtnAnimator;
-    [SerializeField] private string otherButtonAnimation = "SettingsQuitBtn";
-    [SerializeField] private string closeButtonAnimation = "HideOtherBTNSAnimations";
+    //[Header("Other Button Animation")]
+    //public Animator otnerBtnAnimator;
+    //[SerializeField] private string otherButtonAnimation = "SettingsQuitBtn";
+    //[SerializeField] private string closeButtonAnimation = "HideOtherBTNSAnimations";
 
     [Header("Exit Button Animations")]
     public Animator exitAnimator;
@@ -38,13 +38,13 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private string closeCreditsButtonAnimation = "CloseCreditsAnimation";
 
     [Header("Buttons")]
-    public GameObject startButtonObject;
-    public GameObject creditsButtonObject;
-    public GameObject settingsButtonObject;
-    public GameObject exitButtonObject;
-    public GameObject exitYesBTN;
-    public GameObject exitNOBTN;
-    public GameObject closeCreditsButtonObject;
+    public GameObject startButtonObject = null;
+    public GameObject creditsButtonObject = null;
+    public GameObject settingsButtonObject = null;
+    public GameObject exitButtonObject = null;
+    public GameObject exitYesBTN = null;
+    public GameObject exitNOBTN = null;
+    public GameObject closeCreditsButtonObject = null;
 
 
     void Start()
@@ -63,7 +63,7 @@ public class MainMenuManager : MonoBehaviour
             if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == startButtonObject)
             {
                 Debug.Log("Button Clicked");
-                otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
+              //  otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
                 action.Invoke();
                 animator.Play(brakeButtonAnimation, 0, 0.0f);
                // Destroy(startButtonObject, 1f);
@@ -75,7 +75,7 @@ public class MainMenuManager : MonoBehaviour
                 Debug.Log("Button credits Clicked");
                 creditsAnimator.Play(openCreditsButtonAnimation, 0, 0.0f);
                 startButtonObject.SetActive(false);
-                otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
+              //  otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
                 credisActions.Invoke();
 
             }
@@ -84,7 +84,7 @@ public class MainMenuManager : MonoBehaviour
                 creditsAnimator.Play(closeCreditsButtonAnimation, 0, 0.0f);
                 startButtonObject.SetActive(true);
                 animator.Play(startButtonAnimation, 0, 0.0f);
-                otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
+               // otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
                 credisCloseButtonActions.Invoke();
             }
 
@@ -98,7 +98,7 @@ public class MainMenuManager : MonoBehaviour
             if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == exitButtonObject)
             {
                 Debug.Log("Button exit Clicked");
-                otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
+               // otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
                 exitAnimator.Play(exitButtonAnimation, 0, 0.0f);
                 exitActions.Invoke();
                 startButtonObject.SetActive(false);
@@ -117,7 +117,7 @@ public class MainMenuManager : MonoBehaviour
                 Debug.Log("Button exit Clicked");
                 startButtonObject.SetActive(true);
                 animator.Play(startButtonAnimation, 0, 0.0f);
-                otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
+             //   otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
                 exitAnimator.Play(closeExitButtonAnimation, 0, 0.0f);
                 exitCloseButtonAction.Invoke();
             }
