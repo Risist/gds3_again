@@ -205,7 +205,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0f38033048d017b4a8398f07b07e0df8, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f38033048d017b4a8398f07b07e0df8, type: 3}
       propertyPath: m_LocalScale.x
@@ -524,11 +524,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4271349844350211159, guid: e47393fbebb994f4ba58076e44766e3a, type: 3}
   m_PrefabInstance: {fileID: 2040107176}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &95658698 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198706150799401992, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
-  m_PrefabInstance: {fileID: 246084384}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &103608967 stripped
 Transform:
@@ -990,11 +985,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faabd6ff87e60eb49b838460035f7697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!198 &160306343 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198706150799401992, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
-  m_PrefabInstance: {fileID: 1562265818}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &169278045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2289,11 +2279,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317866964}
   m_CullTransparentMesh: 1
---- !u!198 &346880901 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198679442476388764, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
-  m_PrefabInstance: {fileID: 1816314402}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &359696111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2536,7 +2521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4288416149911810, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4288416149911810, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
       propertyPath: m_LocalScale.x
@@ -3521,11 +3506,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4271349844350211159, guid: e47393fbebb994f4ba58076e44766e3a, type: 3}
   m_PrefabInstance: {fileID: 785386091}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &454169459 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198679442476388764, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
-  m_PrefabInstance: {fileID: 390534649}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &472744463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4271349844350211159, guid: e47393fbebb994f4ba58076e44766e3a, type: 3}
@@ -4046,11 +4026,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e47393fbebb994f4ba58076e44766e3a, type: 3}
---- !u!198 &545064680 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198706150799401992, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
-  m_PrefabInstance: {fileID: 438320578}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &550491675 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4271349844350211159, guid: e47393fbebb994f4ba58076e44766e3a, type: 3}
@@ -4800,7 +4775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678073273}
   m_LocalRotation: {x: 0, y: -0.06932122, z: 0, w: 0.9975944}
-  m_LocalPosition: {x: 985.09, y: 569.34, z: -4.5}
+  m_LocalPosition: {x: 985.09, y: 569.34, z: -2.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5016,7 +4991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce8897bb5780d4849ac4bdc09dd1dc88, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 13.97
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce8897bb5780d4849ac4bdc09dd1dc88, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7628,7 +7603,7 @@ Transform:
   - {fileID: 418433573}
   - {fileID: 222799995}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1056824892
 Animator:
@@ -8617,7 +8592,7 @@ Transform:
   - {fileID: 1638770424}
   - {fileID: 179674028}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1211211481
 PrefabInstance:
@@ -8829,7 +8804,7 @@ Transform:
   - {fileID: 1793860553}
   - {fileID: 1660382876}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1294948366
 PrefabInstance:
@@ -9426,7 +9401,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!4 &1386169440 stripped
 Transform:
@@ -9467,59 +9442,11 @@ MonoBehaviour:
   mainCamera: {fileID: 678073275}
   animationCdn: 1
   animator: {fileID: 1637129519}
-  startButtonAnimation: StartAnimation
+  startButtonAnimation: gilotyna||idle
   brakeButtonAnimation: gilotyna||start
   action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 160306343}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545064680}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 95658698}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1711657830}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1390524498}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
         m_MethodName: ShakeCamera
@@ -9544,9 +9471,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  otnerBtnAnimator: {fileID: 1278183733}
-  otherButtonAnimation: SettingsQuitBtn
-  closeButtonAnimation: HideOtherBTNSAnimations
   exitAnimator: {fileID: 1637129519}
   exitButtonAnimation: gilotyna||quit
   closeExitButtonAnimation: CloseExitButtonAnimation
@@ -9565,57 +9489,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 346880901}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 454169459}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   exitCloseButtonAction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 346880901}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 454169459}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1390524498}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
         m_MethodName: ShakeCamera
@@ -9628,34 +9504,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  creditsAnimator: {fileID: 1397216711}
+  creditsAnimator: {fileID: 0}
   credisActions:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 346880901}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 454169459}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1390524498}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
         m_MethodName: ShakeCamera
@@ -9671,30 +9523,6 @@ MonoBehaviour:
   credisCloseButtonActions:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 346880901}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 454169459}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1390524498}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
         m_MethodName: ShakeCamera
@@ -9710,12 +9538,12 @@ MonoBehaviour:
   openCreditsButtonAnimation: OpenCreditsAnimation
   closeCreditsButtonAnimation: CloseCreditsAnimation
   startButtonObject: {fileID: 1008487920}
-  creditsButtonObject: {fileID: 1174805047}
-  settingsButtonObject: {fileID: 1793860549}
-  exitButtonObject: {fileID: 1660382872}
+  creditsButtonObject: {fileID: 0}
+  settingsButtonObject: {fileID: 0}
+  exitButtonObject: {fileID: 0}
   exitYesBTN: {fileID: 1325059140}
-  exitNOBTN: {fileID: 1602336462}
-  closeCreditsButtonObject: {fileID: 1366724518}
+  exitNOBTN: {fileID: 0}
+  closeCreditsButtonObject: {fileID: 0}
 --- !u!4 &1390524499
 Transform:
   m_ObjectHideFlags: 0
@@ -9780,7 +9608,7 @@ Transform:
   - {fileID: 1020455216}
   - {fileID: 1366724519}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1420648808
 PrefabInstance:
@@ -9958,7 +9786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6950684928732670559, guid: 413669809db33eb48a585bf5f67f1790, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 6950684928732670559, guid: 413669809db33eb48a585bf5f67f1790, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10619,7 +10447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4209731392266258, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4209731392266258, guid: a990e3ac1318b834488c784d851f42a9, type: 3}
       propertyPath: m_LocalScale.x
@@ -10806,7 +10634,7 @@ Transform:
   - {fileID: 803670676}
   - {fileID: 2019114645}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1573678020
 BoxCollider:
@@ -11197,7 +11025,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1626238686
 PrefabInstance:
@@ -11387,7 +11215,7 @@ Transform:
   - {fileID: 2096447663}
   - {fileID: 1489358346}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1631444236
 PrefabInstance:
@@ -11692,11 +11520,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4271349844350211159, guid: e47393fbebb994f4ba58076e44766e3a, type: 3}
   m_PrefabInstance: {fileID: 169741286}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1711657830 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198679442476388764, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
-  m_PrefabInstance: {fileID: 2036976798}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1716455343 stripped
 Transform:
@@ -12467,7 +12290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4288416149911810, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4288416149911810, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
       propertyPath: m_LocalScale.x
@@ -13634,7 +13457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4288416149911810, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4288416149911810, guid: f293a2dcc753a4a489fefe7f8f312d69, type: 3}
       propertyPath: m_LocalScale.x
