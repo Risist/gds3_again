@@ -32,14 +32,14 @@ public class IOBark : MonoBehaviour
     [SerializeField, ShowIf("useSequence")] BarkSet[] barkSequence;
 
     [SerializeField, HideIf("useSequence")] UnityEvent onBarkPlayed;
-    [SerializeField, HideIf("useSequence"), Expandable] BarkSet barkSet;
+    [SerializeField, HideIf("useSequence")] BarkSet barkSet;
 
 
     
 
 
 
-    bool CanShowTimer => useSequence || !oneOff;
+    bool CanShowTimer => true;
 
     bool alreadyPlayed;
     int sequenceId;
