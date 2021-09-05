@@ -12,6 +12,16 @@ public class MainMenuManager : MonoBehaviour
 
     public float animationCdn = 1;
 
+
+
+    public Transform target;
+    public float duration;
+
+    float distance;
+    float t;
+
+
+
     [Header("Start ButtonAnimation")]
     public Animator animator;
     [SerializeField] private string startButtonAnimation = "StartBtnAnimation";
@@ -53,6 +63,7 @@ public class MainMenuManager : MonoBehaviour
         StartCoroutine(BtnAnimationStart());
         animator.Play(startButtonAnimation, 0, 0.0f);
         otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
+        distance = Vector3.Distance(transform.position, target.position);
     }
     void Update()
     {
@@ -67,7 +78,7 @@ public class MainMenuManager : MonoBehaviour
                 otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
                 action.Invoke();
                 animator.Play(brakeButtonAnimation, 0, 0.0f);
-                Destroy(startButtonObject, 1f);
+               // Destroy(startButtonObject, 1f);
             }
 
             //Button credits Clicked
@@ -123,14 +134,14 @@ public class MainMenuManager : MonoBehaviour
                 exitCloseButtonAction.Invoke();
             }
         }
+
+        transform.position = Vector3.MoveTowards(transform.position, target.position,
+            (distance / duration) * Time.deltaTime);
     }
     IEnumerator BtnAnimationStart()
     {
         yield return new WaitForSeconds(animationCdn);
     }
-
-   
-
     //Camera Shake
     public void ShakeCamera()
     {
