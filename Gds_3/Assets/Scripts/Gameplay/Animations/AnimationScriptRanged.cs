@@ -34,6 +34,7 @@ public class AnimationScriptRanged : AnimationScript
         public float force = 100.0f;
     }
     public DashParams dashParams;
+    public string runningKey = "Running";
 
     public override void InitAnimation_Implementation()
     {
@@ -48,6 +49,7 @@ public class AnimationScriptRanged : AnimationScript
         var dash = stateMachine.AddNewState("Dash");            // 2
 
         idle
+            .AddUpdate((t) => stateMachine.animator.SetBool(runningKey, input.atMove))
             .AddUpdate((t) => input.rotationInput = input.directionInput)
 
             .AddTransition(shoot, new AnimationBlendData(0), false)

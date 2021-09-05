@@ -45,7 +45,7 @@ public class HeadBulletActivator : MonoBehaviour
                     rb.AddForce(data.instigator.transform.forward.ToPlane() * initialForce, ForceMode.Acceleration);
                 }
             }*/
-            Destroy(gameObject);
+            //Destroy(gameObject);
         };
     }
 
