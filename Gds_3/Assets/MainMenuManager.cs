@@ -11,18 +11,7 @@ public class MainMenuManager : MonoBehaviour
     public Camera mainCamera;
 
     public float animationCdn = 1;
-
-
-
-    public Transform target;
-    public float duration;
-
-    float distance;
-    float t;
-
-
-
-    [Header("Start ButtonAnimation")]
+        [Header("Start ButtonAnimation")]
     public Animator animator;
     [SerializeField] private string startButtonAnimation = "StartBtnAnimation";
     [SerializeField] private string brakeButtonAnimation = "BrakeBtnAnimation";
@@ -62,8 +51,7 @@ public class MainMenuManager : MonoBehaviour
     {
         StartCoroutine(BtnAnimationStart());
         animator.Play(startButtonAnimation, 0, 0.0f);
-        otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
-        distance = Vector3.Distance(transform.position, target.position);
+       // otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
     }
     void Update()
     {
@@ -134,9 +122,7 @@ public class MainMenuManager : MonoBehaviour
                 exitCloseButtonAction.Invoke();
             }
         }
-
-        transform.position = Vector3.MoveTowards(transform.position, target.position,
-            (distance / duration) * Time.deltaTime);
+              
     }
     IEnumerator BtnAnimationStart()
     {

@@ -4800,7 +4800,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678073273}
   m_LocalRotation: {x: 0, y: -0.06932122, z: 0, w: 0.9975944}
-  m_LocalPosition: {x: 983.12, y: 569.34, z: -4.44}
+  m_LocalPosition: {x: 985.09, y: 569.34, z: -4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5016,7 +5016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce8897bb5780d4849ac4bdc09dd1dc88, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.67
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce8897bb5780d4849ac4bdc09dd1dc88, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9466,10 +9466,8 @@ MonoBehaviour:
   shakeTime: 0.1
   mainCamera: {fileID: 678073275}
   animationCdn: 1
-  target: {fileID: 678073276}
-  duration: -1.08
   animator: {fileID: 1637129519}
-  startButtonAnimation: gilotyna||idle
+  startButtonAnimation: StartAnimation
   brakeButtonAnimation: gilotyna||start
   action:
     m_PersistentCalls:
