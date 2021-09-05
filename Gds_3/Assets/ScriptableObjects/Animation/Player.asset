@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slashParams:
     cd: 0.05
+    slashAnimationCancellingAfterDecapitation: 0.75
     comboTransitionPeriod:
       min: Infinity
       max: Infinity
@@ -40,7 +41,7 @@ MonoBehaviour:
     forceAplicationPeriod:
       min: 0
       max: 0.4
-    force: 400
+    force: 500
     rotationApplicationPeriod:
       min: 0
       max: 0.9

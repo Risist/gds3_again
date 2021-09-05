@@ -11,13 +11,15 @@ public class AnimationScriptPlayer : AnimationScript
     {
         public float cd;
 
+        [Range(0.0f, 1.0f)] public float slashAnimationCancellingAfterDecapitation = 0.5f;
+
         [Header("Combo")]
         public RangedFloat comboTransitionPeriod = new RangedFloat(0.75f, 1.0f);
         public AnimationBlendData comboTransitionBlendData = new AnimationBlendData(0.25f);
         [Space]
         public RangedFloat dashComboTransitionPeriod = new RangedFloat(0.75f, 1.0f);
         public AnimationBlendData dashComboTransitionBlendData = new AnimationBlendData(0.25f);
-        
+
         [Header("Rotation")]
         public RangedFloat rotationApplicationPeriod = new RangedFloat(0, 0.9f);
         public float rotationLerpScale = 0.15f;
@@ -37,7 +39,7 @@ public class AnimationScriptPlayer : AnimationScript
         [Header("Movement")]
         public RangedFloat forceAplicationPeriod = new RangedFloat(0, 0.2f);
         public float force = 100.0f;
-        
+
         [Header("Rotation")]
         public RangedFloat rotationApplicationPeriod = new RangedFloat(0, 0.9f);
         public float rotationLerpScale = 0.15f;
@@ -48,6 +50,8 @@ public class AnimationScriptPlayer : AnimationScript
 
     public string runningKey = "Running";
 
+
+
     public override void InitAnimation_Implementation()
     {
         var input = stateMachine.GetComponentInParent<InputHolder>();
@@ -57,6 +61,29 @@ public class AnimationScriptPlayer : AnimationScript
         var slash = stateMachine.AddNewState("Slash");                          // 1
         var slashRunning = stateMachine.AddNewState("SlashRunning");            // 2
         var dash = stateMachine.AddNewState("Dash");                            // 3
+
+        #region animationCancel
+        //
+        bool flip = true;
+        float calculateAnimationCancel()
+        {
+            if (flip)
+            {
+                flip = !flip;
+                return slashParams.cd;
+            }
+            else
+            {
+                flip = !flip;
+                return 1.0f;
+            }
+            
+        }
+        float animationCancelAmount = slashParams.slashAnimationCancellingAfterDecapitation;
+        float animationCancel = 0.0f;
+        //
+        #endregion
+
 
         idle
             .AddUpdate((t) => stateMachine.animator.SetBool(runningKey, input.atMove))
@@ -74,23 +101,30 @@ public class AnimationScriptPlayer : AnimationScript
                 slashParams.rotationApplicationPeriod,
                 slashParams.rotationLerpScale,
                 slashParams.trackScale));
+
         slash
             .AddIsPressed(() => input.keys[0])
             .AddCanEnter(() => cdSlash.IsReady())
             .AddCanEnter(() => !input.atMove)
-
+            .AddOnBegin(() => 
+            {
+                animationCancel = calculateAnimationCancel();
+            })
             .AddOnBegin(() => motorSlash.Begin(input.transform.forward.To2D()))
             .AddFixedUpdate(motorSlash.FixedUpdate)
 
             .AddUpdate((s) => AutoTransition(idle, new AnimationBlendData(0)))
-            .AddOnEnd(cdSlash.Restart)
-            .AddTransition(slash, new RangedFloat(0.75f, 1.0f), new AnimationBlendData(0.25f) )
-            .AddTransition(slashRunning, new RangedFloat(0.75f, 1.0f), new AnimationBlendData(0.25f))
+            
+            .AddOnEnd(() => cdSlash.Restart())
+            .AddTransition(slash, new RangedFloat(animationCancelAmount, 1.0f), new AnimationBlendData(0.25f) )
+            .AddTransition(slashRunning, new RangedFloat(animationCancelAmount, 1.0f), new AnimationBlendData(0.25f))
+            .AddTransition(dash, new RangedFloat(0.3f, 1.0f), new AnimationBlendData(0.01f))
         ;
 
         var motorSlashRunning = stateMachine.AddComponent(new AState_Motor(
                   Vector2.up * slashParams.force,
                   slashParams.forceAplicationPeriod));
+
         stateMachine.AddComponent(slashRunning, new AState_RotationToDirection(
                 slashParams.rotationApplicationPeriod,
                 slashParams.rotationLerpScale,
@@ -100,14 +134,18 @@ public class AnimationScriptPlayer : AnimationScript
             .AddIsPressed(() => input.keys[0])
             .AddCanEnter(() => cdSlash.IsReady())
             .AddCanEnter(() => input.atMove)
-
+            .AddOnBegin(() =>
+            {
+                animationCancel = calculateAnimationCancel();
+            })
             .AddOnBegin(() => motorSlashRunning.Begin(input.positionInput))
             .AddFixedUpdate(motorSlashRunning.FixedUpdate)
             .AddUpdate((s) => AutoTransition(idle, new AnimationBlendData(0)))
-            .AddOnEnd(cdSlash.Restart)
-
-            .AddTransition(slash, new RangedFloat(0.75f, 1.0f), new AnimationBlendData(0.35f))
-            .AddTransition(slashRunning, new RangedFloat(0.75f, 1.0f), new AnimationBlendData(0.35f))
+            .AddOnEnd(() => cdSlash.Restart())
+            
+            .AddTransition(slash, new RangedFloat(animationCancelAmount, 1.0f), new AnimationBlendData(0.35f))
+            .AddTransition(slashRunning, new RangedFloat(animationCancelAmount, 1.0f), new AnimationBlendData(0.35f))
+            .AddTransition(dash, new RangedFloat(0.3f, 1.0f), new AnimationBlendData(0.01f))
         ;
 
         var motorDash = stateMachine.AddComponent(new AState_Motor(
