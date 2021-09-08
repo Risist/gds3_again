@@ -1,133 +1,125 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
+    [Header("Camera Shake")]
     Vector3 cameraInitialPosition;
     public float shakeMagnetude = 0.05f, shakeTime = 0.5f;
     public Camera mainCamera;
 
-    public float animationCdn = 1;
-        [Header("Start ButtonAnimation")]
-    public Animator animator;
+    [Header("Start Buttons")]
+    public GameObject _startButton = null;
+    public Animator startButtonAnimator;
     [SerializeField] private string startButtonAnimation = "StartBtnAnimation";
     [SerializeField] private string brakeButtonAnimation = "BrakeBtnAnimation";
     public UnityEvent action;
 
-    //[Header("Other Button Animation")]
-    //public Animator otnerBtnAnimator;
-    //[SerializeField] private string otherButtonAnimation = "SettingsQuitBtn";
-    //[SerializeField] private string closeButtonAnimation = "HideOtherBTNSAnimations";
+    public Color clickStartButtonColor;
 
-    [Header("Exit Button Animations")]
-    public Animator exitAnimator;
+
+    [Header("Option Buttons")]
+    public GameObject _optionsButton = null;
+    public Color clickOptionButtonColor;
+
+    [Header("Exit Buttons")]
+    public GameObject _exitButton = null;
+    public GameObject _agreeExit = null;
+    public GameObject _disagreeExit = null;
+    public GameObject _exitText = null;
+
+    public Animator exitButtonAnimator;
     [SerializeField] private string exitButtonAnimation = "ExitBtnAniamtion";
     [SerializeField] private string closeExitButtonAnimation = "CloseExitButtonAnimation";
     public UnityEvent exitActions;
     public UnityEvent exitCloseButtonAction;
+    public Color clickExitButtonColor;
 
+    [Header("Buttons Color")]
+    public TextMeshPro[] textMeshPros;
+    public Color normalButtonColor;
+    public Color exitButtonColor;
 
-    [Header("Credits Button Animations")]
-    public Animator creditsAnimator;
-    public UnityEvent credisActions;
-    public UnityEvent credisCloseButtonActions;
-    [SerializeField] private string openCreditsButtonAnimation = "OpenCreditsAnimation";
-    [SerializeField] private string closeCreditsButtonAnimation = "CloseCreditsAnimation";
-
-    [Header("Buttons")]
-    public GameObject startButtonObject = null;
-    public GameObject creditsButtonObject = null;
-    public GameObject settingsButtonObject = null;
-    public GameObject exitButtonObject = null;
-    public GameObject exitYesBTN = null;
-    public GameObject exitNOBTN = null;
-    public GameObject closeCreditsButtonObject = null;
-
-
-    void Start()
-    {
-        StartCoroutine(BtnAnimationStart());
-        animator.Play(startButtonAnimation, 0, 0.0f);
-       // otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
-    }
     void Update()
     {
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit Hit;
 
+        if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _startButton)
+        {
+            textMeshPros[0].color = clickStartButtonColor;
+        }
+        else
+        {
+            textMeshPros[0].color = normalButtonColor;
+        }
+        if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _optionsButton)
+        {
+            textMeshPros[1].color = clickOptionButtonColor;
+        }
+        else
+        {
+            textMeshPros[1].color = normalButtonColor;
+        }
+
+        if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _exitButton)
+        {
+            textMeshPros[2].color = clickExitButtonColor;
+        }
+        else
+        {
+            textMeshPros[2].color = exitButtonColor;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
-            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == startButtonObject)
+            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _startButton)
             {
                 Debug.Log("Button Clicked");
-              //  otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
                 action.Invoke();
-                animator.Play(brakeButtonAnimation, 0, 0.0f);
-               // Destroy(startButtonObject, 1f);
+                startButtonAnimator.Play(brakeButtonAnimation, 0, 0.0f);
             }
 
-            //Button credits Clicked
-            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == creditsButtonObject)
+            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _exitButton)
             {
-                Debug.Log("Button credits Clicked");
-                creditsAnimator.Play(openCreditsButtonAnimation, 0, 0.0f);
-                startButtonObject.SetActive(false);
-              //  otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
-                credisActions.Invoke();
-
-            }
-            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == closeCreditsButtonObject)
-            {
-                creditsAnimator.Play(closeCreditsButtonAnimation, 0, 0.0f);
-                startButtonObject.SetActive(true);
-                animator.Play(startButtonAnimation, 0, 0.0f);
-               // otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
-                credisCloseButtonActions.Invoke();
-            }
-
-            //Button settings Clicked
-            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == settingsButtonObject)
-            {
-                Debug.Log("Button settings Clicked");
-            }
-
-            //Button Exit Clicked
-            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == exitButtonObject)
-            {
-                Debug.Log("Button exit Clicked");
-               // otnerBtnAnimator.Play(closeButtonAnimation, 0, 0.0f);
-                exitAnimator.Play(exitButtonAnimation, 0, 0.0f);
+                startButtonAnimator.Play(exitButtonAnimation, 0, 0.0f);
+                StartCoroutine(WaitForExitAnim());
                 exitActions.Invoke();
-                startButtonObject.SetActive(false);
-            }
-            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == exitYesBTN)
-            {
                 Debug.Log("Button exit Clicked");
+
+            }
+            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _agreeExit)
+            {
 #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Application.Quit();
+                        Application.Quit();
 #endif
             }
-            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == exitNOBTN)
+            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _disagreeExit)
             {
-                Debug.Log("Button exit Clicked");
-                startButtonObject.SetActive(true);
-                animator.Play(startButtonAnimation, 0, 0.0f);
-             //   otnerBtnAnimator.Play(otherButtonAnimation, 0, 0.0f);
-                exitAnimator.Play(closeExitButtonAnimation, 0, 0.0f);
+                startButtonAnimator.Play(closeExitButtonAnimation, 0, 0.0f);
+                _agreeExit.SetActive(false);
+                _disagreeExit.SetActive(false);
+                _exitText.SetActive(false);
                 exitCloseButtonAction.Invoke();
             }
         }
-              
     }
-    IEnumerator BtnAnimationStart()
+
+    IEnumerator WaitForExitAnim()
     {
-        yield return new WaitForSeconds(animationCdn);
+        yield return new WaitForSeconds(1.5f);
+        _agreeExit.SetActive(true);
+        _disagreeExit.SetActive(true);
+        _exitText.SetActive(true);
     }
+
+
     //Camera Shake
     public void ShakeCamera()
     {
