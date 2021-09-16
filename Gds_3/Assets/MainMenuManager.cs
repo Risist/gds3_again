@@ -24,7 +24,12 @@ public class MainMenuManager : MonoBehaviour
 
     [Header("Option Buttons")]
     public GameObject _optionsButton = null;
+    public GameObject _backOptionsButton = null;
     public Color clickOptionButtonColor;
+    public Color clickExitOptionButtonColor;
+    public UnityEvent optionActions;
+ 
+
 
     [Header("Exit Buttons")]
     public GameObject _exitButton = null;
@@ -38,6 +43,9 @@ public class MainMenuManager : MonoBehaviour
     public UnityEvent exitActions;
     public UnityEvent exitCloseButtonAction;
     public Color clickExitButtonColor;
+    public Color clickYesExitButtonColor;
+    public Color clickNoExitButtonColor;
+
 
     [Header("Buttons Color")]
     public TextMeshPro[] textMeshPros;
@@ -65,6 +73,14 @@ public class MainMenuManager : MonoBehaviour
         {
             textMeshPros[1].color = normalButtonColor;
         }
+        if (Physics.Raycast(ray, out Hit) &&  Hit.collider.gameObject == _backOptionsButton)
+        {
+            textMeshPros[5].color = clickExitOptionButtonColor;
+        }
+        else
+        {
+            textMeshPros[5].color = normalButtonColor;
+        }
 
         if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _exitButton)
         {
@@ -75,6 +91,26 @@ public class MainMenuManager : MonoBehaviour
             textMeshPros[2].color = exitButtonColor;
         }
 
+        if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _agreeExit)
+        {
+           textMeshPros[3].color = clickYesExitButtonColor;
+        }
+        else
+        {
+            textMeshPros[3].color = normalButtonColor;
+        }
+
+        if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _disagreeExit)
+        {
+            textMeshPros[4].color = clickNoExitButtonColor;
+        }
+        else
+        {
+            textMeshPros[4].color = normalButtonColor;
+        }
+
+
+
         if (Input.GetMouseButtonDown(0))
         {
             if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _startButton)
@@ -83,6 +119,21 @@ public class MainMenuManager : MonoBehaviour
                 action.Invoke();
                 startButtonAnimator.Play(brakeButtonAnimation, 0, 0.0f);
             }
+            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _optionsButton)
+            {
+                Debug.Log("Button Clicked");
+                optionActions.Invoke();
+                startButtonAnimator.Play(exitButtonAnimation, 0, 0.0f);
+                StartCoroutine(WaitForOptionAnim());
+            }
+            if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _backOptionsButton)
+            {
+                Debug.Log("Button Clicked");
+                optionActions.Invoke();
+                startButtonAnimator.Play(closeExitButtonAnimation, 0, 0.0f);
+                _backOptionsButton.SetActive(false);
+            }
+
 
             if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == _exitButton)
             {
@@ -117,6 +168,11 @@ public class MainMenuManager : MonoBehaviour
         _agreeExit.SetActive(true);
         _disagreeExit.SetActive(true);
         _exitText.SetActive(true);
+    }
+    IEnumerator WaitForOptionAnim()
+    {
+        yield return new WaitForSeconds(1.5f);
+        _backOptionsButton.SetActive(true);
     }
 
 
