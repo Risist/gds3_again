@@ -31,8 +31,4 @@ public class IOKey : MonoBehaviour
             }
         }
     }
-    private void Update()
-    {
-       // transform.RotateAround(transform.position, transform.right, Time.deltaTime * 90f);
-    }
 }
