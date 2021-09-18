@@ -5,19 +5,22 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class SlideManager : MonoBehaviour
+public class SlideManagerEndGame : MonoBehaviour
 {
+
     [SerializeField] private List<Transform> slides = default;
     [SerializeField] private Image fadeSlide = default;
     [Header("Config Values")]
     [SerializeField, Tooltip("The duration (in seconds) over which the fade slide will fade in / out")] private float fadeDuration = 0.75f;
-    [SerializeField, Tooltip("All key codes that will move to the next slide if pressed")]  private KeyCode[] nextSlideKeyCodes = 
+    [SerializeField, Tooltip("All key codes that will move to the next slide if pressed")]
+    private KeyCode[] nextSlideKeyCodes =
     {
         KeyCode.D,
         KeyCode.RightArrow,
         KeyCode.Space
     };
-    [SerializeField, Tooltip("All key codes that will move to the previous slide if pressed")] private KeyCode[] previousSlideKeyCodes = 
+    [SerializeField, Tooltip("All key codes that will move to the previous slide if pressed")]
+    private KeyCode[] previousSlideKeyCodes =
     {
         KeyCode.A,
         KeyCode.LeftArrow,
@@ -61,13 +64,12 @@ public class SlideManager : MonoBehaviour
         {
             StartCoroutine(SlideTransition());
             isTransitioning = false;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-           // return;
+            SceneManager.LoadScene("MainMenu");
+            // return;
         }
         currentSlide++;
         StartCoroutine(SlideTransition());
     }
-
 
     private IEnumerator SlideTransition()
     {
@@ -80,7 +82,7 @@ public class SlideManager : MonoBehaviour
 
     private void PreviousSlide()
     {
-         if (currentSlide == 0)
+        if (currentSlide == 0)
         {
             return;
         }
