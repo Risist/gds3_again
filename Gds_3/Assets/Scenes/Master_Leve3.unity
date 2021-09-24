@@ -4134,6 +4134,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1613717637043731370, guid: 331685bb8fc875e469d33ecade0ed59b, type: 3}
   m_PrefabInstance: {fileID: 139066654}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &141373727 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3601870113701277571, guid: c0ca33db7523363469a424260ee7e920, type: 3}
+  m_PrefabInstance: {fileID: 490118428437075397}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &141551012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6338,9 +6343,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1286512791}
     - target: {fileID: 5477540071628534111, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
+      propertyPath: restrtPanel
+      value: 
+      objectReference: {fileID: 1286512791}
+    - target: {fileID: 5477540071628534111, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
       propertyPath: restartPanel
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5477540071628534111, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
+      propertyPath: exitButtonAnimator
+      value: 
+      objectReference: {fileID: 141373727}
+    - target: {fileID: 5477540071628534111, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
+      propertyPath: restartButtonAnimator
+      value: 
+      objectReference: {fileID: 1519543843}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
 --- !u!1001 &207307431
@@ -50601,7 +50618,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3945467602317710307, guid: fc84b27f69a3c0d40b16a06ddd5e51ec, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3945467602317710307, guid: fc84b27f69a3c0d40b16a06ddd5e51ec, type: 3}
       propertyPath: m_AnchorMin.x
@@ -50613,7 +50630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3945467602317710307, guid: fc84b27f69a3c0d40b16a06ddd5e51ec, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 194.6543
+      value: -885.3457
       objectReference: {fileID: 0}
     - target: {fileID: 3945467602317710307, guid: fc84b27f69a3c0d40b16a06ddd5e51ec, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -50621,7 +50638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3945467602317710307, guid: fc84b27f69a3c0d40b16a06ddd5e51ec, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 97.32715
+      value: 425
       objectReference: {fileID: 0}
     - target: {fileID: 3945467602766221994, guid: fc84b27f69a3c0d40b16a06ddd5e51ec, type: 3}
       propertyPath: m_Name
@@ -55018,6 +55035,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 835773169170111689, guid: 506419a9f3cb4b24ba5a6eb75ca8518c, type: 3}
   m_PrefabInstance: {fileID: 1519420498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1519543843 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 162914237017774282, guid: c0ca33db7523363469a424260ee7e920, type: 3}
+  m_PrefabInstance: {fileID: 490118428437075397}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1519605634
 PrefabInstance:

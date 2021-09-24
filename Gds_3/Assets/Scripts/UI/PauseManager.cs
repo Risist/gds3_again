@@ -13,13 +13,12 @@ public class PauseManager : MonoBehaviour
     public GameObject mainPanel;
     public GameObject restartPanel = null;
     private float timeScale = 1f;
-
-
     private void Start()
     {
         mainPanel.SetActive(false);
+        restartPanel.SetActive(false);
     }
-    public void Restart()
+public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = timeScale;
@@ -50,14 +49,6 @@ public class PauseManager : MonoBehaviour
         {
             Time.timeScale = timeScale;
             mainPanel.SetActive(false);
-        }
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-        if (mainPanel.activeInHierarchy)
-        {
-            restartPanel.SetActive(false);
         }
     }
 }

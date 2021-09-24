@@ -5,15 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour
 {
-    [SerializeField] GameObject mainPanel = null;
+    [SerializeField] GameObject restrtPanel = null;
+    public Animator restartButtonAnimator;
+    [SerializeField] private string restartButtonAnimation = "DeathMenuRestartButtonAnimationON";
+    [SerializeField] private string restartExitButtonAnimation = "DeathMenuRestartButtonAnimationOFF";
+    public Animator exitButtonAnimator;
+    [SerializeField] private string exitButtonAnimation = "DeathMenuExitButtonAnimationON";
+    [SerializeField] private string exittExitButtonAnimation = "DeathMenuExitButtonAnimationOFF";
+     
     private void Start()
     {
         var health = GetComponentInParent<HealthController>();
         health.onDeathCallback += (DamageData data) =>
         {
-            if (mainPanel)
+            if (restrtPanel)
             {
-                mainPanel.gameObject.SetActive(true);
+                restrtPanel.gameObject.SetActive(true);
+                restartButtonAnimator.Play(restartButtonAnimation, 0, 0.0f);
+                exitButtonAnimator.Play(exitButtonAnimation, 0, 0.0f);
             }
         };
     }
