@@ -6153,9 +6153,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1431261293}
     - target: {fileID: 5477540071628534111, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
+      propertyPath: restrtPanel
+      value: 
+      objectReference: {fileID: 1431261293}
+    - target: {fileID: 5477540071628534111, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
       propertyPath: restartPanel
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5477540071628534111, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
+      propertyPath: exitButtonAnimator
+      value: 
+      objectReference: {fileID: 490118428437075398}
+    - target: {fileID: 5477540071628534111, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
+      propertyPath: restartButtonAnimator
+      value: 
+      objectReference: {fileID: 490118428437075399}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa8905394252be34dbf9fa5b9faa4c4d, type: 3}
 --- !u!1001 &212798385
@@ -66081,6 +66093,16 @@ PrefabInstance:
       objectReference: {fileID: 215697994}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0ca33db7523363469a424260ee7e920, type: 3}
+--- !u!95 &490118428437075398 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3601870113701277571, guid: c0ca33db7523363469a424260ee7e920, type: 3}
+  m_PrefabInstance: {fileID: 490118428437075397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &490118428437075399 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 162914237017774282, guid: c0ca33db7523363469a424260ee7e920, type: 3}
+  m_PrefabInstance: {fileID: 490118428437075397}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &923304639289185510
 PrefabInstance:
   m_ObjectHideFlags: 0
