@@ -9,6 +9,43 @@
 							<ObjectRef Name="System" ID="{808B9080-A8BE-461E-B952-A6DEA14949B1}" WorkUnitID="{4D22C1B4-018F-4E8D-803B-EA379654024C}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{BDE497F7-6BCD-4E4B-82C3-6556379C7814}">
+							<ChildrenList>
+								<Bus Name="Environment" ID="{E14CD7F5-49A5-42ED-9276-2C7CFF04FCAD}">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_ROOM_01" ID="{8869C8BC-843A-40CE-A620-C3BE390CAD12}" WorkUnitID="{BA892394-8737-4E28-B522-17AA9D904489}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Bus Name="3D_ENV" ID="{E0A2B925-827C-4666-8C04-2EA69B7A1053}"/>
+										<Bus Name="CONST_ENV" ID="{1E51AE7F-B41F-4EBE-AA06-E3C3DE689F37}"/>
+										<AuxBus Name="REV_ROOM_01" ID="{8869C8BC-843A-40CE-A620-C3BE390CAD12}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="UI" ID="{80FBDEDE-EF3A-474D-8B8F-BCD8A8FBE942}">
+									<ChildrenList>
+										<Bus Name="GUI" ID="{257D9A15-D9EE-4B56-AD20-44774DC8561C}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="MUSIC" ID="{F75C3D0E-99EE-4761-9A3F-34484D313769}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

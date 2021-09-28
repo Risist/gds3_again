@@ -3,23 +3,87 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="SOUNDPLAY" ID="{0CC77C32-874C-4677-A489-41EC4B6AE841}">
+				<Event Name="Play_Player_footstep" ID="{61390CCE-B046-4938-A852-597ECCB4B2F5}">
 					<ChildrenList>
-						<Action Name="" ID="{9D58A328-5A64-4B51-9543-E8EF66CF656F}" ShortID="237994360">
+						<Action Name="" ID="{A4293347-D1F9-4496-B3D2-7201CE3EDFE0}" ShortID="220713161">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BigBoi_Attack-EQ31B_06_L" ID="{41BA8315-17F7-411A-B7F7-738A2948429B}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+									<ObjectRef Name="Player_footstep_brick" ID="{6C0004D1-23C5-4898-BD98-434307D71A8F}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{3D426AE5-1049-4523-9672-3A332129057E}" ShortID="643167785">
+						<Action Name="" ID="{B1A16D49-223C-4D60-A7C7-93CBE698E178}" ShortID="711132656">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="GameParameterValue" Type="Real64" Value="26"/>
+								<Property Name="Delay" Type="Real64" Value="0.11"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="New_Game_Parameter" ID="{407F0754-20A7-41FE-BA03-56EC569F6301}" WorkUnitID="{B916D53C-26F4-49D9-AD4E-92D785452A75}"/>
+									<ObjectRef Name="Player_movement" ID="{EFDDB083-24BA-4428-BE1E-B2091101C730}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_dash" ID="{3C0AED02-B7BC-48D6-A82F-A6C2F4035AAD}">
+					<ChildrenList>
+						<Action Name="" ID="{3C2465DF-9644-4098-B7A8-D0B5DCB0F66B}" ShortID="785910056">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_dash_mov" ID="{7E3FAB8F-B930-46CC-99FD-2FE6706DE424}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{43CED45E-B7F6-4722-9865-D3423C9AD7AD}" ShortID="728097058">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DD48ABEA-3E4B-49E7-9FE2-1E72201EDC69}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_dash_scuff" ID="{7A859054-770D-47F7-81D0-1D33DA15E3A2}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_attack" ID="{EA0C3F43-04D2-4E86-A41A-AC41EA702FDB}">
+					<ChildrenList>
+						<Action Name="" ID="{28731B53-1598-43D8-A6C1-5CC12A12A571}" ShortID="937945756">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_attack_swing" ID="{07EB7CEB-2D19-496C-8053-FCB36E34F625}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_dead" ID="{114B5A99-D59C-43A5-83EC-5AC9F8FD702D}">
+					<ChildrenList>
+						<Action Name="" ID="{674A4C9C-1BA9-4485-9014-9D4DBB0570FA}" ShortID="884503697">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_death_wound_01" ID="{3393E79D-B116-45B4-ABD6-6D449F3CA774}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_bodyfall" ID="{4C4AAAE7-8BED-4784-BE82-9757DB6114FC}">
+					<ChildrenList>
+						<Action Name="" ID="{F3802235-48AE-411A-9C49-B2830E181E31}" ShortID="291215685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_death_bodyfall" ID="{BC400B95-024D-4D42-81F7-25C00F812455}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -3,9 +3,13 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{3FCF3204-AFD2-49EE-8488-1DEF60F80305}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="New_SoundBank" ID="{96E1A284-FBCF-4F7B-A5E9-855602DA791A}">
+				<SoundBank Name="Main" ID="{0AAF9D99-B9E9-4DA3-9AAD-A19D22DA638C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="SOUNDPLAY" ID="{0CC77C32-874C-4677-A489-41EC4B6AE841}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_dead" ID="{114B5A99-D59C-43A5-83EC-5AC9F8FD702D}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_bodyfall" ID="{4C4AAAE7-8BED-4784-BE82-9757DB6114FC}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_dash" ID="{3C0AED02-B7BC-48D6-A82F-A6C2F4035AAD}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_footstep" ID="{61390CCE-B046-4938-A852-597ECCB4B2F5}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_attack" ID="{EA0C3F43-04D2-4E86-A41A-AC41EA702FDB}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
