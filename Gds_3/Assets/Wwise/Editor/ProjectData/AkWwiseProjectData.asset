@@ -157,7 +157,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0432cf3fd2afee4984881def60f80305
     GuidInternal: 
-    m_lastTime: -8585687620375589848
+    m_lastTime: -8585687583295813138
     List:
     - name: Main
       guid: 999daf0ae9b9a34d9aada19d22da638c
@@ -176,17 +176,101 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e533d51cd232c3438fabad7ed6874666
     GuidInternal: 
-    m_lastTime: -8585687621271545723
+    m_lastTime: -8585687583480650674
     List:
+    - name: Enemy
+      guid: 2f427703e4534b47821e67eea7d00dd4
+      id: 2299321487
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      Path: Default Work Unit\Enemy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Enemy_attack
+      guid: 7636dda74521f04a93011ba33d58b8c3
+      id: 2257393085
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_Enemy_attack
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_Enemy_attack
+      maxAttenuation: 0
+      maxDuration: 0.636797
+      minDuration: 0.391836
+    - name: Play_Enemy_bodyfall
+      guid: 5321d6dff891ad4693f3d4587dd16a9c
+      id: 1222472514
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_Enemy_bodyfall
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_Enemy_bodyfall
+      maxAttenuation: 0
+      maxDuration: 0.666667
+      minDuration: 0.666667
+    - name: Play_Enemy_dash
+      guid: 13f8f17fe543eb4186042010db269e79
+      id: 1673311249
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_Enemy_dash
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_Enemy_dash
+      maxAttenuation: 0
+      maxDuration: 0.756042
+      minDuration: 0.526029
+    - name: Play_Enemy_dead
+      guid: 72158c8e6baf69478ee332c8f7155087
+      id: 2311449283
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_Enemy_dead
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_Enemy_dead
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Enemy_footstep
+      guid: 57c47b482ad35542a2973c21d1cb912e
+      id: 3668695751
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_Enemy_footstep
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_Enemy_footstep
+      maxAttenuation: 0
+      maxDuration: 0.688316
+      minDuration: 0.433351
     - name: Play_Player_attack
       guid: 433f0cead204864ea41aac41ea702fdb
       id: 3238800884
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
       - ElementName: Play_Player_attack
         ObjectType: 3
-      Path: Default Work Unit\Play_Player_attack
+      Path: Default Work Unit\Player\Play_Player_attack
       maxAttenuation: 0
       maxDuration: 0.636797
       minDuration: 0.391836
@@ -196,9 +280,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
       - ElementName: Play_Player_bodyfall
         ObjectType: 3
-      Path: Default Work Unit\Play_Player_bodyfall
+      Path: Default Work Unit\Player\Play_Player_bodyfall
       maxAttenuation: 0
       maxDuration: 0.666667
       minDuration: 0.666667
@@ -208,9 +294,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
       - ElementName: Play_Player_dash
         ObjectType: 3
-      Path: Default Work Unit\Play_Player_dash
+      Path: Default Work Unit\Player\Play_Player_dash
       maxAttenuation: 0
       maxDuration: 0.756042
       minDuration: 0.526267
@@ -220,9 +308,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
       - ElementName: Play_Player_dead
         ObjectType: 3
-      Path: Default Work Unit\Play_Player_dead
+      Path: Default Work Unit\Player\Play_Player_dead
       maxAttenuation: 0
       maxDuration: 2.283333
       minDuration: 2.283333
@@ -232,12 +322,26 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
       - ElementName: Play_Player_footstep
         ObjectType: 3
-      Path: Default Work Unit\Play_Player_footstep
+      Path: Default Work Unit\Player\Play_Player_footstep
       maxAttenuation: 0
       maxDuration: 0.688316
       minDuration: 0.433351
+    - name: Player
+      guid: 5e82e3de4236a2428698cdaf5ea264dc
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      Path: Default Work Unit\Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -287,6 +391,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585708223738451320
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /Gds_3_WwiseProject
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

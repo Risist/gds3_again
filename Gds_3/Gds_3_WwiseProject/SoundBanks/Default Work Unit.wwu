@@ -5,10 +5,14 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{0AAF9D99-B9E9-4DA3-9AAD-A19D22DA638C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Enemy_dash" ID="{7FF1F813-43E5-41EB-8604-2010DB269E79}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_footstep" ID="{487BC457-D32A-4255-A297-3C21D1CB912E}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_dead" ID="{114B5A99-D59C-43A5-83EC-5AC9F8FD702D}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_bodyfall" ID="{DFD62153-91F8-46AD-93F3-D4587DD16A9C}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_bodyfall" ID="{4C4AAAE7-8BED-4784-BE82-9757DB6114FC}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_dash" ID="{3C0AED02-B7BC-48D6-A82F-A6C2F4035AAD}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_footstep" ID="{61390CCE-B046-4938-A852-597ECCB4B2F5}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_attack" ID="{A7DD3676-2145-4AF0-9301-1BA33D58B8C3}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_attack" ID="{EA0C3F43-04D2-4E86-A41A-AC41EA702FDB}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

@@ -3,92 +3,191 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Player_footstep" ID="{61390CCE-B046-4938-A852-597ECCB4B2F5}">
+				<Folder Name="Player" ID="{DEE3825E-3642-42A2-8698-CDAF5EA264DC}" ShortID="131248385">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{A4293347-D1F9-4496-B3D2-7201CE3EDFE0}" ShortID="220713161">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_footstep_brick" ID="{6C0004D1-23C5-4898-BD98-434307D71A8F}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B1A16D49-223C-4D60-A7C7-93CBE698E178}" ShortID="711132656">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.11"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_movement" ID="{EFDDB083-24BA-4428-BE1E-B2091101C730}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Player_attack" ID="{EA0C3F43-04D2-4E86-A41A-AC41EA702FDB}">
+							<ChildrenList>
+								<Action Name="" ID="{28731B53-1598-43D8-A6C1-5CC12A12A571}" ShortID="937945756">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_attack_swing" ID="{07EB7CEB-2D19-496C-8053-FCB36E34F625}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_bodyfall" ID="{4C4AAAE7-8BED-4784-BE82-9757DB6114FC}">
+							<ChildrenList>
+								<Action Name="" ID="{F3802235-48AE-411A-9C49-B2830E181E31}" ShortID="291215685">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_death_bodyfall" ID="{BC400B95-024D-4D42-81F7-25C00F812455}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_dash" ID="{3C0AED02-B7BC-48D6-A82F-A6C2F4035AAD}">
+							<ChildrenList>
+								<Action Name="" ID="{3C2465DF-9644-4098-B7A8-D0B5DCB0F66B}" ShortID="785910056">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_dash_mov" ID="{7E3FAB8F-B930-46CC-99FD-2FE6706DE424}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{43CED45E-B7F6-4722-9865-D3423C9AD7AD}" ShortID="728097058">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DD48ABEA-3E4B-49E7-9FE2-1E72201EDC69}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_dash_scuff" ID="{7A859054-770D-47F7-81D0-1D33DA15E3A2}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_dead" ID="{114B5A99-D59C-43A5-83EC-5AC9F8FD702D}">
+							<ChildrenList>
+								<Action Name="" ID="{674A4C9C-1BA9-4485-9014-9D4DBB0570FA}" ShortID="884503697">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_death_wound_01" ID="{3393E79D-B116-45B4-ABD6-6D449F3CA774}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_footstep" ID="{61390CCE-B046-4938-A852-597ECCB4B2F5}">
+							<ChildrenList>
+								<Action Name="" ID="{A4293347-D1F9-4496-B3D2-7201CE3EDFE0}" ShortID="220713161">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_footstep_brick" ID="{6C0004D1-23C5-4898-BD98-434307D71A8F}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B1A16D49-223C-4D60-A7C7-93CBE698E178}" ShortID="711132656">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_movement" ID="{EFDDB083-24BA-4428-BE1E-B2091101C730}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Player_dash" ID="{3C0AED02-B7BC-48D6-A82F-A6C2F4035AAD}">
+				</Folder>
+				<Folder Name="Enemy" ID="{0377422F-53E4-474B-821E-67EEA7D00DD4}" ShortID="533883027">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{3C2465DF-9644-4098-B7A8-D0B5DCB0F66B}" ShortID="785910056">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_dash_mov" ID="{7E3FAB8F-B930-46CC-99FD-2FE6706DE424}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{43CED45E-B7F6-4722-9865-D3423C9AD7AD}" ShortID="728097058">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.2">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{DD48ABEA-3E4B-49E7-9FE2-1E72201EDC69}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="0.1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_dash_scuff" ID="{7A859054-770D-47F7-81D0-1D33DA15E3A2}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Enemy_attack" ID="{A7DD3676-2145-4AF0-9301-1BA33D58B8C3}">
+							<ChildrenList>
+								<Action Name="" ID="{83A5B3E2-4AB1-4073-A843-056B1E2BA4A1}" ShortID="835439580">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_attack_swing" ID="{23E73DA5-D4CF-4451-8DCD-037971554A85}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_bodyfall" ID="{DFD62153-91F8-46AD-93F3-D4587DD16A9C}">
+							<ChildrenList>
+								<Action Name="" ID="{D1392E9B-06FE-4109-AC69-630DF5E0D855}" ShortID="635957844">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_death_bodyfall" ID="{4CA291D4-E650-4587-B971-CABFEB5D2DA7}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_dash" ID="{7FF1F813-43E5-41EB-8604-2010DB269E79}">
+							<ChildrenList>
+								<Action Name="" ID="{90AFCEBF-2197-4A26-A684-799E80F38EF7}" ShortID="802143346">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_dash_mov" ID="{1BBCC6AC-4CCA-4A37-88B6-21ABB288EA59}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{70D3DF13-3DE0-4406-8BFC-CB3559B80D10}" ShortID="456222749">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F7A1E93C-4112-4E8F-9B24-3DA798E6E9F2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_dash_scuff" ID="{6FB16606-C7F2-432D-B44F-6E12B3427202}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy_dead" ID="{8E8C1572-AF6B-4769-8EE3-32C8F7155087}"/>
+						<Event Name="Play_Enemy_footstep" ID="{487BC457-D32A-4255-A297-3C21D1CB912E}">
+							<ChildrenList>
+								<Action Name="" ID="{571ED202-414B-44C5-A9D9-C5B42657103A}" ShortID="462486527">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_footstep_brick" ID="{F5658F81-3F1D-437C-B309-31F8E20FFF39}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E857C366-779F-4C34-9B3D-927BD5CB75C9}" ShortID="237165143">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_movement" ID="{9FAA820B-F138-475F-BCBD-2E133806F380}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Player_attack" ID="{EA0C3F43-04D2-4E86-A41A-AC41EA702FDB}">
-					<ChildrenList>
-						<Action Name="" ID="{28731B53-1598-43D8-A6C1-5CC12A12A571}" ShortID="937945756">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_attack_swing" ID="{07EB7CEB-2D19-496C-8053-FCB36E34F625}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Player_dead" ID="{114B5A99-D59C-43A5-83EC-5AC9F8FD702D}">
-					<ChildrenList>
-						<Action Name="" ID="{674A4C9C-1BA9-4485-9014-9D4DBB0570FA}" ShortID="884503697">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_death_wound_01" ID="{3393E79D-B116-45B4-ABD6-6D449F3CA774}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Player_bodyfall" ID="{4C4AAAE7-8BED-4784-BE82-9757DB6114FC}">
-					<ChildrenList>
-						<Action Name="" ID="{F3802235-48AE-411A-9C49-B2830E181E31}" ShortID="291215685">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_death_bodyfall" ID="{BC400B95-024D-4D42-81F7-25C00F812455}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

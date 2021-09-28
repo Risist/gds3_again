@@ -1401,10 +1401,11 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Folder Name="Player_footstep" ID="{A60D39EF-9F64-4953-BD9D-960297295953}" ShortID="118686142">
+						<Folder Name="Enemy_footstep" ID="{A60D39EF-9F64-4953-BD9D-960297295953}" ShortID="118686142">
 							<ChildrenList>
-								<RandomSequenceContainer Name="Player_footstep_brick" ID="{F5658F81-3F1D-437C-B309-31F8E20FFF39}" ShortID="518415314">
+								<RandomSequenceContainer Name="Enemy_footstep_brick" ID="{F5658F81-3F1D-437C-B309-31F8E20FFF39}" ShortID="518415314">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1436,6 +1437,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Player_footstep_brick_01" ID="{3775E0AC-70F3-49F8-81F4-BE70D9DC9B56}" ShortID="1017406883">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1458,6 +1462,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_footstep_brick_02" ID="{40959F49-5AE3-4F34-98E8-477326FD2902}" ShortID="345342252">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1480,6 +1487,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_footstep_brick_03" ID="{55BBBA92-C405-4761-ABB7-6C36A04D075D}" ShortID="221222638">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1502,6 +1512,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_footstep_brick_04" ID="{ACEC44D0-A8C1-4E02-B32B-02089DBE0DB0}" ShortID="777570468">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1524,6 +1537,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_footstep_brick_05" ID="{81545ABE-5418-4D1D-BE1D-7C14DD7E6C6C}" ShortID="273452754">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1546,6 +1562,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_footstep_brick_06" ID="{6302B1A5-64D0-4917-9523-3690EE7B9D18}" ShortID="536680826">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1568,6 +1587,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_footstep_brick_07" ID="{A913E9C7-B361-40E8-A51E-510884F5572E}" ShortID="824096189">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1591,8 +1613,9 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<BlendContainer Name="Player_movement" ID="{9FAA820B-F138-475F-BCBD-2E133806F380}" ShortID="463540902">
+								<BlendContainer Name="Enemy_movement" ID="{9FAA820B-F138-475F-BCBD-2E133806F380}" ShortID="463540902">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -1610,6 +1633,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Player_movement_cloth" ID="{0110C96C-F47E-4CE3-8954-778D82D103AF}" ShortID="1036983578">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 											</PropertyList>
@@ -1623,6 +1647,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Player_movement_cloth_01" ID="{62D3E771-8505-4D9F-BC7D-E9D0A90BD2F2}" ShortID="517018317">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1645,6 +1672,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Player_movement_cloth_02" ID="{7B54D215-7C12-44A0-BAC2-A29C5103DE10}" ShortID="555392032">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1667,6 +1697,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Player_movement_cloth_03" ID="{6C8BA726-9C1A-4CBE-AFFE-C32FB741A236}" ShortID="400283259">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1689,6 +1722,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Player_movement_cloth_04" ID="{E736DE87-CE19-43F1-8BCC-5896FD5354D9}" ShortID="673293576">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1714,6 +1750,7 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Player_movement_detail" ID="{B133F40C-2695-4DA4-8B31-1E5145BCFF50}" ShortID="443745110">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="InitialDelay" Type="Real64">
 													<ValueList>
 														<Value>0.1</Value>
@@ -1737,6 +1774,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Player_movement_detail_01" ID="{B8AC0578-FAF5-49CC-B4DB-E7EAFF9FC7C9}" ShortID="417228673">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1759,6 +1799,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Player_movement_detail_02" ID="{BFB9B997-6A5D-4284-92A8-B082FC91F4E4}" ShortID="603168557">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1781,6 +1824,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Player_movement_detail_03" ID="{9CDD63F1-733C-4160-AFF6-ED301B68F868}" ShortID="77437806">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1803,6 +1849,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Player_movement_detail_04" ID="{800EEA0F-E7B5-4A76-A277-9894589586EB}" ShortID="823084441">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1832,8 +1881,9 @@
 						</Folder>
 						<Folder Name="Enemy_action" ID="{EFFA80E3-0420-4979-86F6-2583C322D865}" ShortID="266185336">
 							<ChildrenList>
-								<RandomSequenceContainer Name="Player_attack_swing" ID="{23E73DA5-D4CF-4451-8DCD-037971554A85}" ShortID="1013552481">
+								<RandomSequenceContainer Name="Enemy_attack_swing" ID="{23E73DA5-D4CF-4451-8DCD-037971554A85}" ShortID="1013552481">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OutputBusHighpass" Type="int16">
 											<ValueList>
@@ -1870,6 +1920,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Player_attack_swing_03" ID="{270233BC-8191-4708-9DBE-78A93361EE47}" ShortID="123127995">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1892,6 +1945,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_attack_swing_01" ID="{D7878EA4-69D9-4680-A8E1-B24D765DE121}" ShortID="880035738">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1914,6 +1970,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_attack_swing_04" ID="{E74629A5-E5ED-462D-9C9E-735EF02B27A5}" ShortID="995076407">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1936,6 +1995,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Player_attack_swing_02" ID="{EBF6BB8C-78A5-4B24-898D-D8DD8FD1FC49}" ShortID="85055682">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -1962,10 +2024,11 @@
 										<Panner Name="" ID="{A9537E06-E45C-4D91-A9C6-044AF71D3DAB}"/>
 									</PositioningInfo>
 								</RandomSequenceContainer>
-								<Folder Name="Player_dash" ID="{97B5E426-CCDA-4B9B-B3CA-F4CEC74F74A4}" ShortID="67726209">
+								<Folder Name="Enemy_dash" ID="{97B5E426-CCDA-4B9B-B3CA-F4CEC74F74A4}" ShortID="67726209">
 									<ChildrenList>
-										<RandomSequenceContainer Name="Player_dash_mov" ID="{1BBCC6AC-4CCA-4A37-88B6-21ABB288EA59}" ShortID="93875439">
+										<RandomSequenceContainer Name="Enemy_dash_mov" ID="{1BBCC6AC-4CCA-4A37-88B6-21ABB288EA59}" ShortID="93875439">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="Inclusion" Type="bool">
 													<ValueList>
 														<Value>False</Value>
@@ -2001,6 +2064,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Player_dash_mov_01" ID="{756B2C28-5A0C-4F36-BB19-294A08F4CE32}" ShortID="526896944">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -2023,6 +2089,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Player_dash_mov_02" ID="{050A7061-3DD1-4E00-92E2-FDB4AA545D10}" ShortID="293663477">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -2045,6 +2114,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Player_dash_mov_03" ID="{3ACF64AA-2707-40BC-AF0C-172957EAC114}" ShortID="504072087">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
@@ -2068,8 +2140,9 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
-										<Sound Name="Player_dash_scuff" ID="{6FB16606-C7F2-432D-B44F-6E12B3427202}" ShortID="795949450">
+										<Sound Name="Enemy_dash_scuff" ID="{6FB16606-C7F2-432D-B44F-6E12B3427202}" ShortID="795949450">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -2122,67 +2195,12 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Player_death" ID="{57E572EA-BB2D-4058-A6BB-5CEE2BB12EA6}" ShortID="525739677">
+						<Folder Name="Enemy_death" ID="{57E572EA-BB2D-4058-A6BB-5CEE2BB12EA6}" ShortID="525739677">
 							<ChildrenList>
-								<Sound Name="Player_death_wound_01" ID="{A949CB78-B2D1-4A47-8509-98E8B8AA0B31}" ShortID="409326944">
+								<Sound Name="Enemy_death_bodyfall" ID="{4CA291D4-E650-4587-B971-CABFEB5D2DA7}" ShortID="548508316">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="UI" ID="{80FBDEDE-EF3A-474D-8B8F-BCD8A8FBE942}" WorkUnitID="{BA892394-8737-4E28-B522-17AA9D904489}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_death_wound_01" ID="{88B443A4-D9DC-409E-86BD-4A1881648885}">
-											<Language>SFX</Language>
-											<AudioFile>Player\Player_death_wound_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="760928216"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_death_wound_01" ID="{88B443A4-D9DC-409E-86BD-4A1881648885}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Player_death_wound_02" ID="{3CC509EC-352B-465C-96BB-25B4D2318E3F}" ShortID="179549784">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA892394-8737-4E28-B522-17AA9D904489}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_death_wound_02" ID="{83B8C561-B6ED-41C1-938D-4DA28BD87096}">
-											<Language>SFX</Language>
-											<AudioFile>Player\Player_death_wound_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="65051631"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_death_wound_02" ID="{83B8C561-B6ED-41C1-938D-4DA28BD87096}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Player_death_bodyfall" ID="{4CA291D4-E650-4587-B971-CABFEB5D2DA7}" ShortID="548508316">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
