@@ -599,15 +599,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 503997753182455913, guid: d46664da827003d479776fc978c4533b, type: 3}
       propertyPath: m_Color.b
-      value: 0.5377358
+      value: 0.6886792
       objectReference: {fileID: 0}
     - target: {fileID: 503997753182455913, guid: d46664da827003d479776fc978c4533b, type: 3}
       propertyPath: m_Color.g
-      value: 0.25739202
+      value: 0.38209343
       objectReference: {fileID: 0}
     - target: {fileID: 503997753182455913, guid: d46664da827003d479776fc978c4533b, type: 3}
       propertyPath: m_Color.r
-      value: 0.21560162
+      value: 0.33459416
       objectReference: {fileID: 0}
     - target: {fileID: 503997753182455913, guid: d46664da827003d479776fc978c4533b, type: 3}
       propertyPath: m_Enabled
@@ -615,7 +615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 503997753182455913, guid: d46664da827003d479776fc978c4533b, type: 3}
       propertyPath: m_Intensity
-      value: 1.98
+      value: 1.84
       objectReference: {fileID: 0}
     - target: {fileID: 503997753467559323, guid: d46664da827003d479776fc978c4533b, type: 3}
       propertyPath: m_Layer
@@ -55380,8 +55380,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.5188679, g: 0.31069362, b: 0.20314167, a: 1}
-  m_Intensity: 1.98
+  m_Color: {r: 0.5283019, g: 0.21360354, b: 0.0473478, a: 1}
+  m_Intensity: 1.21
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -66488,6 +66488,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 293519690, guid: 5c93a6db4b0250743b37a74ab6d8092b, type: 3}
+      propertyPath: volumeLayer.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4780657929323504640, guid: 5c93a6db4b0250743b37a74ab6d8092b, type: 3}
       propertyPath: m_Name
       value: Main Camera
