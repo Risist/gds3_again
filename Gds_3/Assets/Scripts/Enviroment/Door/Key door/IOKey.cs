@@ -7,6 +7,12 @@ public class IOKey : MonoBehaviour
     private bool addOnce = true;
 
     [SerializeField] private KeyItemController keyItem;
+    InteractableObjectGUI objectGUI;
+
+    private void Start()
+    {
+        objectGUI = GetComponentInChildren<InteractableObjectGUI>();
+    }
 
     private void OnTriggerStay(Collider other)
     {
@@ -20,12 +26,16 @@ public class IOKey : MonoBehaviour
                     if (addOnce)
                     {
                         keyItem.keys = keyItem.keys + 1;
-                        Destroy(gameObject);
+                        objectGUI.TurnOffOutline();
+                        gameObject.SetActive(false);
+                      
                     }
                 }
                 else
                 {
-                    Destroy(gameObject);
+                    objectGUI.TurnOffOutline();
+                    gameObject.SetActive(false);
+                   
                 }
                 addOnce = false;
             }

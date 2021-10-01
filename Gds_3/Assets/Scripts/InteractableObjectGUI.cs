@@ -66,4 +66,12 @@ public class InteractableObjectGUI : MonoBehaviour
     {
         return obj.CompareTag("Player");
     }
+    public void TurnOffOutline()
+    {
+        textToChange.gameObject.SetActive(false);
+        if (objectToHighlight)
+        {
+            objectOutline.enabled = false;
+        }
+    }
 }
