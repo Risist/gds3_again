@@ -1367,6 +1367,9 @@
 											<PropertyList>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-400</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{D50EBE3A-46AC-4ABB-B46B-D895B4B5351F}">
@@ -2470,6 +2473,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="EnemyMelee_attack_charge_01" ID="{D40F1145-BE84-4633-9A95-A4D74AE371F7}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0508376660889659"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Enemy\EnemyMelee_attack_charge_01.wav</AudioFile>
 															<MediaIDList>
@@ -2542,6 +2549,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="EnemyMelee_attack_charge_02" ID="{DDCF3434-6513-405C-8D44-EB82C786012B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0702484113229347"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0987868284228769"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Enemy\EnemyMelee_attack_charge_02.wav</AudioFile>
 															<MediaIDList>
@@ -3268,6 +3280,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="EnemyMelee_attack_whoosh_slash_01" ID="{68F67ABC-99DF-4D93-9166-E7560D291834}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.505362163351765"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.86019091634343"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Enemy\EnemyMelee_attack_whoosh_slash_01.wav</AudioFile>
 															<MediaIDList>
@@ -3340,6 +3357,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="EnemyMelee_attack_whoosh_slash_02" ID="{4C152F94-37BE-4670-B9F9-A5688760F606}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.334504297386199"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.831614850446245"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Enemy\EnemyMelee_attack_whoosh_slash_02.wav</AudioFile>
 															<MediaIDList>

@@ -19,7 +19,7 @@
 				<AuxBus Id="2681376660" Name="REV_ROOM_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Environment\REV_ROOM_01"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2944310414">
+		<SoundBank Id="3161908922" Language="SFX" Hash="840310611">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -128,7 +128,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1673311249" Name="Play_Enemy_dash" ObjectPath="\Events\Default Work Unit\Enemy\Play_Enemy_dash" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.503550" DurationMax="0.816217">
+				<Event Id="1673311249" Name="Play_Enemy_dash" ObjectPath="\Events\Default Work Unit\Enemy\Play_Enemy_dash" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.503550" DurationMax="0.716217">
 					<IncludedMemoryFiles>
 						<File Id="105916016" Language="SFX">
 							<ShortName>Enemy\Enemy_dash_02.wav</ShortName>
@@ -208,15 +208,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="288269549" Name="Play_EnemyMelee_charge" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyMelee_charge" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.266667" DurationMax="1.333333">
+				<Event Id="288269549" Name="Play_EnemyMelee_charge" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyMelee_charge" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.167880" DurationMax="1.333333">
 					<IncludedMemoryFiles>
 						<File Id="645212362" Language="SFX">
 							<ShortName>Enemy\EnemyMelee_attack_charge_01.wav</ShortName>
-							<Path>SFX\Enemy\EnemyMelee_attack_charge_01_10C4C929.wem</Path>
+							<Path>SFX\Enemy\EnemyMelee_attack_charge_01_89879B53.wem</Path>
 						</File>
 						<File Id="808152298" Language="SFX">
 							<ShortName>Enemy\EnemyMelee_attack_charge_02.wav</ShortName>
-							<Path>SFX\Enemy\EnemyMelee_attack_charge_02_10C4C929.wem</Path>
+							<Path>SFX\Enemy\EnemyMelee_attack_charge_02_5ABC2A93.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -232,15 +232,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4008790009" Name="Play_EnemyMelee_whoosh_slash" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyMelee_whoosh_slash" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.680680" DurationMax="3.102063">
+				<Event Id="4008790009" Name="Play_EnemyMelee_whoosh_slash" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyMelee_whoosh_slash" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.849065" DurationMax="2.241873">
 					<IncludedMemoryFiles>
 						<File Id="291272271" Language="SFX">
 							<ShortName>Enemy\EnemyMelee_attack_whoosh_slash_01.wav</ShortName>
-							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_01_10C4C929.wem</Path>
+							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_01_4E3F85C6.wem</Path>
 						</File>
 						<File Id="444644882" Language="SFX">
 							<ShortName>Enemy\EnemyMelee_attack_whoosh_slash_02.wav</ShortName>
-							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_02_10C4C929.wem</Path>
+							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_02_F7E4874D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -364,7 +364,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2175711460" Name="Play_Player_dash" ObjectPath="\Events\Default Work Unit\Player\Play_Player_dash" DurationType="OneShot" DurationMin="0.526267" DurationMax="0.756042">
+				<Event Id="2175711460" Name="Play_Player_dash" ObjectPath="\Events\Default Work Unit\Player\Play_Player_dash" DurationType="OneShot" DurationMin="0.663055" DurationMax="0.883848">
 					<IncludedMemoryFiles>
 						<File Id="173936260" Language="SFX">
 							<ShortName>Player\Player_dash_mov_03.wav</ShortName>
@@ -473,6 +473,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2807572219" Name="Play_silence" ObjectPath="\Events\Default Work Unit\Utility\Play_silence" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000"/>
+				<Event Id="4109031176" Name="Stop_Enemy_all" ObjectPath="\Events\Default Work Unit\Enemy\Stop_Enemy_all" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

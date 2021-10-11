@@ -134,7 +134,6 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{F7A1E93C-4112-4E8F-9B24-3DA798E6E9F2}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="0.1"/>
 														</PropertyList>
 													</Modifier>
@@ -235,6 +234,32 @@
 											<ObjectRef Name="EnemyMelee_attack_whoosh_slash" ID="{F696FA08-3851-4A6E-A5FF-ABBC0F277442}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
 										</Reference>
 									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Enemy_all" ID="{4DF580B6-7245-4BC9-B9D4-BB2B0FE2361F}">
+							<ChildrenList>
+								<Action Name="" ID="{1B1D89BB-AD78-4CA5-90E8-D3519339359F}" ShortID="838926713">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+									<ChildrenList>
+										<EventActionException Name="" ID="{14CEF4FB-B804-4A3D-A064-517CCCA3B989}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Enemy_death_wound" ID="{93E2DD68-8D01-4AE2-8E4F-3776007B6B1F}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+										<EventActionException Name="" ID="{27905F12-33AF-47EB-85C8-D9E10AF410C8}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Enemy_death_bodyfall" ID="{5427D0AE-A8A8-4C3D-BA25-2B917355DFAE}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+									</ChildrenList>
 								</Action>
 							</ChildrenList>
 						</Event>
