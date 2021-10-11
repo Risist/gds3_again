@@ -1,0 +1,117 @@
+Event	ID	Name			Wwise Object Path	Notes
+	288269549	Play_EnemyMelee_charge			\Default Work Unit\Enemy\Play_EnemyMelee_charge	
+	482480009	Play_EnemyBullet_playerHit			\Default Work Unit\EnemyBullet\Play_EnemyBullet_playerHit	
+	581798345	Play_Barrel_destroy			\Default Work Unit\IObject\Play_Barrel_destroy	
+	606831743	Play_Player_bodyfall			\Default Work Unit\Player\Play_Player_bodyfall	
+	1008320775	Play_Door_shut			\Default Work Unit\IObject\Play_Door_shut	
+	1193014817	Play_Head_decapitated			\Default Work Unit\Head\Play_Head_decapitated	
+	1222472514	Play_Enemy_bodyfall			\Default Work Unit\Enemy\Play_Enemy_bodyfall	
+	1299828223	Play_CannonBullet_explode			\Default Work Unit\IObject\Play_CannonBullet_explode	
+	1404912156	Play_Lever_pull			\Default Work Unit\IObject\Play_Lever_pull	
+	1513365576	Play_Player_hit_head			\Default Work Unit\Head\Play_Player_hit_head	
+	1572755032	Play_EnemyBullet_bladeHit			\Default Work Unit\EnemyBullet\Play_EnemyBullet_bladeHit	
+	1660008929	Play_Door_open			\Default Work Unit\IObject\Play_Door_open	
+	1673311249	Play_Enemy_dash			\Default Work Unit\Enemy\Play_Enemy_dash	
+	1689393691	Play_EnemyRanged_shoot			\Default Work Unit\Enemy\Play_EnemyRanged_shoot	
+	1724675634	Play_Player_footstep			\Default Work Unit\Player\Play_Player_footstep	
+	2074354138	Play_Player_dead			\Default Work Unit\Player\Play_Player_dead	
+	2175711460	Play_Player_dash			\Default Work Unit\Player\Play_Player_dash	
+	2257393085	Play_Enemy_attack			\Default Work Unit\Enemy\Play_Enemy_attack	
+	2292458263	Play_Door_close			\Default Work Unit\IObject\Play_Door_close	
+	2311449283	Play_Enemy_dead			\Default Work Unit\Enemy\Play_Enemy_dead	
+	2344025909	Play_ExplosiveBarrel_explode			\Default Work Unit\IObject\Play_ExplosiveBarrel_explode	
+	2372727526	Play_Head_bodyHit			\Default Work Unit\Head\Play_Head_bodyHit	
+	2775205952	Play_Cannon_shot			\Default Work Unit\IObject\Play_Cannon_shot	
+	2807572219	Play_silence			\Default Work Unit\Utility\Play_silence	
+	3238800884	Play_Player_attack			\Default Work Unit\Player\Play_Player_attack	
+	3420343000	Play_Head_fall			\Default Work Unit\Head\Play_Head_fall	
+	3568488410	Play_EnemyRanged_warning			\Default Work Unit\Enemy\Play_EnemyRanged_warning	
+	3581252893	Play_EnemyRanged_reload			\Default Work Unit\Enemy\Play_EnemyRanged_reload	
+	3668695751	Play_Enemy_footstep			\Default Work Unit\Enemy\Play_Enemy_footstep	
+	3948855774	Play_EnemyMelee_whoosh_ding			\Default Work Unit\Enemy\Play_EnemyMelee_whoosh_ding	
+	4008790009	Play_EnemyMelee_whoosh_slash			\Default Work Unit\Enemy\Play_EnemyMelee_whoosh_slash	
+	4109031176	Stop_Enemy_all			\Default Work Unit\Enemy\Stop_Enemy_all	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	876492887	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20500278	EnemyBullet_bladeHit_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyBullet_bladeHit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyBullet\EnemyBullet_bladeHit\EnemyBullet_bladeHit_01		111784
+	41848131	EnemyRanged_attack_shoot_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyRanged_attack_shoot_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyRanged_attack\EnemyRanged_attack_shoot\EnemyRanged_attack_shoot_01		261724
+	45734891	Head_fall_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Head\Head_fall_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_fall\Head_fall_03		90760
+	105916016	Enemy_dash_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_dash_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\Enemy_dash\Enemy_dash_02		76504
+	106676573	ExplosiveBarrel_explode_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\ExplosiveBarrel_explode_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\ExplosiveBarrel_explode\ExplosiveBarrel_explode_01		320524
+	125540149	Enemy_footstep_brick_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_footstep_brick_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_footstep\Enemy_footstep_brick\Enemy_footstep_brick_01		70624
+	153458949	Enemy_dash_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_dash_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\Enemy_dash\Enemy_dash_01		67684
+	173936260	Player_dash_mov_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_dash_mov_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_dash\Player_dash_mov\Player_dash_mov_03		108844
+	179178207	Player_hit_head_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_hit_head_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Player_hit_head\Player_hit_head_03		317584
+	192365007	Cannon_shot_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Cannon_shot_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Cannon_shot\Cannon_shot_01		176464
+	211438131	Head_bodyHit_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Head\Head_bodyHit_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_bodyHit\Head_bodyHit_03		126484
+	214472967	Enemy_death_bodyfall_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_death_bodyfall_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_death\Enemy_death_bodyfall\Enemy_death_bodyfall_03		82384
+	219065202	EnemyBullet_bladeHit_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyBullet_bladeHit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyBullet\EnemyBullet_bladeHit\EnemyBullet_bladeHit_02		129424
+	228408518	EnemyRanged_attack_reload_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyRanged_attack_reload_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyRanged_attack\EnemyRanged_attack_reload_01		94144
+	231302656	Player_movement_detail_04	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_movement_detail_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_detail\Player_movement_detail_04		23584
+	243192247	Player_movement_detail_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_movement_detail_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_detail\Player_movement_detail_02		44164
+	256730236	Player_movement_cloth_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_movement_cloth_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_cloth\Player_movement_cloth_01		58864
+	291272271	EnemyMelee_attack_whoosh_slash_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyMelee_attack_whoosh_slash_01_4E3F85C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_whoosh_slash\EnemyMelee_attack_whoosh_slash_01		395532
+	294627270	Player_movement_cloth_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_movement_cloth_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_cloth\Player_movement_cloth_03		47104
+	302525103	Enemy_footstep_brick_04	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_footstep_brick_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_footstep\Enemy_footstep_brick\Enemy_footstep_brick_04		52984
+	306575622	Cannon_shot_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Cannon_shot_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Cannon_shot\Cannon_shot_02		191936
+	308372935	Player_footstep_brick_04	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_footstep_brick_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_04		105904
+	310835317	EnemyMelee_attack_whoosh_ding_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyMelee_attack_whoosh_ding_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_whoosh_ding\EnemyMelee_attack_whoosh_ding_02		438124
+	323097227	Player_hit_head_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_hit_head_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Player_hit_head\Player_hit_head_02		305824
+	324272751	Player_movement_detail_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_movement_detail_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_detail\Player_movement_detail_03		29464
+	336612588	ExplosiveBarrel_explode_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\ExplosiveBarrel_explode_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\ExplosiveBarrel_explode\ExplosiveBarrel_explode_02		288184
+	349836258	Player_attack_swing_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_attack_swing_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_swing\Player_attack_swing_03		100024
+	444644882	EnemyMelee_attack_whoosh_slash_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyMelee_attack_whoosh_slash_02_F7E4874D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_whoosh_slash\EnemyMelee_attack_whoosh_slash_02		326240
+	444781286	Barrel_destroy_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\IObjects\Barrel_destroy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Barrel_destroy\Barrel_destroy_02		155216
+	451486336	Player_movement_detail_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_movement_detail_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_detail\Player_movement_detail_01		50044
+	460425825	Player_footstep_brick_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_footstep_brick_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_02		112960
+	488014128	Enemy_death_bodyfall_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_death_bodyfall_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_death\Enemy_death_bodyfall\Enemy_death_bodyfall_01		111784
+	524447637	Enemy_death_bodyfall_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_death_bodyfall_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_death\Enemy_death_bodyfall\Enemy_death_bodyfall_02		82384
+	527996842	EnemyMelee_attack_whoosh_ding_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyMelee_attack_whoosh_ding_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_whoosh_ding\EnemyMelee_attack_whoosh_ding_01		432244
+	531140234	Player_footstep_brick_05	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_footstep_brick_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_05		84736
+	531251871	EnemyRanged_attack_shoot_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyRanged_attack_shoot_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyRanged_attack\EnemyRanged_attack_shoot\EnemyRanged_attack_shoot_02		267604
+	531588946	Enemy_footstep_brick_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_footstep_brick_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_footstep\Enemy_footstep_brick\Enemy_footstep_brick_03		64744
+	531594141	EnemyBullet_playerHit_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyBullet_playerHit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyBullet\EnemyBullet_playerHit\EnemyBullet_playerHit_01		97084
+	532610655	Enemy_death_wound_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_death_wound_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_death\Enemy_death_wound\Enemy_death_wound_02		82384
+	534748003	Enemy_footstep_brick_06	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_footstep_brick_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_footstep\Enemy_footstep_brick\Enemy_footstep_brick_06		52984
+	546785848	Player_dash_mov_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_dash_mov_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_dash\Player_dash_mov\Player_dash_mov_01		105904
+	605509206	EnemyBullet_playerHit_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyBullet_playerHit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyBullet\EnemyBullet_playerHit\EnemyBullet_playerHit_02		108844
+	619655589	Player_movement_cloth_04	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_movement_cloth_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_cloth\Player_movement_cloth_04		38284
+	628549577	Player_footstep_brick_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_footstep_brick_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_03		112960
+	639019455	Head_decapitated_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Head\Head_decapitated_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_decapitated\Head_decapitated_01		276176
+	645212362	EnemyMelee_attack_charge_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyMelee_attack_charge_01_89879B53.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_charge\EnemyMelee_attack_charge_01		235264
+	658296639	Player_dash_scuff	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_dash_scuff_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_dash\Player_dash_scuff		70624
+	659159158	Player_footstep_brick_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_footstep_brick_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_01		91792
+	687213754	Head_decapitated_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Head\Head_decapitated_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_decapitated\Head_decapitated_02		273484
+	688879179	Head_bodyHit_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Head\Head_bodyHit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_bodyHit\Head_bodyHit_02		94144
+	708666136	Door_shut_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\IObjects\Door_shut_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Door\Door_shut\Door_shut_01		144124
+	720880014	Door_shut_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\IObjects\Door_shut_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Door\Door_shut\Door_shut_03		150004
+	760928216	Player_death_wound_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_death_wound_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_death\Player_death_wound_01		402844
+	767171312	Player_movement_cloth_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_movement_cloth_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_cloth\Player_movement_cloth_02		61804
+	767358903	CannonBullet_explode_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\CannonBullet_explode_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\CannonBullet_explode\CannonBullet_explode_02		449884
+	775360271	Enemy_footstep_brick_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_footstep_brick_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_footstep\Enemy_footstep_brick\Enemy_footstep_brick_02		82384
+	780601079	Door_open	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\IObjects\Door_open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Door\Door_open		388144
+	786738767	Door_close	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\IObjects\Door_close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Door\Door_close		527796
+	786810698	Door_shut_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\IObjects\Door_shut_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Door\Door_shut\Door_shut_02		123544
+	789164181	EnemyRanged_attack_warning_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyRanged_attack_warning_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyRanged_attack\EnemyRanged_attack_warning_01		1769944
+	805755660	Player_death_bodyfall	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_death_bodyfall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_death\Player_death_bodyfall		117664
+	808152298	EnemyMelee_attack_charge_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\EnemyMelee_attack_charge_02_5ABC2A93.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_charge\EnemyMelee_attack_charge_02		206080
+	887130947	Head_fall_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Head\Head_fall_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_fall\Head_fall_01		123544
+	900246863	Player_footstep_brick_06	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_footstep_brick_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_06		98848
+	903041339	Barrel_destroy_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\IObjects\Barrel_destroy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Barrel_destroy\Barrel_destroy_01		176464
+	923522758	Player_attack_swing_04	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_attack_swing_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_swing\Player_attack_swing_04		81224
+	931693507	Player_footstep_brick_07	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_footstep_brick_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_07		84736
+	936614557	Player_attack_swing_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_attack_swing_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_swing\Player_attack_swing_02		91204
+	951601272	Head_fall_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Head\Head_fall_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_fall\Head_fall_02		119724
+	955604078	Enemy_death_wound_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_death_wound_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_death\Enemy_death_wound\Enemy_death_wound_03		102964
+	1000459539	Head_bodyHit_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Head\Head_bodyHit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_bodyHit\Head_bodyHit_01		105904
+	1002582227	Enemy_death_wound_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_death_wound_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_death\Enemy_death_wound\Enemy_death_wound_01		73564
+	1012137080	CannonBullet_explode_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\CannonBullet_explode_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\CannonBullet_explode\CannonBullet_explode_01		402844
+	1014850584	Player_hit_head_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_hit_head_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Player_hit_head\Player_hit_head_01		317584
+	1017818357	Player_dash_mov_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_dash_mov_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_dash\Player_dash_mov\Player_dash_mov_02		111784
+	1024383903	Player_attack_swing_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Player\Player_attack_swing_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_swing\Player_attack_swing_01		97084
+	1029582445	Lever_pull	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\IObjects\Lever_pull_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Lever_pull		414604
+	1056127508	Enemy_footstep_brick_05	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\SFX\Enemy\Enemy_footstep_brick_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_footstep\Enemy_footstep_brick\Enemy_footstep_brick_05		44164
+

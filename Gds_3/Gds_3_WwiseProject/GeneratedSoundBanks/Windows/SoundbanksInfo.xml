@@ -19,12 +19,12 @@
 				<AuxBus Id="2681376660" Name="REV_ROOM_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Environment\REV_ROOM_01"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="840310611">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3410824809">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="581798345" Name="Play_Barrel_destroy" ObjectPath="\Events\Default Work Unit\IObject\Play_Barrel_destroy" DurationType="OneShot" DurationMin="0.879546" DurationMax="1.000000">
+				<Event Id="581798345" Name="Play_Barrel_destroy" ObjectPath="\Events\Default Work Unit\IObject\Play_Barrel_destroy" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.879546" DurationMax="1.000000">
 					<IncludedMemoryFiles>
 						<File Id="444781286" Language="SFX">
 							<ShortName>IObjects\Barrel_destroy_02.wav</ShortName>
@@ -36,7 +36,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2775205952" Name="Play_Cannon_shot" ObjectPath="\Events\Default Work Unit\IObject\Play_Cannon_shot" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.087710">
+				<Event Id="2775205952" Name="Play_Cannon_shot" ObjectPath="\Events\Default Work Unit\IObject\Play_Cannon_shot" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.087710">
 					<IncludedMemoryFiles>
 						<File Id="192365007" Language="SFX">
 							<ShortName>Cannon_shot_01.wav</ShortName>
@@ -48,7 +48,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1299828223" Name="Play_CannonBullet_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_CannonBullet_explode" DurationType="OneShot" DurationMin="2.283333" DurationMax="2.550000">
+				<Event Id="1299828223" Name="Play_CannonBullet_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_CannonBullet_explode" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.283333" DurationMax="2.550000">
 					<IncludedMemoryFiles>
 						<File Id="767358903" Language="SFX">
 							<ShortName>CannonBullet_explode_02.wav</ShortName>
@@ -272,7 +272,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2344025909" Name="Play_ExplosiveBarrel_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_ExplosiveBarrel_explode" DurationType="OneShot" DurationMin="1.633333" DurationMax="1.816667">
+				<Event Id="2344025909" Name="Play_ExplosiveBarrel_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_ExplosiveBarrel_explode" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.351429" DurationMax="2.133113">
 					<IncludedMemoryFiles>
 						<File Id="106676573" Language="SFX">
 							<ShortName>ExplosiveBarrel_explode_01.wav</ShortName>
@@ -328,7 +328,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1404912156" Name="Play_Lever_pull" ObjectPath="\Events\Default Work Unit\IObject\Play_Lever_pull" DurationType="OneShot" DurationMin="2.350000" DurationMax="2.350000">
+				<Event Id="1404912156" Name="Play_Lever_pull" ObjectPath="\Events\Default Work Unit\IObject\Play_Lever_pull" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.350000" DurationMax="2.350000">
 					<IncludedMemoryFiles>
 						<File Id="1029582445" Language="SFX">
 							<ShortName>IObjects\Lever_pull.wav</ShortName>
@@ -472,7 +472,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2807572219" Name="Play_silence" ObjectPath="\Events\Default Work Unit\Utility\Play_silence" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000"/>
+				<Event Id="2807572219" Name="Play_silence" ObjectPath="\Events\Default Work Unit\Utility\Play_silence" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000"/>
 				<Event Id="4109031176" Name="Stop_Enemy_all" ObjectPath="\Events\Default Work Unit\Enemy\Stop_Enemy_all" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>

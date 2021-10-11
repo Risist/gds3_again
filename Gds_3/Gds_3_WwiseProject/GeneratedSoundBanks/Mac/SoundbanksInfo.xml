@@ -1,34 +1,479 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>F:\Game Design\GDS 1\GDS_3\Gds_3\Gds_3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Game Design\GDS 1\GDS_3\Gds_3\Gds_3_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Game Design\GDS 1\GDS_3\Gds_3\Gds_3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Game Design\GDS 1\GDS_3\Gds_3\Gds_3_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="687044728">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2561241656">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2681376660" Name="REV_ROOM_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Environment\REV_ROOM_01"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="511679295">
-			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
-			<ShortName>New_SoundBank</ShortName>
-			<Path>New_SoundBank.bnk</Path>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3138519781">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4043471592" Name="SOUNDPLAY" ObjectPath="\Events\Default Work Unit\SOUNDPLAY" DurationType="OneShot" DurationMin="0.853917" DurationMax="0.853917">
+				<Event Id="581798345" Name="Play_Barrel_destroy" ObjectPath="\Events\Default Work Unit\IObject\Play_Barrel_destroy" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.879546" DurationMax="1.000000">
 					<IncludedMemoryFiles>
-						<File Id="244386908" Language="SFX">
-							<ShortName>PLCHLDR\BigBoi_Attack-EQ31B_06.L.wav</ShortName>
-							<Path>SFX\PLCHLDR\BigBoi_Attack-EQ31B_06.L_10C4C929.wem</Path>
+						<File Id="444781286" Language="SFX">
+							<ShortName>IObjects\Barrel_destroy_02.wav</ShortName>
+							<Path>SFX\IObjects\Barrel_destroy_02_10C4C929.wem</Path>
+						</File>
+						<File Id="903041339" Language="SFX">
+							<ShortName>IObjects\Barrel_destroy_01.wav</ShortName>
+							<Path>SFX\IObjects\Barrel_destroy_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2775205952" Name="Play_Cannon_shot" ObjectPath="\Events\Default Work Unit\IObject\Play_Cannon_shot" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.087710">
+					<IncludedMemoryFiles>
+						<File Id="192365007" Language="SFX">
+							<ShortName>Cannon_shot_01.wav</ShortName>
+							<Path>SFX\Cannon_shot_01_10C4C929.wem</Path>
+						</File>
+						<File Id="306575622" Language="SFX">
+							<ShortName>Cannon_shot_02.wav</ShortName>
+							<Path>SFX\Cannon_shot_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1299828223" Name="Play_CannonBullet_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_CannonBullet_explode" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.283333" DurationMax="2.550000">
+					<IncludedMemoryFiles>
+						<File Id="767358903" Language="SFX">
+							<ShortName>CannonBullet_explode_02.wav</ShortName>
+							<Path>SFX\CannonBullet_explode_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1012137080" Language="SFX">
+							<ShortName>CannonBullet_explode_01.wav</ShortName>
+							<Path>SFX\CannonBullet_explode_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2292458263" Name="Play_Door_close" ObjectPath="\Events\Default Work Unit\IObject\Play_Door_close" DurationType="OneShot" DurationMin="2.991678" DurationMax="2.991678">
+					<IncludedMemoryFiles>
+						<File Id="786738767" Language="SFX">
+							<ShortName>IObjects\Door_close.wav</ShortName>
+							<Path>SFX\IObjects\Door_close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1660008929" Name="Play_Door_open" ObjectPath="\Events\Default Work Unit\IObject\Play_Door_open" DurationType="OneShot" DurationMin="2.200000" DurationMax="2.200000">
+					<IncludedMemoryFiles>
+						<File Id="780601079" Language="SFX">
+							<ShortName>IObjects\Door_open.wav</ShortName>
+							<Path>SFX\IObjects\Door_open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1008320775" Name="Play_Door_shut" ObjectPath="\Events\Default Work Unit\IObject\Play_Door_shut" DurationType="OneShot" DurationMin="0.700000" DurationMax="0.850000">
+					<IncludedMemoryFiles>
+						<File Id="708666136" Language="SFX">
+							<ShortName>IObjects\Door_shut_01.wav</ShortName>
+							<Path>SFX\IObjects\Door_shut_01_10C4C929.wem</Path>
+						</File>
+						<File Id="720880014" Language="SFX">
+							<ShortName>IObjects\Door_shut_03.wav</ShortName>
+							<Path>SFX\IObjects\Door_shut_03_10C4C929.wem</Path>
+						</File>
+						<File Id="786810698" Language="SFX">
+							<ShortName>IObjects\Door_shut_02.wav</ShortName>
+							<Path>SFX\IObjects\Door_shut_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2257393085" Name="Play_Enemy_attack" ObjectPath="\Events\Default Work Unit\Enemy\Play_Enemy_attack" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.488013" DurationMax="0.793099">
+					<IncludedMemoryFiles>
+						<File Id="349836258" Language="SFX">
+							<ShortName>Player\Player_attack_swing_03.wav</ShortName>
+							<Path>SFX\Player\Player_attack_swing_03_10C4C929.wem</Path>
+						</File>
+						<File Id="923522758" Language="SFX">
+							<ShortName>Player\Player_attack_swing_04.wav</ShortName>
+							<Path>SFX\Player\Player_attack_swing_04_10C4C929.wem</Path>
+						</File>
+						<File Id="936614557" Language="SFX">
+							<ShortName>Player\Player_attack_swing_02.wav</ShortName>
+							<Path>SFX\Player\Player_attack_swing_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1024383903" Language="SFX">
+							<ShortName>Player\Player_attack_swing_01.wav</ShortName>
+							<Path>SFX\Player\Player_attack_swing_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1222472514" Name="Play_Enemy_bodyfall" ObjectPath="\Events\Default Work Unit\Enemy\Play_Enemy_bodyfall" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.369539" DurationMax="0.711714">
+					<IncludedMemoryFiles>
+						<File Id="214472967" Language="SFX">
+							<ShortName>Enemy\Enemy_death_bodyfall_03.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_death_bodyfall_03_10C4C929.wem</Path>
+						</File>
+						<File Id="488014128" Language="SFX">
+							<ShortName>Enemy\Enemy_death_bodyfall_01.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_death_bodyfall_01_10C4C929.wem</Path>
+						</File>
+						<File Id="524447637" Language="SFX">
+							<ShortName>Enemy\Enemy_death_bodyfall_02.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_death_bodyfall_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1673311249" Name="Play_Enemy_dash" ObjectPath="\Events\Default Work Unit\Enemy\Play_Enemy_dash" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.503550" DurationMax="0.716217">
+					<IncludedMemoryFiles>
+						<File Id="105916016" Language="SFX">
+							<ShortName>Enemy\Enemy_dash_02.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_dash_02_10C4C929.wem</Path>
+						</File>
+						<File Id="153458949" Language="SFX">
+							<ShortName>Enemy\Enemy_dash_01.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_dash_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2311449283" Name="Play_Enemy_dead" ObjectPath="\Events\Default Work Unit\Enemy\Play_Enemy_dead" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.320367" DurationMax="0.655526">
+					<IncludedMemoryFiles>
+						<File Id="532610655" Language="SFX">
+							<ShortName>Enemy\Enemy_death_wound_02.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_death_wound_02_10C4C929.wem</Path>
+						</File>
+						<File Id="955604078" Language="SFX">
+							<ShortName>Enemy\Enemy_death_wound_03.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_death_wound_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1002582227" Language="SFX">
+							<ShortName>Enemy\Enemy_death_wound_01.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_death_wound_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3668695751" Name="Play_Enemy_footstep" ObjectPath="\Events\Default Work Unit\Enemy\Play_Enemy_footstep" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.225703" DurationMax="0.501897">
+					<IncludedMemoryFiles>
+						<File Id="125540149" Language="SFX">
+							<ShortName>Enemy\Enemy_footstep_brick_01.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_footstep_brick_01_10C4C929.wem</Path>
+						</File>
+						<File Id="302525103" Language="SFX">
+							<ShortName>Enemy\Enemy_footstep_brick_04.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_footstep_brick_04_10C4C929.wem</Path>
+						</File>
+						<File Id="531588946" Language="SFX">
+							<ShortName>Enemy\Enemy_footstep_brick_03.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_footstep_brick_03_10C4C929.wem</Path>
+						</File>
+						<File Id="534748003" Language="SFX">
+							<ShortName>Enemy\Enemy_footstep_brick_06.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_footstep_brick_06_10C4C929.wem</Path>
+						</File>
+						<File Id="775360271" Language="SFX">
+							<ShortName>Enemy\Enemy_footstep_brick_02.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_footstep_brick_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1056127508" Language="SFX">
+							<ShortName>Enemy\Enemy_footstep_brick_05.wav</ShortName>
+							<Path>SFX\Enemy\Enemy_footstep_brick_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1572755032" Name="Play_EnemyBullet_bladeHit" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_bladeHit" DurationType="OneShot" DurationMin="0.633333" DurationMax="0.733333">
+					<IncludedMemoryFiles>
+						<File Id="20500278" Language="SFX">
+							<ShortName>Enemy\EnemyBullet_bladeHit_01.wav</ShortName>
+							<Path>SFX\Enemy\EnemyBullet_bladeHit_01_10C4C929.wem</Path>
+						</File>
+						<File Id="219065202" Language="SFX">
+							<ShortName>Enemy\EnemyBullet_bladeHit_02.wav</ShortName>
+							<Path>SFX\Enemy\EnemyBullet_bladeHit_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="482480009" Name="Play_EnemyBullet_playerHit" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_playerHit" DurationType="OneShot" DurationMin="0.550000" DurationMax="0.616667">
+					<IncludedMemoryFiles>
+						<File Id="531594141" Language="SFX">
+							<ShortName>Enemy\EnemyBullet_playerHit_01.wav</ShortName>
+							<Path>SFX\Enemy\EnemyBullet_playerHit_01_10C4C929.wem</Path>
+						</File>
+						<File Id="605509206" Language="SFX">
+							<ShortName>Enemy\EnemyBullet_playerHit_02.wav</ShortName>
+							<Path>SFX\Enemy\EnemyBullet_playerHit_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="288269549" Name="Play_EnemyMelee_charge" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyMelee_charge" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.167880" DurationMax="1.333333">
+					<IncludedMemoryFiles>
+						<File Id="645212362" Language="SFX">
+							<ShortName>Enemy\EnemyMelee_attack_charge_01.wav</ShortName>
+							<Path>SFX\Enemy\EnemyMelee_attack_charge_01_89879B53.wem</Path>
+						</File>
+						<File Id="808152298" Language="SFX">
+							<ShortName>Enemy\EnemyMelee_attack_charge_02.wav</ShortName>
+							<Path>SFX\Enemy\EnemyMelee_attack_charge_02_5ABC2A93.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3948855774" Name="Play_EnemyMelee_whoosh_ding" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyMelee_whoosh_ding" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.450000" DurationMax="2.483333">
+					<IncludedMemoryFiles>
+						<File Id="310835317" Language="SFX">
+							<ShortName>Enemy\EnemyMelee_attack_whoosh_ding_02.wav</ShortName>
+							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_ding_02_10C4C929.wem</Path>
+						</File>
+						<File Id="527996842" Language="SFX">
+							<ShortName>Enemy\EnemyMelee_attack_whoosh_ding_01.wav</ShortName>
+							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_ding_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4008790009" Name="Play_EnemyMelee_whoosh_slash" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyMelee_whoosh_slash" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.849065" DurationMax="2.241873">
+					<IncludedMemoryFiles>
+						<File Id="291272271" Language="SFX">
+							<ShortName>Enemy\EnemyMelee_attack_whoosh_slash_01.wav</ShortName>
+							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_01_4E3F85C6.wem</Path>
+						</File>
+						<File Id="444644882" Language="SFX">
+							<ShortName>Enemy\EnemyMelee_attack_whoosh_slash_02.wav</ShortName>
+							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_02_F7E4874D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3581252893" Name="Play_EnemyRanged_reload" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyRanged_reload" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.533333" DurationMax="0.533333">
+					<IncludedMemoryFiles>
+						<File Id="228408518" Language="SFX">
+							<ShortName>Enemy\EnemyRanged_attack_reload_01.wav</ShortName>
+							<Path>SFX\Enemy\EnemyRanged_attack_reload_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1689393691" Name="Play_EnemyRanged_shoot" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyRanged_shoot" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.483333" DurationMax="1.516667">
+					<IncludedMemoryFiles>
+						<File Id="41848131" Language="SFX">
+							<ShortName>Enemy\EnemyRanged_attack_shoot_01.wav</ShortName>
+							<Path>SFX\Enemy\EnemyRanged_attack_shoot_01_10C4C929.wem</Path>
+						</File>
+						<File Id="531251871" Language="SFX">
+							<ShortName>Enemy\EnemyRanged_attack_shoot_02.wav</ShortName>
+							<Path>SFX\Enemy\EnemyRanged_attack_shoot_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3568488410" Name="Play_EnemyRanged_warning" ObjectPath="\Events\Default Work Unit\Enemy\Play_EnemyRanged_warning" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="10.033334" DurationMax="10.033334">
+					<IncludedMemoryFiles>
+						<File Id="789164181" Language="SFX">
+							<ShortName>Enemy\EnemyRanged_attack_warning_01.wav</ShortName>
+							<Path>SFX\Enemy\EnemyRanged_attack_warning_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2344025909" Name="Play_ExplosiveBarrel_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_ExplosiveBarrel_explode" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.633333" DurationMax="1.816667">
+					<IncludedMemoryFiles>
+						<File Id="106676573" Language="SFX">
+							<ShortName>ExplosiveBarrel_explode_01.wav</ShortName>
+							<Path>SFX\ExplosiveBarrel_explode_01_10C4C929.wem</Path>
+						</File>
+						<File Id="336612588" Language="SFX">
+							<ShortName>ExplosiveBarrel_explode_02.wav</ShortName>
+							<Path>SFX\ExplosiveBarrel_explode_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2372727526" Name="Play_Head_bodyHit" ObjectPath="\Events\Default Work Unit\Head\Play_Head_bodyHit" DurationType="OneShot" DurationMin="0.533333" DurationMax="0.716667">
+					<IncludedMemoryFiles>
+						<File Id="211438131" Language="SFX">
+							<ShortName>Head\Head_bodyHit_03.wav</ShortName>
+							<Path>SFX\Head\Head_bodyHit_03_10C4C929.wem</Path>
+						</File>
+						<File Id="688879179" Language="SFX">
+							<ShortName>Head\Head_bodyHit_02.wav</ShortName>
+							<Path>SFX\Head\Head_bodyHit_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1000459539" Language="SFX">
+							<ShortName>Head\Head_bodyHit_01.wav</ShortName>
+							<Path>SFX\Head\Head_bodyHit_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1193014817" Name="Play_Head_decapitated" ObjectPath="\Events\Default Work Unit\Head\Play_Head_decapitated" DurationType="OneShot" DurationMin="1.339259" DurationMax="1.811565">
+					<IncludedMemoryFiles>
+						<File Id="639019455" Language="SFX">
+							<ShortName>Head\Head_decapitated_01.wav</ShortName>
+							<Path>SFX\Head\Head_decapitated_01_10C4C929.wem</Path>
+						</File>
+						<File Id="687213754" Language="SFX">
+							<ShortName>Head\Head_decapitated_02.wav</ShortName>
+							<Path>SFX\Head\Head_decapitated_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3420343000" Name="Play_Head_fall" ObjectPath="\Events\Default Work Unit\Head\Play_Head_fall" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.401302" DurationMax="0.798073">
+					<IncludedMemoryFiles>
+						<File Id="45734891" Language="SFX">
+							<ShortName>Head\Head_fall_03.wav</ShortName>
+							<Path>SFX\Head\Head_fall_03_10C4C929.wem</Path>
+						</File>
+						<File Id="887130947" Language="SFX">
+							<ShortName>Head\Head_fall_01.wav</ShortName>
+							<Path>SFX\Head\Head_fall_01_10C4C929.wem</Path>
+						</File>
+						<File Id="951601272" Language="SFX">
+							<ShortName>Head\Head_fall_02.wav</ShortName>
+							<Path>SFX\Head\Head_fall_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1404912156" Name="Play_Lever_pull" ObjectPath="\Events\Default Work Unit\IObject\Play_Lever_pull" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.350000" DurationMax="2.350000">
+					<IncludedMemoryFiles>
+						<File Id="1029582445" Language="SFX">
+							<ShortName>IObjects\Lever_pull.wav</ShortName>
+							<Path>SFX\IObjects\Lever_pull_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3238800884" Name="Play_Player_attack" ObjectPath="\Events\Default Work Unit\Player\Play_Player_attack" DurationType="OneShot" DurationMin="0.391836" DurationMax="0.636797">
+					<IncludedMemoryFiles>
+						<File Id="349836258" Language="SFX">
+							<ShortName>Player\Player_attack_swing_03.wav</ShortName>
+							<Path>SFX\Player\Player_attack_swing_03_10C4C929.wem</Path>
+						</File>
+						<File Id="923522758" Language="SFX">
+							<ShortName>Player\Player_attack_swing_04.wav</ShortName>
+							<Path>SFX\Player\Player_attack_swing_04_10C4C929.wem</Path>
+						</File>
+						<File Id="936614557" Language="SFX">
+							<ShortName>Player\Player_attack_swing_02.wav</ShortName>
+							<Path>SFX\Player\Player_attack_swing_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1024383903" Language="SFX">
+							<ShortName>Player\Player_attack_swing_01.wav</ShortName>
+							<Path>SFX\Player\Player_attack_swing_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="606831743" Name="Play_Player_bodyfall" ObjectPath="\Events\Default Work Unit\Player\Play_Player_bodyfall" DurationType="OneShot" DurationMin="0.666667" DurationMax="0.666667">
+					<IncludedMemoryFiles>
+						<File Id="805755660" Language="SFX">
+							<ShortName>Player\Player_death_bodyfall.wav</ShortName>
+							<Path>SFX\Player\Player_death_bodyfall_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2175711460" Name="Play_Player_dash" ObjectPath="\Events\Default Work Unit\Player\Play_Player_dash" DurationType="OneShot" DurationMin="0.663055" DurationMax="0.883848">
+					<IncludedMemoryFiles>
+						<File Id="173936260" Language="SFX">
+							<ShortName>Player\Player_dash_mov_03.wav</ShortName>
+							<Path>SFX\Player\Player_dash_mov_03_10C4C929.wem</Path>
+						</File>
+						<File Id="546785848" Language="SFX">
+							<ShortName>Player\Player_dash_mov_01.wav</ShortName>
+							<Path>SFX\Player\Player_dash_mov_01_10C4C929.wem</Path>
+						</File>
+						<File Id="658296639" Language="SFX">
+							<ShortName>Player\Player_dash_scuff.wav</ShortName>
+							<Path>SFX\Player\Player_dash_scuff_10C4C929.wem</Path>
+						</File>
+						<File Id="1017818357" Language="SFX">
+							<ShortName>Player\Player_dash_mov_02.wav</ShortName>
+							<Path>SFX\Player\Player_dash_mov_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2074354138" Name="Play_Player_dead" ObjectPath="\Events\Default Work Unit\Player\Play_Player_dead" DurationType="OneShot" DurationMin="2.283333" DurationMax="2.283333">
+					<IncludedMemoryFiles>
+						<File Id="760928216" Language="SFX">
+							<ShortName>Player\Player_death_wound_01.wav</ShortName>
+							<Path>SFX\Player\Player_death_wound_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1724675634" Name="Play_Player_footstep" ObjectPath="\Events\Default Work Unit\Player\Play_Player_footstep" DurationType="OneShot" DurationMin="0.433351" DurationMax="0.688316">
+					<IncludedMemoryFiles>
+						<File Id="231302656" Language="SFX">
+							<ShortName>Player\Player_movement_detail_04.wav</ShortName>
+							<Path>SFX\Player\Player_movement_detail_04_10C4C929.wem</Path>
+						</File>
+						<File Id="243192247" Language="SFX">
+							<ShortName>Player\Player_movement_detail_02.wav</ShortName>
+							<Path>SFX\Player\Player_movement_detail_02_10C4C929.wem</Path>
+						</File>
+						<File Id="256730236" Language="SFX">
+							<ShortName>Player\Player_movement_cloth_01.wav</ShortName>
+							<Path>SFX\Player\Player_movement_cloth_01_10C4C929.wem</Path>
+						</File>
+						<File Id="294627270" Language="SFX">
+							<ShortName>Player\Player_movement_cloth_03.wav</ShortName>
+							<Path>SFX\Player\Player_movement_cloth_03_10C4C929.wem</Path>
+						</File>
+						<File Id="308372935" Language="SFX">
+							<ShortName>Player\Player_footstep_brick_04.wav</ShortName>
+							<Path>SFX\Player\Player_footstep_brick_04_10C4C929.wem</Path>
+						</File>
+						<File Id="324272751" Language="SFX">
+							<ShortName>Player\Player_movement_detail_03.wav</ShortName>
+							<Path>SFX\Player\Player_movement_detail_03_10C4C929.wem</Path>
+						</File>
+						<File Id="451486336" Language="SFX">
+							<ShortName>Player\Player_movement_detail_01.wav</ShortName>
+							<Path>SFX\Player\Player_movement_detail_01_10C4C929.wem</Path>
+						</File>
+						<File Id="460425825" Language="SFX">
+							<ShortName>Player\Player_footstep_brick_02.wav</ShortName>
+							<Path>SFX\Player\Player_footstep_brick_02_10C4C929.wem</Path>
+						</File>
+						<File Id="531140234" Language="SFX">
+							<ShortName>Player\Player_footstep_brick_05.wav</ShortName>
+							<Path>SFX\Player\Player_footstep_brick_05_10C4C929.wem</Path>
+						</File>
+						<File Id="619655589" Language="SFX">
+							<ShortName>Player\Player_movement_cloth_04.wav</ShortName>
+							<Path>SFX\Player\Player_movement_cloth_04_10C4C929.wem</Path>
+						</File>
+						<File Id="628549577" Language="SFX">
+							<ShortName>Player\Player_footstep_brick_03.wav</ShortName>
+							<Path>SFX\Player\Player_footstep_brick_03_10C4C929.wem</Path>
+						</File>
+						<File Id="659159158" Language="SFX">
+							<ShortName>Player\Player_footstep_brick_01.wav</ShortName>
+							<Path>SFX\Player\Player_footstep_brick_01_10C4C929.wem</Path>
+						</File>
+						<File Id="767171312" Language="SFX">
+							<ShortName>Player\Player_movement_cloth_02.wav</ShortName>
+							<Path>SFX\Player\Player_movement_cloth_02_10C4C929.wem</Path>
+						</File>
+						<File Id="900246863" Language="SFX">
+							<ShortName>Player\Player_footstep_brick_06.wav</ShortName>
+							<Path>SFX\Player\Player_footstep_brick_06_10C4C929.wem</Path>
+						</File>
+						<File Id="931693507" Language="SFX">
+							<ShortName>Player\Player_footstep_brick_07.wav</ShortName>
+							<Path>SFX\Player\Player_footstep_brick_07_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1513365576" Name="Play_Player_hit_head" ObjectPath="\Events\Default Work Unit\Head\Play_Player_hit_head" DurationType="OneShot" DurationMin="1.733333" DurationMax="1.800000">
+					<IncludedMemoryFiles>
+						<File Id="179178207" Language="SFX">
+							<ShortName>Player\Player_hit_head_03.wav</ShortName>
+							<Path>SFX\Player\Player_hit_head_03_10C4C929.wem</Path>
+						</File>
+						<File Id="323097227" Language="SFX">
+							<ShortName>Player\Player_hit_head_02.wav</ShortName>
+							<Path>SFX\Player\Player_hit_head_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1014850584" Language="SFX">
+							<ShortName>Player\Player_hit_head_01.wav</ShortName>
+							<Path>SFX\Player\Player_hit_head_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2807572219" Name="Play_silence" ObjectPath="\Events\Default Work Unit\Utility\Play_silence" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000"/>
+				<Event Id="4109031176" Name="Stop_Enemy_all" ObjectPath="\Events\Default Work Unit\Enemy\Stop_Enemy_all" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
