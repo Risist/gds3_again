@@ -157,7 +157,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0432cf3fd2afee4984881def60f80305
     GuidInternal: 
-    m_lastTime: -8585687583295813138
+    m_lastTime: -8585679661809311247
     List:
     - name: Main
       guid: 999daf0ae9b9a34d9aada19d22da638c
@@ -176,7 +176,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e533d51cd232c3438fabad7ed6874666
     GuidInternal: 
-    m_lastTime: -8585687583480650674
+    m_lastTime: -8585676395332088340
     List:
     - name: Enemy
       guid: 2f427703e4534b47821e67eea7d00dd4
@@ -190,6 +190,126 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: EnemyBullet
+      guid: e53661edd3eca14c8346d4970e7d6904
+      id: 669267787
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnemyBullet
+        ObjectType: 4
+      Path: Default Work Unit\EnemyBullet
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Head
+      guid: 83f4b5df826d6a49939bd554976f1315
+      id: 3448274439
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Head
+        ObjectType: 4
+      Path: Default Work Unit\Head
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: IObject
+      guid: b433c5981e978943b311d8ab7bea05aa
+      id: 3940965411
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      Path: Default Work Unit\IObject
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Barrel_destroy
+      guid: 30690c1a34e94c48ad1fa00b05aec4c2
+      id: 581798345
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      - ElementName: Play_Barrel_destroy
+        ObjectType: 3
+      Path: Default Work Unit\IObject\Play_Barrel_destroy
+      maxAttenuation: 0
+      maxDuration: 1
+      minDuration: 0.879546
+    - name: Play_Cannon_shot
+      guid: fe9ed68539e50846ae33af3f825b9a0a
+      id: 2775205952
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      - ElementName: Play_Cannon_shot
+        ObjectType: 3
+      Path: Default Work Unit\IObject\Play_Cannon_shot
+      maxAttenuation: 0
+      maxDuration: 1.08771
+      minDuration: 1
+    - name: Play_CannonBullet_explode
+      guid: dc632dc9da1b4a40b36a66f5407981a7
+      id: 1299828223
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      - ElementName: Play_CannonBullet_explode
+        ObjectType: 3
+      Path: Default Work Unit\IObject\Play_CannonBullet_explode
+      maxAttenuation: 0
+      maxDuration: 2.55
+      minDuration: 2.283333
+    - name: Play_Door_close
+      guid: 45bb486f169f79469c1d122126f66853
+      id: 2292458263
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      - ElementName: Play_Door_close
+        ObjectType: 3
+      Path: Default Work Unit\IObject\Play_Door_close
+      maxAttenuation: 0
+      maxDuration: 2.991678
+      minDuration: 2.991678
+    - name: Play_Door_open
+      guid: a35adc94ffe12a4582ec65c45f922324
+      id: 1660008929
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      - ElementName: Play_Door_open
+        ObjectType: 3
+      Path: Default Work Unit\IObject\Play_Door_open
+      maxAttenuation: 0
+      maxDuration: 2.2
+      minDuration: 2.2
+    - name: Play_Door_shut
+      guid: 301cbf5192340340b4950a83b35243f0
+      id: 1008320775
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      - ElementName: Play_Door_shut
+        ObjectType: 3
+      Path: Default Work Unit\IObject\Play_Door_shut
+      maxAttenuation: 0
+      maxDuration: 0.85
+      minDuration: 0.7
     - name: Play_Enemy_attack
       guid: 7636dda74521f04a93011ba33d58b8c3
       id: 2257393085
@@ -201,9 +321,9 @@ MonoBehaviour:
       - ElementName: Play_Enemy_attack
         ObjectType: 3
       Path: Default Work Unit\Enemy\Play_Enemy_attack
-      maxAttenuation: 0
-      maxDuration: 0.636797
-      minDuration: 0.391836
+      maxAttenuation: 100
+      maxDuration: 0.793099
+      minDuration: 0.488013
     - name: Play_Enemy_bodyfall
       guid: 5321d6dff891ad4693f3d4587dd16a9c
       id: 1222472514
@@ -215,9 +335,9 @@ MonoBehaviour:
       - ElementName: Play_Enemy_bodyfall
         ObjectType: 3
       Path: Default Work Unit\Enemy\Play_Enemy_bodyfall
-      maxAttenuation: 0
-      maxDuration: 0.666667
-      minDuration: 0.666667
+      maxAttenuation: 100
+      maxDuration: 0.711714
+      minDuration: 0.369539
     - name: Play_Enemy_dash
       guid: 13f8f17fe543eb4186042010db269e79
       id: 1673311249
@@ -229,9 +349,9 @@ MonoBehaviour:
       - ElementName: Play_Enemy_dash
         ObjectType: 3
       Path: Default Work Unit\Enemy\Play_Enemy_dash
-      maxAttenuation: 0
-      maxDuration: 0.756042
-      minDuration: 0.526029
+      maxAttenuation: 100
+      maxDuration: 0.816217
+      minDuration: 0.50355
     - name: Play_Enemy_dead
       guid: 72158c8e6baf69478ee332c8f7155087
       id: 2311449283
@@ -243,9 +363,9 @@ MonoBehaviour:
       - ElementName: Play_Enemy_dead
         ObjectType: 3
       Path: Default Work Unit\Enemy\Play_Enemy_dead
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0.655526
+      minDuration: 0.320367
     - name: Play_Enemy_footstep
       guid: 57c47b482ad35542a2973c21d1cb912e
       id: 3668695751
@@ -257,9 +377,191 @@ MonoBehaviour:
       - ElementName: Play_Enemy_footstep
         ObjectType: 3
       Path: Default Work Unit\Enemy\Play_Enemy_footstep
+      maxAttenuation: 100
+      maxDuration: 0.501897
+      minDuration: 0.225703
+    - name: Play_EnemyBullet_bladeHit
+      guid: 52b255dd46d9bc4eac4e8c7a5fa36d8d
+      id: 1572755032
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnemyBullet
+        ObjectType: 4
+      - ElementName: Play_EnemyBullet_bladeHit
+        ObjectType: 3
+      Path: Default Work Unit\EnemyBullet\Play_EnemyBullet_bladeHit
       maxAttenuation: 0
-      maxDuration: 0.688316
-      minDuration: 0.433351
+      maxDuration: 0.733333
+      minDuration: 0.633333
+    - name: Play_EnemyBullet_playerHit
+      guid: c8225c58948d514b9880a2d4f8e32df4
+      id: 482480009
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnemyBullet
+        ObjectType: 4
+      - ElementName: Play_EnemyBullet_playerHit
+        ObjectType: 3
+      Path: Default Work Unit\EnemyBullet\Play_EnemyBullet_playerHit
+      maxAttenuation: 0
+      maxDuration: 0.616667
+      minDuration: 0.55
+    - name: Play_EnemyMelee_charge
+      guid: e275808a473ce14e9d5b4186ca9bc9b9
+      id: 288269549
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_EnemyMelee_charge
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_EnemyMelee_charge
+      maxAttenuation: 100
+      maxDuration: 1.333333
+      minDuration: 1.266667
+    - name: Play_EnemyMelee_whoosh_ding
+      guid: ed423717ce45624ea1c3da977205468d
+      id: 3948855774
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_EnemyMelee_whoosh_ding
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_EnemyMelee_whoosh_ding
+      maxAttenuation: 100
+      maxDuration: 2.483333
+      minDuration: 2.45
+    - name: Play_EnemyMelee_whoosh_slash
+      guid: 40ec725ff6547d4c8de073a7cd0d54a6
+      id: 4008790009
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_EnemyMelee_whoosh_slash
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_EnemyMelee_whoosh_slash
+      maxAttenuation: 100
+      maxDuration: 3.102063
+      minDuration: 2.68068
+    - name: Play_EnemyRanged_reload
+      guid: af2dca7dfd509e42857171465d8cb776
+      id: 3581252893
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_EnemyRanged_reload
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_EnemyRanged_reload
+      maxAttenuation: 50
+      maxDuration: 0.533333
+      minDuration: 0.533333
+    - name: Play_EnemyRanged_shoot
+      guid: 7452186b5d6fe04db8477a368cf18e6a
+      id: 1689393691
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_EnemyRanged_shoot
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_EnemyRanged_shoot
+      maxAttenuation: 100
+      maxDuration: 1.516667
+      minDuration: 1.483333
+    - name: Play_EnemyRanged_warning
+      guid: 27864277b6768a46b78f8259398ffab9
+      id: 3568488410
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Play_EnemyRanged_warning
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Play_EnemyRanged_warning
+      maxAttenuation: 100
+      maxDuration: 10.033334
+      minDuration: 10.033334
+    - name: Play_ExplosiveBarrel_explode
+      guid: 2a5aabb808d7394ea8b4622543e60006
+      id: 2344025909
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      - ElementName: Play_ExplosiveBarrel_explode
+        ObjectType: 3
+      Path: Default Work Unit\IObject\Play_ExplosiveBarrel_explode
+      maxAttenuation: 0
+      maxDuration: 1.816667
+      minDuration: 1.633333
+    - name: Play_Head_bodyHit
+      guid: 7d85d5872090c5428c6ac45bdac456f7
+      id: 2372727526
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Head
+        ObjectType: 4
+      - ElementName: Play_Head_bodyHit
+        ObjectType: 3
+      Path: Default Work Unit\Head\Play_Head_bodyHit
+      maxAttenuation: 0
+      maxDuration: 0.716667
+      minDuration: 0.533333
+    - name: Play_Head_decapitated
+      guid: fe5a94d77c45324da4f5f5bb4d63f1e7
+      id: 1193014817
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Head
+        ObjectType: 4
+      - ElementName: Play_Head_decapitated
+        ObjectType: 3
+      Path: Default Work Unit\Head\Play_Head_decapitated
+      maxAttenuation: 0
+      maxDuration: 1.811565
+      minDuration: 1.339259
+    - name: Play_Head_fall
+      guid: 8190c7b3670c1f42a962936d8b7bd17f
+      id: 3420343000
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Head
+        ObjectType: 4
+      - ElementName: Play_Head_fall
+        ObjectType: 3
+      Path: Default Work Unit\Head\Play_Head_fall
+      maxAttenuation: 100
+      maxDuration: 0.798073
+      minDuration: 0.401302
+    - name: Play_Lever_pull
+      guid: dd34fa26c2344b46b33e62758020b04d
+      id: 1404912156
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IObject
+        ObjectType: 4
+      - ElementName: Play_Lever_pull
+        ObjectType: 3
+      Path: Default Work Unit\IObject\Play_Lever_pull
+      maxAttenuation: 0
+      maxDuration: 2.35
+      minDuration: 2.35
     - name: Play_Player_attack
       guid: 433f0cead204864ea41aac41ea702fdb
       id: 3238800884
@@ -330,6 +632,34 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.688316
       minDuration: 0.433351
+    - name: Play_Player_hit_head
+      guid: 91568fe32a2e8b45bde95ee80d1a64a3
+      id: 1513365576
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Head
+        ObjectType: 4
+      - ElementName: Play_Player_hit_head
+        ObjectType: 3
+      Path: Default Work Unit\Head\Play_Player_hit_head
+      maxAttenuation: 0
+      maxDuration: 1.8
+      minDuration: 1.733333
+    - name: Play_silence
+      guid: 2d8144986ae5f84a9ca637d9d432f02e
+      id: 2807572219
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Utility
+        ObjectType: 4
+      - ElementName: Play_silence
+        ObjectType: 3
+      Path: Default Work Unit\Utility\Play_silence
+      maxAttenuation: 0
+      maxDuration: 0.1
+      minDuration: 0.1
     - name: Player
       guid: 5e82e3de4236a2428698cdaf5ea264dc
       id: 1069431850
@@ -339,6 +669,18 @@ MonoBehaviour:
       - ElementName: Player
         ObjectType: 4
       Path: Default Work Unit\Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Utility
+      guid: f15b51d8c1c5b146ba0229b12e8b8d52
+      id: 2378126911
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Utility
+        ObjectType: 4
+      Path: Default Work Unit\Utility
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

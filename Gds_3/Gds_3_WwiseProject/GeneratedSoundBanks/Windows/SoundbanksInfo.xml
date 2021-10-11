@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1791430564">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3430487142">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,7 +19,7 @@
 				<AuxBus Id="2681376660" Name="REV_ROOM_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Environment\REV_ROOM_01"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2818721107">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2944310414">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -472,6 +472,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2807572219" Name="Play_silence" ObjectPath="\Events\Default Work Unit\Utility\Play_silence" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

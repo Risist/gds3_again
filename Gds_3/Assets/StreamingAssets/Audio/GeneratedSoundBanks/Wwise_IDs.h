@@ -43,6 +43,7 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_DEAD = 2074354138U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEP = 1724675634U;
         static const AkUniqueID PLAY_PLAYER_HIT_HEAD = 1513365576U;
+        static const AkUniqueID PLAY_SILENCE = 2807572219U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

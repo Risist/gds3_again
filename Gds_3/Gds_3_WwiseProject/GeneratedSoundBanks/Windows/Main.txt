@@ -22,6 +22,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2344025909	Play_ExplosiveBarrel_explode			\Default Work Unit\IObject\Play_ExplosiveBarrel_explode	
 	2372727526	Play_Head_bodyHit			\Default Work Unit\Head\Play_Head_bodyHit	
 	2775205952	Play_Cannon_shot			\Default Work Unit\IObject\Play_Cannon_shot	
+	2807572219	Play_silence			\Default Work Unit\Utility\Play_silence	
 	3238800884	Play_Player_attack			\Default Work Unit\Player\Play_Player_attack	
 	3420343000	Play_Head_fall			\Default Work Unit\Head\Play_Head_fall	
 	3568488410	Play_EnemyRanged_warning			\Default Work Unit\Enemy\Play_EnemyRanged_warning	
@@ -29,6 +30,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3668695751	Play_Enemy_footstep			\Default Work Unit\Enemy\Play_Enemy_footstep	
 	3948855774	Play_EnemyMelee_whoosh_ding			\Default Work Unit\Enemy\Play_EnemyMelee_whoosh_ding	
 	4008790009	Play_EnemyMelee_whoosh_slash			\Default Work Unit\Enemy\Play_EnemyMelee_whoosh_slash	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	876492887	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Silence\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	20500278	EnemyBullet_bladeHit_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Enemy\EnemyBullet_bladeHit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyBullet\EnemyBullet_bladeHit\EnemyBullet_bladeHit_01		111784
@@ -57,7 +61,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	323097227	Player_hit_head_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_hit_head_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Player_hit_head\Player_hit_head_02		305824
 	324272751	Player_movement_detail_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_movement_detail_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_detail\Player_movement_detail_03		29464
 	336612588	ExplosiveBarrel_explode_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\ExplosiveBarrel_explode_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\ExplosiveBarrel_explode\ExplosiveBarrel_explode_02		288184
-	349836258	Player_attack_swing_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_attack_swing_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_attack_swing\Player_attack_swing_03		100024
+	349836258	Player_attack_swing_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_attack_swing_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_swing\Player_attack_swing_03		100024
 	444644882	EnemyMelee_attack_whoosh_slash_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Enemy\EnemyMelee_attack_whoosh_slash_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_whoosh_slash\EnemyMelee_attack_whoosh_slash_02		472936
 	444781286	Barrel_destroy_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\IObjects\Barrel_destroy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Barrel_destroy\Barrel_destroy_02		155216
 	451486336	Player_movement_detail_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_movement_detail_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_movement\Player_movement_detail\Player_movement_detail_01		50044
@@ -96,9 +100,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	887130947	Head_fall_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Head\Head_fall_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_fall\Head_fall_01		123544
 	900246863	Player_footstep_brick_06	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_footstep_brick_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_06		98848
 	903041339	Barrel_destroy_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\IObjects\Barrel_destroy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Barrel_destroy\Barrel_destroy_01		176464
-	923522758	Player_attack_swing_04	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_attack_swing_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_attack_swing\Player_attack_swing_04		81224
+	923522758	Player_attack_swing_04	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_attack_swing_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_swing\Player_attack_swing_04		81224
 	931693507	Player_footstep_brick_07	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_footstep_brick_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_footstep\Player_footstep_brick\Player_footstep_brick_07		84736
-	936614557	Player_attack_swing_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_attack_swing_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_attack_swing\Player_attack_swing_02		91204
+	936614557	Player_attack_swing_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_attack_swing_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_swing\Player_attack_swing_02		91204
 	951601272	Head_fall_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Head\Head_fall_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_fall\Head_fall_02		119724
 	955604078	Enemy_death_wound_03	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Enemy\Enemy_death_wound_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_death\Enemy_death_wound\Enemy_death_wound_03		102964
 	1000459539	Head_bodyHit_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Head\Head_bodyHit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Head_bodyHit\Head_bodyHit_01		105904
@@ -106,7 +110,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1012137080	CannonBullet_explode_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\CannonBullet_explode_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\CannonBullet_explode\CannonBullet_explode_01		402844
 	1014850584	Player_hit_head_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_hit_head_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Head\Player_hit_head\Player_hit_head_01		317584
 	1017818357	Player_dash_mov_02	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_dash_mov_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_dash\Player_dash_mov\Player_dash_mov_02		111784
-	1024383903	Player_attack_swing_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_attack_swing_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_action\Player_attack_swing\Player_attack_swing_01		97084
+	1024383903	Player_attack_swing_01	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Player\Player_attack_swing_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_action\EnemyMelee_attack\EnemyMelee_attack_swing\Player_attack_swing_01		97084
 	1029582445	Lever_pull	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\IObjects\Lever_pull_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\IObjects\Lever_pull		414604
 	1056127508	Enemy_footstep_brick_05	F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\.cache\Windows\SFX\Enemy\Enemy_footstep_brick_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_footstep\Enemy_footstep_brick\Enemy_footstep_brick_05		44164
 

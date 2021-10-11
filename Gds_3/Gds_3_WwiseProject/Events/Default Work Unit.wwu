@@ -418,6 +418,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Utility" ID="{D8515BF1-C5C1-46B1-BA02-29B12E8B8D52}" ShortID="161959112">
+					<ChildrenList>
+						<Event Name="Play_silence" ID="{9844812D-E56A-4AF8-9CA6-37D9D432F02E}">
+							<ChildrenList>
+								<Action Name="" ID="{44EA367F-FDC2-406F-A5FF-9025DC740068}" ShortID="169170199">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Silence" ID="{8A01B7DE-CF11-4595-A47B-2E402E99CDD8}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
