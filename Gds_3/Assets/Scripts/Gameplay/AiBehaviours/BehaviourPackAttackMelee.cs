@@ -89,11 +89,11 @@ namespace Ai
             ;
 
 
-            modeEnemySeen.AddOnUpdate(() => Interrupt(stateAttack, () => Random.value <= UtilityMathHelpers.ConditionalFactor(enemyFilter.IsCloser(5), 0.05f, 0.025f) ));
+            modeEnemySeen.AddOnUpdate(() => Interrupt(stateAttack, () => Random.value <= UtilityMathHelpers.ConditionalFactor(enemyFilter.IsFurther(2.5f), 0.2f, 0.025f) ));
             stateAttack
                 //.AddCanEnter(() => false)
                 //.SetUtility(() => 0.5f)
-                .SetUtility(() => 0 + 0.35f * UtilityMathHelpers.ConditionalFactor(enemyFilter.IsCloser(4), 0.0f, 1.0f))
+                .SetUtility(() => 0 /*+ 0.35f * UtilityMathHelpers.ConditionalFactor(enemyFilter.IsFurther(3.5f), 0.0f, 1.0f)*/)
 
                 .AddCanEnter(() => enemyFilter.IsCloser(chargeAttackTriggerDistance) && enemyFilter.elapsedTime < 0.5f)
                 .AddCanEnter(attackCooldown.IsReady)
@@ -122,7 +122,7 @@ namespace Ai
             ;
 
 
-            modeEnemySeen.AddOnUpdate(() => Interrupt(stateAreaAttack, () => Random.value <= UtilityMathHelpers.ConditionalFactor(enemyFilter.IsCloser(3.5f), 0.075f, 0.025f)));
+            modeEnemySeen.AddOnUpdate(() => Interrupt(stateAreaAttack, () => Random.value <= UtilityMathHelpers.ConditionalFactor(enemyFilter.IsCloser(2.5f), 0.075f, 0.025f)));
             stateAreaAttack
                 //.AddCanEnter(() => false)
                 //.SetUtility(() => 1.25f)
