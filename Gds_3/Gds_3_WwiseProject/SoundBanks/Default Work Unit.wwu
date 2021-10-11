@@ -5,15 +5,36 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{0AAF9D99-B9E9-4DA3-9AAD-A19D22DA638C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Door_shut" ID="{51BF1C30-3492-4003-B495-0A83B35243F0}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CannonBullet_explode" ID="{C92D63DC-1BDA-404A-B36A-66F5407981A7}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_dash" ID="{7FF1F813-43E5-41EB-8604-2010DB269E79}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Head_fall" ID="{B3C79081-0C67-421F-A962-936D8B7BD17F}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_footstep" ID="{487BC457-D32A-4255-A297-3C21D1CB912E}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyRanged_reload" ID="{7DCA2DAF-50FD-429E-8571-71465D8CB776}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Head_bodyHit" ID="{87D5857D-9020-42C5-8C6A-C45BDAC456F7}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_dead" ID="{114B5A99-D59C-43A5-83EC-5AC9F8FD702D}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_open" ID="{94DC5AA3-E1FF-452A-82EC-65C45F922324}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_hit_head" ID="{E38F5691-2E2A-458B-BDE9-5EE80D1A64A3}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cannon_shot" ID="{85D69EFE-E539-4608-AE33-AF3F825B9A0A}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lever_pull" ID="{26FA34DD-34C2-464B-B33E-62758020B04D}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_close" ID="{6F48BB45-9F16-4679-9C1D-122126F66853}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyRanged_warning" ID="{77428627-76B6-468A-B78F-8259398FFAB9}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_bodyfall" ID="{DFD62153-91F8-46AD-93F3-D4587DD16A9C}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy_dead" ID="{8E8C1572-AF6B-4769-8EE3-32C8F7155087}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_bodyfall" ID="{4C4AAAE7-8BED-4784-BE82-9757DB6114FC}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Barrel_destroy" ID="{1A0C6930-E934-484C-AD1F-A00B05AEC4C2}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_dash" ID="{3C0AED02-B7BC-48D6-A82F-A6C2F4035AAD}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_footstep" ID="{61390CCE-B046-4938-A852-597ECCB4B2F5}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_attack" ID="{A7DD3676-2145-4AF0-9301-1BA33D58B8C3}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyBullet_playerHit" ID="{585C22C8-8D94-4B51-9880-A2D4F8E32DF4}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyMelee_whoosh_slash" ID="{5F72EC40-54F6-4C7D-8DE0-73A7CD0D54A6}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Head_decapitated" ID="{D7945AFE-457C-4D32-A4F5-F5BB4D63F1E7}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyRanged_shoot" ID="{6B185274-6F5D-4DE0-B847-7A368CF18E6A}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ExplosiveBarrel_explode" ID="{B8AB5A2A-D708-4E39-A8B4-622543E60006}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyMelee_whoosh_ding" ID="{173742ED-45CE-4E62-A1C3-DA977205468D}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_attack" ID="{EA0C3F43-04D2-4E86-A41A-AC41EA702FDB}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyBullet_bladeHit" ID="{DD55B252-D946-4EBC-AC4E-8C7A5FA36D8D}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyMelee_charge" ID="{8A8075E2-3C47-4EE1-9D5B-4186CA9BC9B9}" WorkUnitID="{1CD533E5-32D2-43C3-8FAB-AD7ED6874666}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
