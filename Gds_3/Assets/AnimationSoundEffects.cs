@@ -7,6 +7,8 @@ public class AnimationSoundEffects : MonoBehaviour
 {
     public audioEvent footstepEvent;
     public audioEvent attackEvent;
+    public audioEvent attackSpecial1Event;
+    public audioEvent attackSpecial2Event;
     public audioEvent dashEvent;
     public audioEvent deathBodyfallEvent;
 
@@ -18,10 +20,22 @@ public class AnimationSoundEffects : MonoBehaviour
     {
         attackEvent.Post(gameObject);
     }
+
+    public void PlaySpecialAttackSound1()
+    {
+        attackSpecial1Event.Post(gameObject);
+    }
+
+    public void PlaySpecialAttackSound2()
+    {
+        attackSpecial2Event.Post(gameObject);
+    }
+
     public void PlayDashSound()
     {
         dashEvent.Post(gameObject);
     }
+
     public void PlayBodyfallSound()
     {
         deathBodyfallEvent.Post(gameObject);
