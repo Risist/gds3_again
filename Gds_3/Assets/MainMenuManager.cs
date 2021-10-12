@@ -24,6 +24,7 @@ public class MainMenuManager : MonoBehaviour
 
     [Header("Option Buttons")]
     public GameObject _optionsButton = null;
+    public GameObject _creditsTitle = null;
     public GameObject _backOptionsButton = null;
     public Color clickOptionButtonColor;
     public Color clickExitOptionButtonColor;
@@ -132,6 +133,7 @@ public class MainMenuManager : MonoBehaviour
                 optionActions.Invoke();
                 startButtonAnimator.Play(closeExitButtonAnimation, 0, 0.0f);
                 _backOptionsButton.SetActive(false);
+                _creditsTitle.SetActive(false);
             }
 
 
@@ -173,6 +175,7 @@ public class MainMenuManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         _backOptionsButton.SetActive(true);
+        _creditsTitle.SetActive(true);
     }
 
 
