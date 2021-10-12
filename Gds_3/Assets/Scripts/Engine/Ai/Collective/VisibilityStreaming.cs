@@ -34,7 +34,6 @@ public class VisibilityStreaming : MonoBehaviour
 
     private void LateUpdate()
     {
-        Debug.Log(player.position);
         foreach(var it in streamingObjects)
         {
             if (it == null)

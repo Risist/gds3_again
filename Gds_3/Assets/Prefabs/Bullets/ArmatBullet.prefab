@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 7731470563419932038}
   - component: {fileID: 8725270721569738368}
   - component: {fileID: 8901209936743724435}
+  - component: {fileID: 8457718858580936378}
   m_Layer: 10
   m_Name: DestructionEffect
   m_TagString: Untagged
@@ -358,6 +359,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8457718858580936378}
+        m_TargetAssemblyTypeName: IOPlaySound, _Scripts
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8725270721569738368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,6 +402,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleId: 0
+--- !u!114 &8457718858580936378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934735883670415251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43b8bdc92409074ea73ca4034118757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 72a5a4932cfade543968919fa7d094b5, type: 2}
 --- !u!1001 &6980027109230581019
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -20,22 +20,19 @@ public class HeadBulletController : BulletControllerBase, IDamagable
 
     float initialY;
 
+    [Header("Physics")]
+    [Range(0, 1)] public float velocityDrag;
 
-    bool shouldDealDmg => instigator && destroyTime.IsReady(0.25f);
-    Collider _collider;
+    Vector3 velocity;
 
 
+    bool shouldDealDmg => instigator;
 
     protected new void Awake()
     {
         base.Awake();
 
         damage.instigator = instigator;
-        
-        _rb.isKinematic = true;
-        
-        _collider = GetComponent<Collider>();
-        _collider.isTrigger = false;
     }
 
     protected new void OnSpawn()
@@ -50,16 +47,6 @@ public class HeadBulletController : BulletControllerBase, IDamagable
         hitActivationTime.Restart();
 
         graphicsTransform.rotation = Quaternion.identity;
-
-
-        if (_rb)
-        {
-            _rb.isKinematic = true;
-        }
-        if(_collider)
-        {
-            _collider.isTrigger = true;
-        }
     }
 
     private void FixedUpdate()
@@ -69,12 +56,6 @@ public class HeadBulletController : BulletControllerBase, IDamagable
             gameObject.SetActive(false);
         }
 
-        if (instigator && !shouldDealDmg && hitActivationTime.IsReady(0.5f))
-        {
-            _collider.isTrigger = false;
-            //instigator = null;
-        }
-
         Vector3 position = transform.position;
         const float idleGroundTime = 1.5f;
         float time = Mathf.Clamp01(destroyTime.ElapsedTime() / (destroyTime.cd - idleGroundTime) );
@@ -82,6 +63,9 @@ public class HeadBulletController : BulletControllerBase, IDamagable
         
         position.y = Mathf.Lerp(position.y, desiredY, maxSpeedForYPosition);
         position.y = Mathf.Lerp(position.y, desiredY, maxSpeedForYPosition);
+
+        //position += velocity * Time.deltaTime;
+        //velocity *= velocityDrag;
 
         transform.position = position;
 
@@ -121,19 +105,13 @@ public class HeadBulletController : BulletControllerBase, IDamagable
                 damagable.ReceiveDamage(damage);
             }
 
-            if (destroyTime.IsReady(0.125f))
-            {
-                gameObject.SetActive(false);
-            }
+            
+            gameObject.SetActive(false);
         }
-
-
     }
 
     public void ActivateBullet()
     {
-        _rb.isKinematic = false;
-        _collider.isTrigger = false;
         hitActivationTime.Restart();
         destroyTime.Restart();
     }
@@ -149,23 +127,18 @@ public class HeadBulletController : BulletControllerBase, IDamagable
         if (!data.instigator)
             return;
 
-        if (!instigator && data.instigator)
+        //if (!instigator || data.instigator != instigator)
         {
             var inputHolder = data.instigator.GetComponentInParent<InputHolder>();
             if (inputHolder)
             {
                 ActivateBullet();
                 instigator = data.instigator;
-                _rb.AddForce(data.instigator.transform.forward * reverseForce, ForceMode.Acceleration);
+                _rb.AddForce(data.instigator.transform.forward.ToPlane() * reverseForce, ForceMode.Acceleration);
+                //velocity += data.instigator.transform.forward.ToPlane() * reverseForce;
             }
         }
-        else if (instigator && data.instigator != instigator)
-        {
-            ActivateBullet();
-            Vector3 toInstigator = instigator.transform.position - transform.position;
-            _rb.AddForce(toInstigator.normalized * reverseForce, ForceMode.Acceleration);
             
-            instigator = data.instigator;
-        }
+        
     }
 }

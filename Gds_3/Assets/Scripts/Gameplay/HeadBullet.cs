@@ -106,7 +106,7 @@ public class HeadBullet : MonoBehaviour, IDamagable
         else if (!perceiveUnit && ((1 << other.gameObject.layer)  & groundLayer.value) == 0)
         {
             Debug.Log(other.gameObject);
-            movementVector = Vector3.zero;
+            //movementVector = Vector3.zero;
             Destroy(gameObject);
         }
     }
