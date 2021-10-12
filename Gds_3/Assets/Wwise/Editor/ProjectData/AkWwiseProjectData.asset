@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ccb8329a24f5f94eaa624b38b4a2398b
     GuidInternal: 
-    m_lastTime: -8585713466690763776
+    m_lastTime: -8585708223738451320
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 942389ba3787284eb52217aa9d904489
     GuidInternal: 
-    m_lastTime: -8585677274141128606
+    m_lastTime: -8585675416351190737
     List:
     - name: 3D_ENV
       guid: 25b9a2e07c8266468c042ea69b7a1053
@@ -157,7 +157,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0432cf3fd2afee4984881def60f80305
     GuidInternal: 
-    m_lastTime: -8585675535347236774
+    m_lastTime: -8585675466798090629
     List:
     - name: Main
       guid: 999daf0ae9b9a34d9aada19d22da638c
@@ -176,7 +176,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e533d51cd232c3438fabad7ed6874666
     GuidInternal: 
-    m_lastTime: -8585675535349729986
+    m_lastTime: -8585675436590590547
     List:
     - name: Enemy
       guid: 2f427703e4534b47821e67eea7d00dd4
@@ -223,6 +223,18 @@ MonoBehaviour:
       - ElementName: IObject
         ObjectType: 4
       Path: Default Work Unit\IObject
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 07a8cbcea593d24393faa2cb5157ef00
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      Path: Default Work Unit\Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -562,6 +574,20 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 2.35
       minDuration: 2.35
+    - name: Play_Music
+      guid: cab4d8ae8f422b4a88e270b4b0acfae5
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Play_Music
+        ObjectType: 3
+      Path: Default Work Unit\Music\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Player_attack
       guid: 433f0cead204864ea41aac41ea702fdb
       id: 3238800884
@@ -706,7 +732,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3cd516b9f426d949ad4e92d785452a75
     GuidInternal: 
-    m_lastTime: -8585713466691611514
+    m_lastTime: -8585708223739681597
     List:
     - name: New_Game_Parameter
       guid: 54077f40a720fe41ba0356ec569f6301
@@ -725,7 +751,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 57e2d75c8bfe24478404e247b1452506
     GuidInternal: 
-    m_lastTime: -8585713466690763776
+    m_lastTime: -8585708223738461322
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -735,7 +761,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5f8139e28f818946bb300416d9c04594
     GuidInternal: 
-    m_lastTime: -8585713466690763776
+    m_lastTime: -8585708223738461322
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -745,8 +771,13 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3f3e5c445f8e85488f11b810c09222fa
     GuidInternal: 
-    m_lastTime: -8585713466690763776
+    m_lastTime: -8585708223738451320
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /Gds_3_WwiseProject
+  - /Gds_3_WwiseProject/Events
+  - /Gds_3_WwiseProject/Events/Default Work Unit
+  - /Gds_3_WwiseProject/Events/Default Work Unit/Enemy
+  - /Gds_3_WwiseProject/Events/Default Work Unit/Music
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
