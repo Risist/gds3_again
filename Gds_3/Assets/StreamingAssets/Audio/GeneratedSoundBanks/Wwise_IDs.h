@@ -37,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_HEAD_DECAPITATED = 1193014817U;
         static const AkUniqueID PLAY_HEAD_FALL = 3420343000U;
         static const AkUniqueID PLAY_LEVER_PULL = 1404912156U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PLAYER_ATTACK = 3238800884U;
         static const AkUniqueID PLAY_PLAYER_BODYFALL = 606831743U;
         static const AkUniqueID PLAY_PLAYER_DASH = 2175711460U;

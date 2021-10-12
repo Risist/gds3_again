@@ -44,7 +44,23 @@
 								</Bus>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="MUSIC" ID="{F75C3D0E-99EE-4761-9A3F-34484D313769}"/>
+						<Bus Name="MUSIC" ID="{F75C3D0E-99EE-4761-9A3F-34484D313769}">
+							<PropertyList>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-4"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="3D_ENV" ID="{E0A2B925-827C-4666-8C04-2EA69B7A1053}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

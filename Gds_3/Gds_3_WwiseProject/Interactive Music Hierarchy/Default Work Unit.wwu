@@ -6,11 +6,13 @@
 				<MusicPlaylistContainer Name="Music_level1" ID="{2C4ED553-9F20-42E4-B2DA-EF1936DE1C66}" ShortID="952007217">
 					<PropertyList>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>2</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 						<Property Name="Tempo" Type="Real64" Value="107"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
@@ -19,7 +21,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -28,13 +30,20 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA892394-8737-4E28-B522-17AA9D904489}"/>
+							<ObjectRef Name="MUSIC" ID="{F75C3D0E-99EE-4761-9A3F-34484D313769}" WorkUnitID="{BA892394-8737-4E28-B522-17AA9D904489}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<MusicSegment Name="Headless_lvl1_loop_01" ID="{718AE5D8-2EA7-4E4D-9425-6C26EBDFAE9A}" ShortID="562243619">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="134579.439252336"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -97,6 +106,13 @@
 						<MusicSegment Name="Headless_lvl1_start_01" ID="{4B8F3620-339B-4474-804F-76B91D200852}" ShortID="673464474">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="50000"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -239,10 +255,19 @@
 									<SegmentRef Name="Headless_lvl1_start_01" ID="{4B8F3620-339B-4474-804F-76B91D200852}"/>
 								</MusicPlaylistItem>
 								<MusicPlaylistItem Name="" ID="{85A5609C-954B-498F-8BE0-40176E24924A}" ShortID="157274388">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{BCA94E5C-CBFE-45AE-9536-D00EB8841398}" ShortID="418554190">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="LoopCount" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F73894F9-7E3E-4674-A7B3-8BB872780E18}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Headless_lvl1_loop_01" ID="{718AE5D8-2EA7-4E4D-9425-6C26EBDFAE9A}"/>

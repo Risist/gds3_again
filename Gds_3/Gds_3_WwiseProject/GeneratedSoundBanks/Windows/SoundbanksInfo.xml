@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3430487142">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2038558631">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,7 +19,7 @@
 				<AuxBus Id="2681376660" Name="REV_ROOM_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Environment\REV_ROOM_01"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3410824809">
+		<SoundBank Id="3161908922" Language="SFX" Hash="230605543">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -216,7 +216,7 @@
 						</File>
 						<File Id="808152298" Language="SFX">
 							<ShortName>Enemy\EnemyMelee_attack_charge_02.wav</ShortName>
-							<Path>SFX\Enemy\EnemyMelee_attack_charge_02_5ABC2A93.wem</Path>
+							<Path>SFX\Enemy\EnemyMelee_attack_charge_02_34598FAF.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -236,11 +236,11 @@
 					<IncludedMemoryFiles>
 						<File Id="291272271" Language="SFX">
 							<ShortName>Enemy\EnemyMelee_attack_whoosh_slash_01.wav</ShortName>
-							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_01_4E3F85C6.wem</Path>
+							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_01_3C8A3D18.wem</Path>
 						</File>
 						<File Id="444644882" Language="SFX">
 							<ShortName>Enemy\EnemyMelee_attack_whoosh_slash_02.wav</ShortName>
-							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_02_F7E4874D.wem</Path>
+							<Path>SFX\Enemy\EnemyMelee_attack_whoosh_slash_02_598A0F03.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -333,6 +333,18 @@
 						<File Id="1029582445" Language="SFX">
 							<ShortName>IObjects\Lever_pull.wav</ShortName>
 							<Path>SFX\IObjects\Lever_pull_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="138778474" Language="SFX">
+							<ShortName>Headless_lvl1_loop_01.wav</ShortName>
+							<Path>SFX\Headless_lvl1_loop_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="241899430" Language="SFX">
+							<ShortName>Headless_lvl1_start_01.wav</ShortName>
+							<Path>SFX\Headless_lvl1_start_01_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
