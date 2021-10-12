@@ -13,6 +13,7 @@ public class Restart : MonoBehaviour
     [SerializeField] private string exitButtonAnimation = "DeathMenuExitButtonAnimationON";
     [SerializeField] private string exittExitButtonAnimation = "DeathMenuExitButtonAnimationOFF";
     public GameObject keyUI;
+    public GameObject bark = null;
      
     private void Start()
     {
@@ -27,6 +28,7 @@ public class Restart : MonoBehaviour
                 if(keyUI)
                 {
                     keyUI.SetActive(false);
+                    bark.SetActive(false);
                 }
             }
         };
