@@ -184,7 +184,7 @@ Transform:
   - {fileID: 1101968155287943205}
   m_Father: {fileID: 3650344837199429393}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 19.978506, y: -90, z: -90}
+  m_LocalEulerAnglesHint: {x: 89.98021, y: 0, z: 0}
 --- !u!65 &5653787375691221099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -208,6 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5627375384960446351}
   - component: {fileID: 5301525547340613734}
+  - component: {fileID: 8173337914616058435}
   m_Layer: 0
   m_Name: int_doors
   m_TagString: Untagged
@@ -250,6 +251,42 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8173337914616058435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4995517506512254261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc81e271a05b3940b6794127fb5f8d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
+  attackEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
+  attackSpecial1Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4aef01b47e220434cb086e0b84787ead, type: 2}
+  attackSpecial2Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1635674363588ca4d8964dc3760f1a50, type: 2}
+  dashEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
+  deathBodyfallEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
 --- !u!1 &5337522142815624174
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,7 +507,7 @@ Transform:
   - {fileID: 3786048423482516299}
   m_Father: {fileID: 3650344837199429393}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 19.978506, y: 90, z: 90}
+  m_LocalEulerAnglesHint: {x: 89.98021, y: 0, z: 0}
 --- !u!65 &7417002070166286072
 BoxCollider:
   m_ObjectHideFlags: 0

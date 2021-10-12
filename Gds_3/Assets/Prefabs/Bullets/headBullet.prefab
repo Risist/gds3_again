@@ -520,6 +520,9 @@ GameObject:
   - component: {fileID: 7948014075091562674}
   - component: {fileID: 4057426858034714116}
   - component: {fileID: 638391869922894118}
+  - component: {fileID: 1344181194974727209}
+  - component: {fileID: 698062249138060668}
+  - component: {fileID: 8005344129830035484}
   m_Layer: 10
   m_Name: headBullet
   m_TagString: Untagged
@@ -576,6 +579,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0bf1fd4ab478164bba5ae9ad647d7b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onEnemyHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1344181194974727209}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: StartPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onEnvDestroy:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1344181194974727209}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: StartPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPlayerHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1344181194974727209}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: StartPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   graphicsTransform: {fileID: 8987933003051142132}
   destroyTime:
     cd: 3
@@ -588,6 +636,7 @@ MonoBehaviour:
     activateInteractiveObjects: 1
   maxSpeedForYPosition: 0.035
   rotationSpeed: 0.035
+  velocityDrag: 0
 --- !u!114 &4057426858034714116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,6 +679,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  AvoidFirstDisable: 0
 --- !u!65 &638391869922894118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -643,6 +693,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 6.0090046, z: 0.75}
   m_Center: {x: 0, y: 0.9226389, z: 0}
+--- !u!114 &1344181194974727209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7473503944639178864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2383c0b34174824594c142ac15fbf62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioEvent:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d44f6712fc8aed648a6fe018799f5b19, type: 2}
+--- !u!114 &698062249138060668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7473503944639178864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2383c0b34174824594c142ac15fbf62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioEvent:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6189b46f889a94747b66586338cb8003, type: 2}
+--- !u!114 &8005344129830035484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7473503944639178864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2383c0b34174824594c142ac15fbf62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioEvent:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9acd1dcc715298045b61093868888604, type: 2}
 --- !u!1001 &4859678095485210752
 PrefabInstance:
   m_ObjectHideFlags: 0

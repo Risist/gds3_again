@@ -4,11 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Events;
 using NaughtyAttributes;
 
 [DefaultExecutionOrder(999999)]
 public class HeadBulletController : BulletControllerBase, IDamagable
 {
+    public UnityEvent onEnemyHit;
+    public UnityEvent onEnvDestroy;
+    public UnityEvent onPlayerHit;
+
     [Required] public Transform graphicsTransform;
     public Timer destroyTime;
     public Timer hitActivationTime;
@@ -103,8 +108,13 @@ public class HeadBulletController : BulletControllerBase, IDamagable
             if (damagable != null)
             {
                 damagable.ReceiveDamage(damage);
+                onEnemyHit.Invoke();
             }
-
+            else
+            {
+                onEnvDestroy.Invoke();
+            }
+            
             
             gameObject.SetActive(false);
         }
@@ -135,6 +145,7 @@ public class HeadBulletController : BulletControllerBase, IDamagable
                 ActivateBullet();
                 instigator = data.instigator;
                 _rb.AddForce(data.instigator.transform.forward.ToPlane() * reverseForce, ForceMode.Acceleration);
+                onPlayerHit.Invoke();
                 //velocity += data.instigator.transform.forward.ToPlane() * reverseForce;
             }
         }

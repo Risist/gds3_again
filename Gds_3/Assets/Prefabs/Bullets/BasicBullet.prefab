@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 7825576924629373347}
   - component: {fileID: 8982700095395601980}
   - component: {fileID: 3250011755633562134}
+  - component: {fileID: 6790065984971576548}
   m_Layer: 10
   m_Name: BasicBullet
   m_TagString: Untagged
@@ -150,7 +151,19 @@ MonoBehaviour:
   instigator: {fileID: 0}
   onDamageDealed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6790065984971576548}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: StartPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   damageOnCollision: 1
   damageOnTrigger: 0
   damageFraction: {fileID: 0}
@@ -246,6 +259,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  AvoidFirstDisable: 0
 --- !u!114 &3250011755633562134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,6 +301,22 @@ MonoBehaviour:
         m_CallState: 2
   timer:
     cd: 0.025
+--- !u!114 &6790065984971576548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546604386685431909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2383c0b34174824594c142ac15fbf62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioEvent:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba52f2eb03597f4b9735cda14588011, type: 2}
 --- !u!1 &3326325638280584933
 GameObject:
   m_ObjectHideFlags: 0

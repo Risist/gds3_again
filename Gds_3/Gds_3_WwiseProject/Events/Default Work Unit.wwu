@@ -202,6 +202,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{14F5169C-C32D-405B-BBF7-F42BD9D6FB45}" ShortID="809749113">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyRanged_attack_warning_01" ID="{9ACFA873-CC51-4DAA-9009-6B2FB8CD6537}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_EnemyMelee_whoosh_ding" ID="{173742ED-45CE-4E62-A1C3-DA977205468D}">

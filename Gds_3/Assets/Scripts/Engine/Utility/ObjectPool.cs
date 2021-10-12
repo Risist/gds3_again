@@ -67,8 +67,8 @@ public class ObjectPool : MonoBehaviour
     public void ReturnToPool(GameObject obj)
     {
         _freeObjectList.Add(obj);
-        obj.SetActive(false);
         obj.SendMessage("OnDespawn", SendMessageOptions.DontRequireReceiver);
+        obj.SetActive(false);
     }
 }
 

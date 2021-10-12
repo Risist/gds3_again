@@ -10,10 +10,17 @@ public class IODisable : MonoBehaviour
 {
     public UnityEvent onDisable;
     public UnityEvent onEnable;
+    public bool AvoidFirstDisable = false;
+
+    bool alreadyDisabled = false;
 
     private void OnDisable()
     {
-        onDisable.Invoke();
+        if (!AvoidFirstDisable || alreadyDisabled) 
+        {
+            onDisable.Invoke();
+        }
+        alreadyDisabled = true;
     }
     private void OnEnable()
     {
