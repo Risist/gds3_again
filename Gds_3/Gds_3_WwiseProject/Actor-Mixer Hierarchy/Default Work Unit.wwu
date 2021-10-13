@@ -705,6 +705,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Door_close" ID="{F5838951-7F09-47E8-87D2-82E12FBFF028}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.14517674892025"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.632555834581089"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>IObjects\Door_close.wav</AudioFile>
 											<MediaIDList>
@@ -1023,11 +1028,6 @@
 						<Sound Name="Key_pickUp" ID="{CC53FEAD-41C4-40A4-9049-8D804A08DC5E}" ShortID="188831395">
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
