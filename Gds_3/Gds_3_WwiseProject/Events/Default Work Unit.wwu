@@ -575,6 +575,9 @@
 						<Event Name="Play_Guillotine" ID="{C4EE3B22-A1EE-4AA3-872E-92BBF27085E6}">
 							<ChildrenList>
 								<Action Name="" ID="{15893489-323A-4065-832F-5F4FD10EFB8C}" ShortID="48415073">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Guillotine" ID="{36C75995-189A-45F5-BFD4-E83A92D62582}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
