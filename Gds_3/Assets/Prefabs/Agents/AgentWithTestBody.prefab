@@ -127,6 +127,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 100, y: 20, z: 1.0000004}
   m_Center: {x: 0, y: -0.0000009536743, z: 0.00000011920929}
+--- !u!114 &2411115070638315054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280723574734905935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464f42ab1edc1514d9164fe20cad3e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableComponentList:
+  - {fileID: 8280723574734905937}
+  - {fileID: 8280723574734905936}
+  - {fileID: 8280723574302409149}
+  - {fileID: 8993717675419740903}
+  - {fileID: 6804123474382790485}
+  - {fileID: 8280723574734905934}
+  destroyComponentList:
+  - {fileID: 8280723574734905931}
+  disableObjectsList: []
+  colliderList:
+  - {fileID: 8280723574734905938}
+  destroyGameObjectList:
+  - {fileID: 2881012536627588116}
+  deparentObjects: []
+  disableRigidbody: 1
+  enableComponents: []
+  enableColliders: []
+  enableObjectsList: []
+--- !u!114 &8112171223570229091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280723574734905935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e30f589bbc9554aae5f20765c7e924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetRotation: {x: -90, y: 0, z: 0}
+  animationSpeed: 5
+--- !u!114 &8993717675419740903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280723574734905935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8dc15f7391cb8648b37c5bd9c7f5987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2209428469632295899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,62 +1120,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2411115070638315054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8280723574734905935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 464f42ab1edc1514d9164fe20cad3e08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableComponentList:
-  - {fileID: 8280723574734905937}
-  - {fileID: 8280723574734905936}
-  - {fileID: 8280723574302409149}
-  - {fileID: 8993717675419740903}
-  - {fileID: 6804123474382790485}
-  - {fileID: 8280723574734905934}
-  destroyComponentList:
-  - {fileID: 8280723574734905931}
-  disableObjectsList: []
-  colliderList:
-  - {fileID: 8280723574734905938}
-  destroyGameObjectList:
-  - {fileID: 2881012536627588116}
-  deparentObjects: []
-  disableRigidbody: 1
-  enableComponents: []
-  enableColliders: []
---- !u!114 &8112171223570229091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8280723574734905935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3e30f589bbc9554aae5f20765c7e924, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetRotation: {x: -90, y: 0, z: 0}
-  animationSpeed: 5
---- !u!114 &8993717675419740903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8280723574734905935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8dc15f7391cb8648b37c5bd9c7f5987, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8671590674299333476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,6 +1453,14 @@ PrefabInstance:
     - target: {fileID: 1023222562491528421, guid: ad68a3ceeed330b468a2f44c717a37b3, type: 3}
       propertyPath: m_Name
       value: direction pointer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133119024036968442, guid: ad68a3ceeed330b468a2f44c717a37b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370179020247544870, guid: ad68a3ceeed330b468a2f44c717a37b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8934435261912006967, guid: ad68a3ceeed330b468a2f44c717a37b3, type: 3}
       propertyPath: m_RootOrder
