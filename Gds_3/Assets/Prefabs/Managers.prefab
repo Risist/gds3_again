@@ -196,6 +196,8 @@ GameObject:
   - component: {fileID: 3727717547307195577}
   - component: {fileID: 3727781196425308538}
   - component: {fileID: 833673874}
+  - component: {fileID: 1532663373701895270}
+  - component: {fileID: 5693780677560351333}
   m_Layer: 0
   m_Name: Particles
   m_TagString: Untagged
@@ -232,6 +234,8 @@ MonoBehaviour:
   particlePools:
   - {fileID: 3727781196425308538}
   - {fileID: 833673874}
+  - {fileID: 1532663373701895270}
+  - {fileID: 5693780677560351333}
 --- !u!114 &3727781196425308538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +263,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 186584, guid: ee7fc337c2399ab4c82595acca0eacbd, type: 3}
+  initialPoolSize: 1
+--- !u!114 &1532663373701895270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221954978582526750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab9ba64ef370f5459b7832e50435487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7697132998078278489, guid: 87afc17ccd63c3b44a5ab641f8bf35d2, type: 3}
+  initialPoolSize: 1
+--- !u!114 &5693780677560351333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221954978582526750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab9ba64ef370f5459b7832e50435487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7189696600753107981, guid: 6e7de487289d75c47abd90db52fe42de, type: 3}
   initialPoolSize: 1
 --- !u!1 &280635702649180088
 GameObject:
@@ -2528,9 +2560,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4876755799129450676, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
   m_PrefabInstance: {fileID: 490118429877303781}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3101260392880637039 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3297941113076645258, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
+--- !u!224 &3101260392880637024 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3297941113076645253, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
   m_PrefabInstance: {fileID: 490118429877303781}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &3101260392974640104 stripped
@@ -2538,9 +2570,9 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3297941112983427597, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
   m_PrefabInstance: {fileID: 490118429877303781}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &3101260392880637024 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3297941113076645253, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
+--- !u!1 &3101260392880637039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3297941113076645258, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
   m_PrefabInstance: {fileID: 490118429877303781}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6613883080450380843
