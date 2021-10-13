@@ -13,11 +13,24 @@ public class PlaySoundEffect : MonoBehaviour
         audioEvent.Post(gameObject);
     }
 
+    void StopSound(AudioEvent audioEvent, GameObject gameObject)
+    {
+        audioEvent.Stop(gameObject, 1);
+    }
+
     public void StartPlayer()
     {
         foreach(AudioEvent userAudioEvent in audioEvent)
         {
             PlaySound(userAudioEvent, this.gameObject);
+        }
+    }
+
+    public void StopPlayer()
+    {
+        foreach (AudioEvent userAudioEvent in audioEvent)
+        {
+            StopSound(userAudioEvent, this.gameObject);
         }
     }
 }

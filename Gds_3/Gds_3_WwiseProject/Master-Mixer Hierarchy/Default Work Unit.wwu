@@ -26,7 +26,40 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Bus Name="3D_ENV" ID="{E0A2B925-827C-4666-8C04-2EA69B7A1053}"/>
+										<Bus Name="3D_ENV" ID="{E0A2B925-827C-4666-8C04-2EA69B7A1053}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<Bus Name="3D_ENV_LOUD_AF" ID="{2E8EE760-D64B-4AC8-94D8-8E8F7248430A}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{2AFD6FB0-C906-4683-A377-FEEEF72967B0}">
+																<Effect Name="High_Impact_(Custom)" ID="{284C9F9B-CA73-489F-B66A-CA9EBD4CF956}" ShortID="63225866" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+																	<PropertyList>
+																		<Property Name="AttackTime" Type="Real32" Value="0.04"/>
+																		<Property Name="Ratio" Type="Real32" Value="12"/>
+																		<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
+																		<Property Name="Threshold" Type="Real32" Value="-18.8"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
 										<Bus Name="CONST_ENV" ID="{1E51AE7F-B41F-4EBE-AA06-E3C3DE689F37}"/>
 										<AuxBus Name="REV_ROOM_01" ID="{8869C8BC-843A-40CE-A620-C3BE390CAD12}">
 											<ReferenceList>
@@ -46,7 +79,7 @@
 						</Bus>
 						<Bus Name="MUSIC" ID="{F75C3D0E-99EE-4761-9A3F-34484D313769}">
 							<PropertyList>
-								<Property Name="MaxDuckVolume" Type="Real64" Value="-4"/>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-6"/>
 								<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<DuckingList>
@@ -57,6 +90,7 @@
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>1</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
 									</DuckingParam>
 								</DuckItem>
 							</DuckingList>

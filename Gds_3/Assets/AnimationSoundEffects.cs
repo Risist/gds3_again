@@ -12,32 +12,81 @@ public class AnimationSoundEffects : MonoBehaviour
     public audioEvent dashEvent;
     public audioEvent deathBodyfallEvent;
 
+    public bool ignoreFirstPlay = false;
+
     public void PlayFootstepSound()
     {
-        footstepEvent.Post(gameObject);
+        if (!ignoreFirstPlay)
+        {
+            footstepEvent.Post(gameObject);
+        }
+        else
+        {
+            ignoreFirstPlay = false;
+        }
     }
     public void PlayAttackSound()
     {
-        attackEvent.Post(gameObject);
+        
+        if (!ignoreFirstPlay)
+        {
+            attackEvent.Post(gameObject);
+        }
+        else
+        {
+            ignoreFirstPlay = false;
+        }
     }
 
     public void PlaySpecialAttackSound1()
     {
-        attackSpecial1Event.Post(gameObject);
+        
+        if (!ignoreFirstPlay)
+        {
+            attackSpecial1Event.Post(gameObject);
+        }
+        else
+        {
+            ignoreFirstPlay = false;
+        }
     }
 
     public void PlaySpecialAttackSound2()
     {
-        attackSpecial2Event.Post(gameObject);
+        
+        if (!ignoreFirstPlay)
+        {
+            attackSpecial2Event.Post(gameObject);
+        }
+        else
+        {
+            ignoreFirstPlay = false;
+        }
     }
 
     public void PlayDashSound()
     {
-        dashEvent.Post(gameObject);
+        
+        if (!ignoreFirstPlay)
+        {
+            dashEvent.Post(gameObject);
+        }
+        else
+        {
+            ignoreFirstPlay = false;
+        }
     }
 
     public void PlayBodyfallSound()
     {
-        deathBodyfallEvent.Post(gameObject);
+        
+        if (!ignoreFirstPlay)
+        {
+            deathBodyfallEvent.Post(gameObject);
+        }
+        else
+        {
+            ignoreFirstPlay = false;
+        }
     }
 }

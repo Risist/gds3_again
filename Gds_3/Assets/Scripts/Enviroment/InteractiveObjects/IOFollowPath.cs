@@ -15,9 +15,11 @@ public class IOFollowPath : MonoBehaviour
     public Vector3 rotationOffset;
 
     public UnityEvent unityEvent;
+    public UnityEvent startPath;
 
     private float distance;
     private bool canMove = false;
+    private bool isMoving = false;
 
     private BGCcMath math;
     private BGCurve curve;
@@ -33,6 +35,11 @@ public class IOFollowPath : MonoBehaviour
         if (canMove)
         {
             FollowPosition();
+            if (!isMoving)
+            {
+                startPath.Invoke();
+                isMoving = true;
+            }
         }
     }
     private void FixedUpdate()
