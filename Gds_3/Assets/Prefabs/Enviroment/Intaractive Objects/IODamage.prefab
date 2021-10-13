@@ -69,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 347cf3c5ed2afa1418cdea7f012be44b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -139,6 +139,9 @@ MonoBehaviour:
     staggerIncrease: 0
     activateInteractiveObjects: 1
   instigator: {fileID: 0}
+  onDamageDealed:
+    m_PersistentCalls:
+      m_Calls: []
   damageOnCollision: 1
   damageOnTrigger: 1
   damageFraction: {fileID: 0}
