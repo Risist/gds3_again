@@ -4933,6 +4933,13 @@
 					</PropertyList>
 					<ChildrenList>
 						<Sound Name="Guillotine" ID="{36C75995-189A-45F5-BFD4-E83A92D62582}" ShortID="833685362">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-330</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42EC048F-6A5D-4DF8-A878-1272C90AAA88}"/>
