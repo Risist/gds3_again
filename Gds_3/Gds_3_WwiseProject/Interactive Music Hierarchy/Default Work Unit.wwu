@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Music_level1" ID="{2C4ED553-9F20-42E4-B2DA-EF1936DE1C66}" ShortID="952007217">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -13,6 +14,7 @@
 							</ValueList>
 						</Property>
 						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="107"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
@@ -55,6 +57,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Headless_lvl1_loop_01" ID="{BD6DBFED-B16B-412A-A8AB-844D1F85F7D0}" ShortID="642273991">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA892394-8737-4E28-B522-17AA9D904489}"/>
@@ -124,6 +133,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Headless_lvl1_start_01" ID="{E6A5A550-2FAE-4A36-9B53-6A17C57B2E4E}" ShortID="144082453">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA892394-8737-4E28-B522-17AA9D904489}"/>

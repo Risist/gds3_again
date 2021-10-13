@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_BARREL_DESTROY = 581798345U;
         static const AkUniqueID PLAY_CANNON_SHOT = 2775205952U;
         static const AkUniqueID PLAY_CANNONBULLET_EXPLODE = 1299828223U;
+        static const AkUniqueID PLAY_CHANDOLIER_CHAIN = 1234655551U;
+        static const AkUniqueID PLAY_CHANDOLIER_FALL = 3028706119U;
         static const AkUniqueID PLAY_DOOR_CLOSE = 2292458263U;
         static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
         static const AkUniqueID PLAY_DOOR_SHUT = 1008320775U;
@@ -25,6 +27,7 @@ namespace AK
         static const AkUniqueID PLAY_ENEMY_DEAD = 2311449283U;
         static const AkUniqueID PLAY_ENEMY_FOOTSTEP = 3668695751U;
         static const AkUniqueID PLAY_ENEMYBULLET_BLADEHIT = 1572755032U;
+        static const AkUniqueID PLAY_ENEMYBULLET_EXPLODE = 3781548068U;
         static const AkUniqueID PLAY_ENEMYBULLET_PLAYERHIT = 482480009U;
         static const AkUniqueID PLAY_ENEMYMELEE_CHARGE = 288269549U;
         static const AkUniqueID PLAY_ENEMYMELEE_WHOOSH_DING = 3948855774U;
@@ -33,9 +36,11 @@ namespace AK
         static const AkUniqueID PLAY_ENEMYRANGED_SHOOT = 1689393691U;
         static const AkUniqueID PLAY_ENEMYRANGED_WARNING = 3568488410U;
         static const AkUniqueID PLAY_EXPLOSIVEBARREL_EXPLODE = 2344025909U;
+        static const AkUniqueID PLAY_GUILLOTINE = 3870910992U;
         static const AkUniqueID PLAY_HEAD_BODYHIT = 2372727526U;
         static const AkUniqueID PLAY_HEAD_DECAPITATED = 1193014817U;
         static const AkUniqueID PLAY_HEAD_FALL = 3420343000U;
+        static const AkUniqueID PLAY_KEY_PICKUP = 2881789206U;
         static const AkUniqueID PLAY_LEVER_PULL = 1404912156U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PLAYER_ATTACK = 3238800884U;
@@ -44,8 +49,10 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_DEAD = 2074354138U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEP = 1724675634U;
         static const AkUniqueID PLAY_PLAYER_HIT_HEAD = 1513365576U;
+        static const AkUniqueID PLAY_ROLLBARREL_START = 3805716714U;
         static const AkUniqueID PLAY_SILENCE = 2807572219U;
         static const AkUniqueID STOP_ENEMY_ALL = 4109031176U;
+        static const AkUniqueID STOP_ROLLBARREL_ROLL = 1512579357U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

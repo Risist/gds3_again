@@ -8,7 +8,16 @@
 		<ExternalSourcesOutputRoot>F:\Game Design\GDS 1\gds3_again\Gds_3\Gds_3_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="138778474" Language="SFX">
+			<ShortName>Headless_lvl1_loop_01.wav</ShortName>
+			<Path>SFX\Headless_lvl1_loop_01_D79FB2B7.wem</Path>
+		</File>
+		<File Id="241899430" Language="SFX">
+			<ShortName>Headless_lvl1_start_01.wav</ShortName>
+			<Path>SFX\Headless_lvl1_start_01_D79FB2B7.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX" Hash="2038558631">
@@ -19,7 +28,7 @@
 				<AuxBus Id="2681376660" Name="REV_ROOM_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Environment\REV_ROOM_01"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="684711309">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2527538577">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -57,6 +66,22 @@
 						<File Id="1012137080" Language="SFX">
 							<ShortName>CannonBullet_explode_01.wav</ShortName>
 							<Path>SFX\CannonBullet_explode_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1234655551" Name="Play_Chandolier_chain" ObjectPath="\Events\Default Work Unit\IObject\Play_Chandolier_chain" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.364468" DurationMax="1.649091">
+					<IncludedMemoryFiles>
+						<File Id="249239971" Language="SFX">
+							<ShortName>Chandolier_chain.wav</ShortName>
+							<Path>SFX\Chandolier_chain_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3028706119" Name="Play_Chandolier_fall" ObjectPath="\Events\Default Work Unit\IObject\Play_Chandolier_fall" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.915028" DurationMax="2.526895">
+					<IncludedMemoryFiles>
+						<File Id="351021805" Language="SFX">
+							<ShortName>Chandolier_fall.wav</ShortName>
+							<Path>SFX\Chandolier_fall_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -196,6 +221,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3781548068" Name="Play_EnemyBullet_explode" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_explode" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.570833" DurationMax="0.816767">
+					<IncludedMemoryFiles>
+						<File Id="767358903" Language="SFX">
+							<ShortName>CannonBullet_explode_02.wav</ShortName>
+							<Path>SFX\CannonBullet_explode_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1012137080" Language="SFX">
+							<ShortName>CannonBullet_explode_01.wav</ShortName>
+							<Path>SFX\CannonBullet_explode_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="482480009" Name="Play_EnemyBullet_playerHit" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_playerHit" DurationType="OneShot" DurationMin="0.550000" DurationMax="0.616667">
 					<IncludedMemoryFiles>
 						<File Id="531594141" Language="SFX">
@@ -284,6 +321,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3870910992" Name="Play_Guillotine" ObjectPath="\Events\Default Work Unit\Menu\Play_Guillotine" DurationType="OneShot" DurationMin="1.875556" DurationMax="1.875556">
+					<IncludedMemoryFiles>
+						<File Id="109543734" Language="SFX">
+							<ShortName>Guillotine.wav</ShortName>
+							<Path>SFX\Guillotine_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2372727526" Name="Play_Head_bodyHit" ObjectPath="\Events\Default Work Unit\Head\Play_Head_bodyHit" DurationType="OneShot" DurationMin="0.533333" DurationMax="0.716667">
 					<IncludedMemoryFiles>
 						<File Id="211438131" Language="SFX">
@@ -328,6 +373,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2881789206" Name="Play_Key_pickUp" ObjectPath="\Events\Default Work Unit\IObject\Play_Key_pickUp" DurationType="OneShot" DurationMin="1.642313" DurationMax="1.642313">
+					<IncludedMemoryFiles>
+						<File Id="59790694" Language="SFX">
+							<ShortName>Key_pickUp.wav</ShortName>
+							<Path>SFX\Key_pickUp_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1404912156" Name="Play_Lever_pull" ObjectPath="\Events\Default Work Unit\IObject\Play_Lever_pull" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.350000" DurationMax="2.350000">
 					<IncludedMemoryFiles>
 						<File Id="1029582445" Language="SFX">
@@ -337,7 +390,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Music" DurationType="Infinite">
-					<IncludedMemoryFiles>
+					<ReferencedStreamedFiles>
 						<File Id="138778474" Language="SFX">
 							<ShortName>Headless_lvl1_loop_01.wav</ShortName>
 							<Path>SFX\Headless_lvl1_loop_01_D79FB2B7.wem</Path>
@@ -346,7 +399,7 @@
 							<ShortName>Headless_lvl1_start_01.wav</ShortName>
 							<Path>SFX\Headless_lvl1_start_01_D79FB2B7.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="3238800884" Name="Play_Player_attack" ObjectPath="\Events\Default Work Unit\Player\Play_Player_attack" DurationType="OneShot" DurationMin="0.391836" DurationMax="0.636797">
 					<IncludedMemoryFiles>
@@ -484,8 +537,21 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3805716714" Name="Play_RollBarrel_Start" ObjectPath="\Events\Default Work Unit\IObject\Play_RollBarrel_Start" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="595362217" Language="SFX">
+							<ShortName>RollBarrel_Roll.wav</ShortName>
+							<Path>SFX\RollBarrel_Roll_D14E7518.wem</Path>
+						</File>
+						<File Id="757693635" Language="SFX">
+							<ShortName>RollBarrel_Start.wav</ShortName>
+							<Path>SFX\RollBarrel_Start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2807572219" Name="Play_silence" ObjectPath="\Events\Default Work Unit\Utility\Play_silence" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000"/>
 				<Event Id="4109031176" Name="Stop_Enemy_all" ObjectPath="\Events\Default Work Unit\Enemy\Stop_Enemy_all" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1512579357" Name="Stop_RollBarrel_Roll" ObjectPath="\Events\Default Work Unit\IObject\Stop_RollBarrel_Roll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

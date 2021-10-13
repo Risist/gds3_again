@@ -303,6 +303,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_EnemyBullet_explode" ID="{4BB11FD5-C9C7-4FF4-8A1D-F766CF6BF40D}">
+							<ChildrenList>
+								<Action Name="" ID="{5E5E6D88-013F-42FE-8ADA-F2B59B1A0168}" ShortID="686996715">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyBullet_explode" ID="{440B10DC-95B4-44C9-A597-747A91138DE5}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Head" ID="{DFB5F483-6D82-496A-939B-D554976F1315}" ShortID="1048888151">
@@ -451,6 +462,74 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_RollBarrel_Roll" ID="{9D4FC540-1917-4545-8535-588088942D16}">
+							<ChildrenList>
+								<Action Name="" ID="{78E7D4DD-DF01-471B-AD74-48E06478F1A7}" ShortID="1010603853">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RollBarrel_Roll" ID="{E4E981AB-9570-4964-BEEA-860C838C5046}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chandolier_chain" ID="{AEF6CABE-CD09-4634-B83C-09201C2187EC}">
+							<ChildrenList>
+								<Action Name="" ID="{DCDFACBD-6387-4851-8BC2-81A0215A8459}" ShortID="921041600">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chandolier_chain" ID="{93579295-F8D1-4F29-BCF0-E4A1EC38F888}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_RollBarrel_Start" ID="{C245FF8A-694B-444B-BB56-38CC8055700B}">
+							<ChildrenList>
+								<Action Name="" ID="{B8CA1A48-610A-4D33-9EFF-352E155E0F3E}" ShortID="744257050">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RollBarrel_Start" ID="{7D287783-9DB7-4731-81F4-CA3DED1F9532}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4BF31B20-00EC-4920-B3D3-A26D8FCBA975}" ShortID="972458876">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RollBarrel_Roll" ID="{E4E981AB-9570-4964-BEEA-860C838C5046}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chandolier_fall" ID="{1537D9B7-486C-477E-9327-4938010F632E}">
+							<ChildrenList>
+								<Action Name="" ID="{940FD15D-D1B6-4548-B649-3A8267F28A4F}" ShortID="1005556700">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chandolier_fall" ID="{C270A4E8-706D-46F2-A222-70FBC2DAFB3E}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Key_pickUp" ID="{1A225074-6BE7-4209-9FAB-1FA125206491}">
+							<ChildrenList>
+								<Action Name="" ID="{C5E842D7-7AA7-4676-9C39-C291A48A48E4}" ShortID="782143197">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Key_pickUp" ID="{CC53FEAD-41C4-40A4-9049-8D804A08DC5E}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Utility" ID="{D8515BF1-C5C1-46B1-BA02-29B12E8B8D52}" ShortID="161959112">
@@ -469,6 +548,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{CECBA807-93A5-43D2-93FA-A2CB5157EF00}" ShortID="179974397">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Play_Music" ID="{AED8B4CA-428F-4A2B-88E2-70B4B0ACFAE5}">
 							<ChildrenList>
@@ -476,6 +559,25 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music_level1" ID="{2C4ED553-9F20-42E4-B2DA-EF1936DE1C66}" WorkUnitID="{8965776E-9950-4CDC-8800-17C75D501B8C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{65B23EE7-B210-4466-9383-B8918B24C7EB}" ShortID="696503413">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Guillotine" ID="{C4EE3B22-A1EE-4AA3-872E-92BBF27085E6}">
+							<ChildrenList>
+								<Action Name="" ID="{15893489-323A-4065-832F-5F4FD10EFB8C}" ShortID="48415073">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Guillotine" ID="{36C75995-189A-45F5-BFD4-E83A92D62582}" WorkUnitID="{8EC819B9-271E-4167-BC8F-2863D23B15E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
