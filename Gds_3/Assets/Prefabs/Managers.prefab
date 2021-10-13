@@ -1656,7 +1656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0826e99b5917cd94f921a4b681d3b027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableMusic: 1
+  musicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &7741564544719046992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2333,6 +2336,14 @@ PrefabInstance:
     - target: {fileID: 2376983858885826601, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4280156415
+      objectReference: {fileID: 0}
+    - target: {fileID: 2681567296522054219, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2681567296522054219, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3297941112950232830, guid: f23bc73d28e95a34b9a0d85d38d2e453, type: 3}
       propertyPath: m_IsActive
