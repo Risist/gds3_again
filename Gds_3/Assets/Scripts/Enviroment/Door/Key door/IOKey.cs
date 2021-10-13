@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class IOKey : MonoBehaviour
 {
+    public UnityEvent keyPickupEvent;
+
     private bool addOnce = true;
 
     [SerializeField] private KeyItemController keyItem;
@@ -27,8 +30,9 @@ public class IOKey : MonoBehaviour
                     {
                         keyItem.keys = keyItem.keys + 1;
                         objectGUI.TurnOffOutline();
+                        keyPickupEvent.Invoke();
                         gameObject.SetActive(false);
-                      
+                        
                     }
                 }
                 else
