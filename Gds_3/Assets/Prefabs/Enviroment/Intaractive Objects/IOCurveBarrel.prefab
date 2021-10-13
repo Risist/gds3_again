@@ -1236,6 +1236,7 @@ Transform:
   - {fileID: 3981443883189507657}
   - {fileID: 382213528722755759}
   - {fileID: 8786708983183719238}
+  - {fileID: 6454814289533760214}
   - {fileID: 3818197080690840081}
   m_Father: {fileID: 864603061913294006}
   m_RootOrder: 0
@@ -1285,6 +1286,33 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 7227941340228458325}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: StartPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4911875211794439877}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: StopPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  startPath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4911875211794439877}
         m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
         m_MethodName: StartPlayer
         m_Mode: 1
@@ -1485,7 +1513,7 @@ Transform:
   m_Children:
   - {fileID: 8473607911111046657}
   m_Father: {fileID: 3918812777661675593}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &4183728620520743331
 BoxCollider:
@@ -2087,6 +2115,87 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.008009396, y: 0.021329874, z: 0.059464756}
   m_Center: {x: 0.021803718, y: 0.00007841589, z: 0.00000003279681}
+--- !u!1001 &1602563414565295890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3918812777661675593}
+    m_Modifications:
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57090634
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.54878724
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4262875
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.4372385
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5915212665788975575, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: audioEvent.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5915212665788975575, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: audioEvent.Array.data[0].WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3c41add871e837f43af35df09b0b925e, type: 2}
+    - target: {fileID: 8259541975042682530, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: m_Name
+      value: SoundPlayer (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92278024c7a44e941b69835d03337479, type: 3}
+--- !u!114 &4911875211794439877 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5915212665788975575, guid: 92278024c7a44e941b69835d03337479, type: 3}
+  m_PrefabInstance: {fileID: 1602563414565295890}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2383c0b34174824594c142ac15fbf62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &6454814289533760214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5740235245747561924, guid: 92278024c7a44e941b69835d03337479, type: 3}
+  m_PrefabInstance: {fileID: 1602563414565295890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3916373345638276738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2156,6 +2265,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5915212665788975575, guid: 92278024c7a44e941b69835d03337479, type: 3}
       propertyPath: audioEvent.Array.data[0].WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2c6e0dffa8f22184690ab4447505013c, type: 2}
+    - target: {fileID: 5915212665788975575, guid: 92278024c7a44e941b69835d03337479, type: 3}
+      propertyPath: audioEvent.Array.data[1].WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 2c6e0dffa8f22184690ab4447505013c, type: 2}
     - target: {fileID: 8259541975042682530, guid: 92278024c7a44e941b69835d03337479, type: 3}

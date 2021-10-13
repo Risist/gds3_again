@@ -69,6 +69,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID _3D_ENV = 2487412084U;
+        static const AkUniqueID _3D_ENV_LOUD_AF = 3076708599U;
         static const AkUniqueID CONST_ENV = 315211798U;
         static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID GUI = 915214414U;

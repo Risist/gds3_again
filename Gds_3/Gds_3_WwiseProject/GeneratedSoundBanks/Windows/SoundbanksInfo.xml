@@ -20,7 +20,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2038558631">
+		<SoundBank Id="1355168291" Language="SFX" Hash="808036176">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -28,12 +28,12 @@
 				<AuxBus Id="2681376660" Name="REV_ROOM_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Environment\REV_ROOM_01"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2527538577">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2167351984">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="581798345" Name="Play_Barrel_destroy" ObjectPath="\Events\Default Work Unit\IObject\Play_Barrel_destroy" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.879546" DurationMax="1.000000">
+				<Event Id="581798345" Name="Play_Barrel_destroy" ObjectPath="\Events\Default Work Unit\IObject\Play_Barrel_destroy" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.879546" DurationMax="1.000000">
 					<IncludedMemoryFiles>
 						<File Id="444781286" Language="SFX">
 							<ShortName>IObjects\Barrel_destroy_02.wav</ShortName>
@@ -45,7 +45,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2775205952" Name="Play_Cannon_shot" ObjectPath="\Events\Default Work Unit\IObject\Play_Cannon_shot" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.087710">
+				<Event Id="2775205952" Name="Play_Cannon_shot" ObjectPath="\Events\Default Work Unit\IObject\Play_Cannon_shot" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.087710">
 					<IncludedMemoryFiles>
 						<File Id="192365007" Language="SFX">
 							<ShortName>Cannon_shot_01.wav</ShortName>
@@ -57,7 +57,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1299828223" Name="Play_CannonBullet_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_CannonBullet_explode" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.283333" DurationMax="2.550000">
+				<Event Id="1299828223" Name="Play_CannonBullet_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_CannonBullet_explode" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="2.283333" DurationMax="2.550000">
 					<IncludedMemoryFiles>
 						<File Id="767358903" Language="SFX">
 							<ShortName>CannonBullet_explode_02.wav</ShortName>
@@ -69,7 +69,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1234655551" Name="Play_Chandolier_chain" ObjectPath="\Events\Default Work Unit\IObject\Play_Chandolier_chain" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.364468" DurationMax="1.649091">
+				<Event Id="1234655551" Name="Play_Chandolier_chain" ObjectPath="\Events\Default Work Unit\IObject\Play_Chandolier_chain" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.364468" DurationMax="1.649091">
 					<IncludedMemoryFiles>
 						<File Id="249239971" Language="SFX">
 							<ShortName>Chandolier_chain.wav</ShortName>
@@ -77,7 +77,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3028706119" Name="Play_Chandolier_fall" ObjectPath="\Events\Default Work Unit\IObject\Play_Chandolier_fall" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.915028" DurationMax="2.526895">
+				<Event Id="3028706119" Name="Play_Chandolier_fall" ObjectPath="\Events\Default Work Unit\IObject\Play_Chandolier_fall" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.915028" DurationMax="2.526895">
 					<IncludedMemoryFiles>
 						<File Id="351021805" Language="SFX">
 							<ShortName>Chandolier_fall.wav</ShortName>
@@ -209,7 +209,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1572755032" Name="Play_EnemyBullet_bladeHit" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_bladeHit" DurationType="OneShot" DurationMin="0.633333" DurationMax="0.733333">
+				<Event Id="1572755032" Name="Play_EnemyBullet_bladeHit" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_bladeHit" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.633333" DurationMax="0.733333">
 					<IncludedMemoryFiles>
 						<File Id="20500278" Language="SFX">
 							<ShortName>Enemy\EnemyBullet_bladeHit_01.wav</ShortName>
@@ -221,7 +221,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3781548068" Name="Play_EnemyBullet_explode" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_explode" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.570833" DurationMax="0.816767">
+				<Event Id="3781548068" Name="Play_EnemyBullet_explode" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_explode" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.570833" DurationMax="0.816767">
 					<IncludedMemoryFiles>
 						<File Id="767358903" Language="SFX">
 							<ShortName>CannonBullet_explode_02.wav</ShortName>
@@ -233,7 +233,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="482480009" Name="Play_EnemyBullet_playerHit" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_playerHit" DurationType="OneShot" DurationMin="0.550000" DurationMax="0.616667">
+				<Event Id="482480009" Name="Play_EnemyBullet_playerHit" ObjectPath="\Events\Default Work Unit\EnemyBullet\Play_EnemyBullet_playerHit" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.550000" DurationMax="0.616667">
 					<IncludedMemoryFiles>
 						<File Id="531594141" Language="SFX">
 							<ShortName>Enemy\EnemyBullet_playerHit_01.wav</ShortName>
@@ -309,7 +309,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2344025909" Name="Play_ExplosiveBarrel_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_ExplosiveBarrel_explode" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.351429" DurationMax="2.133113">
+				<Event Id="2344025909" Name="Play_ExplosiveBarrel_explode" ObjectPath="\Events\Default Work Unit\IObject\Play_ExplosiveBarrel_explode" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.351429" DurationMax="2.133113">
 					<IncludedMemoryFiles>
 						<File Id="106676573" Language="SFX">
 							<ShortName>ExplosiveBarrel_explode_01.wav</ShortName>
@@ -329,7 +329,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2372727526" Name="Play_Head_bodyHit" ObjectPath="\Events\Default Work Unit\Head\Play_Head_bodyHit" DurationType="OneShot" DurationMin="0.533333" DurationMax="0.716667">
+				<Event Id="2372727526" Name="Play_Head_bodyHit" ObjectPath="\Events\Default Work Unit\Head\Play_Head_bodyHit" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.533333" DurationMax="0.716667">
 					<IncludedMemoryFiles>
 						<File Id="211438131" Language="SFX">
 							<ShortName>Head\Head_bodyHit_03.wav</ShortName>
@@ -345,7 +345,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1193014817" Name="Play_Head_decapitated" ObjectPath="\Events\Default Work Unit\Head\Play_Head_decapitated" DurationType="OneShot" DurationMin="1.339259" DurationMax="1.811565">
+				<Event Id="1193014817" Name="Play_Head_decapitated" ObjectPath="\Events\Default Work Unit\Head\Play_Head_decapitated" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.339259" DurationMax="1.811565">
 					<IncludedMemoryFiles>
 						<File Id="639019455" Language="SFX">
 							<ShortName>Head\Head_decapitated_01.wav</ShortName>
@@ -357,7 +357,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3420343000" Name="Play_Head_fall" ObjectPath="\Events\Default Work Unit\Head\Play_Head_fall" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.401302" DurationMax="0.798073">
+				<Event Id="3420343000" Name="Play_Head_fall" ObjectPath="\Events\Default Work Unit\Head\Play_Head_fall" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.401302" DurationMax="0.798073">
 					<IncludedMemoryFiles>
 						<File Id="45734891" Language="SFX">
 							<ShortName>Head\Head_fall_03.wav</ShortName>
@@ -381,7 +381,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1404912156" Name="Play_Lever_pull" ObjectPath="\Events\Default Work Unit\IObject\Play_Lever_pull" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.350000" DurationMax="2.350000">
+				<Event Id="1404912156" Name="Play_Lever_pull" ObjectPath="\Events\Default Work Unit\IObject\Play_Lever_pull" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="2.350000" DurationMax="2.350000">
 					<IncludedMemoryFiles>
 						<File Id="1029582445" Language="SFX">
 							<ShortName>IObjects\Lever_pull.wav</ShortName>
@@ -521,7 +521,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1513365576" Name="Play_Player_hit_head" ObjectPath="\Events\Default Work Unit\Head\Play_Player_hit_head" DurationType="OneShot" DurationMin="1.733333" DurationMax="1.800000">
+				<Event Id="1513365576" Name="Play_Player_hit_head" ObjectPath="\Events\Default Work Unit\Head\Play_Player_hit_head" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.733333" DurationMax="1.800000">
 					<IncludedMemoryFiles>
 						<File Id="179178207" Language="SFX">
 							<ShortName>Player\Player_hit_head_03.wav</ShortName>
@@ -537,7 +537,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3805716714" Name="Play_RollBarrel_Start" ObjectPath="\Events\Default Work Unit\IObject\Play_RollBarrel_Start" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="3805716714" Name="Play_RollBarrel_Start" ObjectPath="\Events\Default Work Unit\IObject\Play_RollBarrel_Start" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="595362217" Language="SFX">
 							<ShortName>RollBarrel_Roll.wav</ShortName>

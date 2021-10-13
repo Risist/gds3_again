@@ -208,7 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5627375384960446351}
   - component: {fileID: 5301525547340613734}
-  - component: {fileID: 8173337914616058435}
+  - component: {fileID: 3816744649707420979}
   m_Layer: 0
   m_Name: int_doors
   m_TagString: Untagged
@@ -251,7 +251,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8173337914616058435
+--- !u!114 &3816744649707420979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -287,6 +287,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
+  ignoreFirstPlay: 1
 --- !u!1 &5337522142815624174
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5337522144050921120}
   - component: {fileID: 5337522144050921123}
+  - component: {fileID: 364225100908599667}
   m_Layer: 7
   m_Name: BackwardAnimation
   m_TagString: Untagged
@@ -387,10 +389,71 @@ MonoBehaviour:
   animationState: {fileID: 5337522142815624168}
   onOpen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 364225100908599667}
+        m_TargetAssemblyTypeName: AnimationSoundEffects, Assembly-CSharp
+        m_MethodName: PlaySpecialAttackSound1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onClose:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 364225100908599667}
+        m_TargetAssemblyTypeName: AnimationSoundEffects, Assembly-CSharp
+        m_MethodName: PlaySpecialAttackSound2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &364225100908599667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337522144050921121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc81e271a05b3940b6794127fb5f8d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
+  attackEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
+  attackSpecial1Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4aef01b47e220434cb086e0b84787ead, type: 2}
+  attackSpecial2Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1635674363588ca4d8964dc3760f1a50, type: 2}
+  dashEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
+  deathBodyfallEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 247db7a4160df8a4eb083e3c6dc37294, type: 2}
+  ignoreFirstPlay: 0
 --- !u!1 &5337522144292586433
 GameObject:
   m_ObjectHideFlags: 0
