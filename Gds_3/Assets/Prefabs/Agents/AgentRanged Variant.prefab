@@ -2942,6 +2942,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c2a47558c35ae124f81e4c23c3235851, type: 2}
+  ignoreFirstPlay: 0
 --- !u!1 &5530266740240792133
 GameObject:
   m_ObjectHideFlags: 0
@@ -4252,6 +4253,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3002532938004203755}
     m_Modifications:
+    - target: {fileID: 2133119024036968442, guid: ad68a3ceeed330b468a2f44c717a37b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370179020247544870, guid: ad68a3ceeed330b468a2f44c717a37b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8934435261912006967, guid: ad68a3ceeed330b468a2f44c717a37b3, type: 3}
       propertyPath: m_RootOrder
       value: 3
